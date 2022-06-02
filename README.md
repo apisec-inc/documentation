@@ -1,1 +1,1 @@
-## Please visit our [APIsec Offical Documentation](https://apisec-inc.github.io/documentation).
+## Please visit our [APIsec Official Documentation](https://apisec-inc.github.io/documentation).
