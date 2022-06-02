@@ -1,0 +1,36 @@
+site_name: APIsec Docs
+site_url: https://apisec-inc.github.io/documentation/
+nav:
+    - 1. Register an API: index.md
+    - 2. Register an API Gateway: RegisterGateway.md
+    - 3. Projects Section: ProjectSection.md
+    - 4. Project Dashboard: ProjectDashboard.md
+    - 5. Integrations: Integrations.md
+    - 6. Reports: Reports.md
+    - 7. Deploy Scanners: DeployScanners.md
+    - 8. Vault: Vault.md
+    - 9. Security Categories: SecurityCategories.md
+    - 10. Global Dashboard: GlobalDashboard.md
+    - 11. View Notifications: Notifications.md
+    - 12. Set up the Profile: SetupProfile.md
+    - 13. Sign up Free Account: FreeAccount.md
+theme:
+    name: material
+    favicon: favicon.png
+    logo: logo.png
+    palette:
+      scheme: slate
+      primary: teal
+repo_url: https://github.com/apisec-inc/documentation
+repo_name: apisec-in/documentation
+edit_uri: ""
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: https://www.apisec.ai/
+copyright: Copyright &copy; APisec Inc.
+static_templates:
+    - 404.html
+
+
