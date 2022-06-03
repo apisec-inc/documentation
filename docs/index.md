@@ -4,7 +4,7 @@ To get started with APIsec security coverage and scanning for your APIs, you nee
 
 On the **Home Page**, `click` **Register API** 
 
-<img alt="[RegisterAPI(1).png]" src="https://user-images.githubusercontent.com/75529175/166118450-01289ab0-1506-4ddd-aa72-44a52269ce3d.png" />
+<img alt="[RegisterAPI(1).png]" src="https://user-images.githubusercontent.com/75529175/171797629-e14d508b-6e8f-407e-9c96-eee030ed0f51.png" />
 
 ## **1.1. Basic Section**
 The ***Basic Section*** requires the follwing information:
@@ -33,7 +33,6 @@ Once you complete all the requirements, `click` **Register** and proceed.
 
 A message prompt as shown in the screenshort below will be dispalyed on the **Home** page. Also, you can see the project named "Demo" has been added in **My Projects**
 
-<img alt="Register Api process complete" src="https://user-images.githubusercontent.com/75529175/166118465-fadfe7e4-7df3-4996-85b3-dd065e9be0a8.png" />
+<img alt="Register Api process complete" src="https://user-images.githubusercontent.com/75529175/171797636-625e54d8-6dc2-4bc3-9071-cbe4285eb80d.png
+"/>
 
-
-<br>

@@ -3,8 +3,9 @@ An API Gateway is a server and we normally call it API server. It is a single-en
 To register an **API Gateway** in APIsec: 
 
 1. On the **Home** page, `click` **API Gateways**.
+   
 
-<img alt="Home2.png" src="https://user-images.githubusercontent.com/75529175/166118475-59e3087d-be3d-4bb4-853f-f170945737e8.png" />
+<img alt="Home2.png" src="https://user-images.githubusercontent.com/75529175/171797617-f872d79a-13ba-41d9-af8f-3b66f6954ea5.png" />
 <br>
 <br>
 2. On the API Gateways page, `click` "+ Register Gateway
