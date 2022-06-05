@@ -6,15 +6,45 @@ In the Project Dashboard, you can view all the current Project stats represented
 
 Moreover, it also has 'Configurations' and 'Reports' page that allows the user to configure the current API project as per the requirement and view or download detailed reports of the current Project pentest. 
 
-### **4.1. Demo Page** 
-The Demo page clearly displays all the stats of the current Project. All of the displayed stats are self-explanatory. But, the notable and most important ones are the Scan, Endpoints, Security Categories, and Playbooks tile. 
+### **4.1. Project Overview** 
+The 'Project Overview' page clearly displays all the stats of the current Project. All of the displayed stats are self-explanatory. But, the notable and most important ones are the Scan, Endpoints, Security Categories, and Playbooks tile. 
 Also, the 'Select Environment' option allows you to select different API environments for testing. By default the environment is 'Master' but you can add and edit existing environments in the 'Configurations' page. 
 
-More details on the environment, Profile, and Playbooks is given in chapter 9. 
+More details on the environment, Profile, and Playbooks is given in chapter 4.2. 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166120405-8e18be02-4d52-4b62-910b-0aa125a88eac.png"/>
 
-#### **4.1.1. View Endpoints & Edit the API Source Code**
+#### **4.1.1. View Project Health Status, Scans & Activity** 
+The 'Project Health Status' tile besides the pie charts shows the current status of the project. 
+
+- **Evironment**: it tells the current enviornment project is configured on, the API host and port. By default the environment is "Master". User can directly edit the project environment by clicking on "Master". If anything in red is mentioned here that means user has missed something while 'Registering the API'. More details are given in chapter 4.2.1.
+- **Credentials**: It tells the environment credentials the project is set up with. User can directly edit or configure them by clicking on 'Edit Cred'. More details are given in chapter 4.2.1.
+- **Playbook Health**: it tells that whether all the available 'Playbooks' are compatible with the Project Environment and ready for a 'Scan'. 
+
+<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/172059538-9712ab03-19c2-47f6-bac2-3fa8adfbc34f.png"/>
+
+-> **All Scans:** 
+
+User can view details of all the 'Scans' performed on the Project. To view 'Scan' details, `click` 'All Scans' on the tile besides 'Monthly Scans'. 
+
+Also, user can view detailed individual 'Scan' results by clicking on desired scan from the list. 
+
+<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/172059531-765e9d3c-2ee5-4bbe-82a6-b60b42e2d915.png"/>
+
+
+-> **Activities:**
+
+User can view the activities performed by all the users on the Project. Moreover, logs generated for the particular activity can be viewed by clicking on "file icon" infront of the activity. 
+
+To view the activities, `click` 'Activities' under the 'All Scans'. 
+
+<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/172059535-f46b3dcc-eb01-48da-9449-407b0a516deb.png"/>
+
+This is the logs view of the activity. 
+
+<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/172059536-ccad5dc8-b293-4be8-b70a-bf640fa480a1.png"/>
+
+#### **4.1.2. View Endpoints & Edit the API Source Code**
 The Endpoints tile on the 'Demo' page shows the total number of Endpoints the registered API has. When you click on this tile, it redirects the user to a page where details of all the Endpoints are given. 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166120370-1921ea90-c6e5-4383-bf6c-d9ca3f6c1a2a.png"/>
@@ -25,7 +55,7 @@ The notable feature on this page is that it provides the user an option to edit 
 	
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166120371-157830ab-e3da-4a32-a70d-ca86423b7f94.png"/>
 
-#### **4.1.2. Initiate a Scan** 
+#### **4.1.3. Initiate a Scan** 
 The important feature on the 'Demo' page is the 'Scan'. You can initiate a Scan on the current Project by clicking on the blue tile on the right of the page. 
 
 Before initiating a Scan, a user needs to do quick configurations, which include:
@@ -69,7 +99,7 @@ This is the Analytics view.
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166120392-d8f974ac-9589-4e99-8f2d-0effd4b95ba3.png"/>
 
 
-#### **4.1.3. View Open Vulnerabilities**
+#### **4.1.4. View Open Vulnerabilities**
 At the bottom of the 'Demo' page, the list of Open Vulnerabilities appears after the Scan. 
 User can view the details of each vulnerability by clicking on it. 
 
