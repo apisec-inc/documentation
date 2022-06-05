@@ -2,7 +2,7 @@ After registering the API, a Project tile is added in the 'Projects Section'. Us
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166120411-f011f054-d5cb-4424-9da2-269643ce1726.png"/>
 
-In the Project Dashboard, you can view all the current Project stats represented by figures and pie charts. Also, you can initiate a Scan, view Scan history, check Project health status. Another useful feature is the list view of the 'Open/ Closed Vulnerabilities' at the very bottom of the 'Demo' page.  
+In the Project Dashboard, you can view all the current Project stats represented by figures and pie charts. Also, you can initiate a Scan, view Scan history, check Project health status. Another useful feature is the list view of the 'Open/ Closed Vulnerabilities' at the very bottom of the 'Project' page.  
 
 Moreover, it also has 'Configurations' and 'Reports' page that allows the user to configure the current API project as per the requirement and view or download detailed reports of the current Project pentest. 
 
@@ -17,8 +17,8 @@ More details on the environment, Profile, and Playbooks is given in chapter 4.2.
 #### **4.1.1. View Project Health Status, Scans & Activity** 
 The 'Project Health Status' tile besides the pie charts shows the current status of the project. 
 
-- **Evironment**: it tells the current enviornment project is configured on, the API host and port. By default the environment is "Master". User can directly edit the project environment by clicking on "Master". If anything in red is mentioned here that means user has missed something while 'Registering the API'. More details are given in chapter 4.2.1.
-- **Credentials**: It tells the environment credentials the project is set up with. User can directly edit or configure them by clicking on 'Edit Cred'. More details are given in chapter 4.2.1.
+- **Evironment**: it tells the current enviornment project is configured on, the API host and port. By default the environment is "Master". User can directly edit the project environment by clicking on "Master". If anything in red is mentioned here that means user has missed something while 'Registering the API'. (more details in chapter 4.2.1.)
+- **Credentials**: It tells the environment credentials the project is set up with. User can directly edit or configure them by clicking on 'Edit Cred'. (more details in chapter 4.2.1.)
 - **Playbook Health**: it tells that whether all the available 'Playbooks' are compatible with the Project Environment and ready for a 'Scan'. 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/172059538-9712ab03-19c2-47f6-bac2-3fa8adfbc34f.png"/>
@@ -45,7 +45,7 @@ This is the logs view of the activity.
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/172059536-ccad5dc8-b293-4be8-b70a-bf640fa480a1.png"/>
 
 #### **4.1.2. View Endpoints & Edit the API Source Code**
-The Endpoints tile on the 'Demo' page shows the total number of Endpoints the registered API has. When you click on this tile, it redirects the user to a page where details of all the Endpoints are given. 
+The Endpoints tile on the 'Project' page shows the total number of Endpoints the registered API has. When you click on this tile, it redirects the user to a page where details of all the Endpoints are given. 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166120370-1921ea90-c6e5-4383-bf6c-d9ca3f6c1a2a.png"/>
 
@@ -56,11 +56,11 @@ The notable feature on this page is that it provides the user an option to edit 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166120371-157830ab-e3da-4a32-a70d-ca86423b7f94.png"/>
 
 #### **4.1.3. Initiate a Scan** 
-The important feature on the 'Demo' page is the 'Scan'. You can initiate a Scan on the current Project by clicking on the blue tile on the right of the page. 
+The important feature on the 'Project' page is the 'Scan'. You can initiate a Scan on the current Project by clicking on the blue tile on the right of the page. 
 
 Before initiating a Scan, a user needs to do quick configurations, which include:
 
-- **Profile**: select the environment and profile to run the Scan on. (more details in chapter 9)
+- **Profile**: select the environment and profile to run the Scan on. (more details in chapter 4.2.3.)
 - **Scanner**: select a Public or Private Scanner. 
 - **Categories**: select the Security Category(s) to test against the API. (more details in chapter 9)
 
@@ -72,7 +72,7 @@ The ***advance*** section requires following information:
 
 - **Resources**: select the API resources to include in the Scan. 
 - **Endpoints**: select the API Endpoints to include in the Scan. 
-- **Playbooks**: Add custom Playbooks for the Scan. (more details in chapter 9)
+- **Playbooks**: Add custom Playbooks for the Scan. (more details in chapter 4.2.4.)
 
 Also, you can check mark the box 'Email report after scan completion' to receive the Scan report on your registered email.
 
@@ -100,7 +100,7 @@ This is the Analytics view.
 
 
 #### **4.1.4. View Open Vulnerabilities**
-At the bottom of the 'Demo' page, the list of Open Vulnerabilities appears after the Scan. 
+At the bottom of the 'Project' page, the list of Open Vulnerabilities appears after the Scan. 
 User can view the details of each vulnerability by clicking on it. 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166120396-257c5d32-ff2c-457b-bc7b-e3980e00c98c.png"/>
@@ -129,7 +129,7 @@ Also, it allows a user to perform certain actions like downloading the reports, 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/171455416-10700b88-b161-4c84-849c-de9271aefeac.png"/>
 
 ### **4.2. Configurations Page**
-The 'Configurations' next to the 'Demo' tab takes you to the Project configuration page. 
+The 'Configurations' next to the 'Project' tab takes you to the Project configuration page. 
 This page is basically the control panel of the Project, where you can play around with:
 
 - Environment & Credentials
@@ -219,7 +219,7 @@ Moreover, APIsec provides "Trainning Profiles". The only difference in these pro
 #### **4.2.4. Play with Playbooks**
 The APIsec has a total of 1223 Playbooks but the number of Playbooks available for scanning are 229. As of now, 994 new Playbooks are added to the APIsec central repository. The new Playbooks are constantly added and are released for users when the need arises. 
 
-It is worth mentioning here that Playbooks execute the Payloads. More detail in next Chapters. 
+It is worth mentioning here that Playbooks execute the Payloads. More detail in sub chapters. 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322252-48bc0770-055a-448d-93ca-3a6d835ab6ce.png" />
 
@@ -270,7 +270,7 @@ Also, the three-dots on the top right of this pop-up contains different options 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322323-99c55a8a-f324-4c82-8022-0d5af4a83675.png" />
 
 #### **4.2.5. Categories** 
-The categories on the 'Configurations' page are same as the 'Security Categories' (Chapter 5) option in the 'Services' Menu.
+The categories on the 'Configurations' page are same as the 'Security Categories' (chapter 9) option in the 'Services' Menu.
 APIsec has total 118 categories. 34 are currently active and 84 are inactive. The inactive categories are activated when the need arises.
 
 A user can switch between 'Tiles View' and 'List View' as per their need. Also, the user can Apply the filters like All, Active, Inactive, and type on the categories. 
@@ -290,7 +290,7 @@ Below shown page is displayed to the user which contains:
 - References
 - Attack Scenarios 
 
-Alongside, there are some configuration options at the bottom of page. These are explained in Chapter 5. 
+Alongside, there are some configuration options at the bottom of page. These are explained in chapter 9. 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322342-2bb8c105-87be-430a-931d-6a12d99385ed.png" />
 

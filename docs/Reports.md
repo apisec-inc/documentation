@@ -9,7 +9,7 @@ The "Endpoints Trend" graph shows the trend of API Endpoints. The trend changes 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322487-6b390603-2522-4383-8bc4-2afd0a05530b.png" />
 
-The "Coverage Breakdown" and "Playbooks Trend" are already explained in the Chapter 8.2.4.
+The "Coverage Breakdown" and "Playbooks Trend" are already explained in the Chapter 4.2.4.
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322496-2e79aabb-8dca-4b4c-8c40-72e1e02e8c48.png" />
 

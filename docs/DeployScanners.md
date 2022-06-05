@@ -47,7 +47,7 @@ d. `click` 'Add' and the registered cloud service will appear on the current pag
 ####  **7.1.2. Deploying a New Private Scanner On-premiss**
 To deploy a On-prem private scanner, you need to set up the Docker/Kubernetes on the host machine. 
 
-1.  Follow the step 1 and 2 of the chapter 3.1.1.
+1.  Follow the step 1 and 2 of the chapter 7.1.1.
 2. `click` 'Docker/Kubernetes Installer' and Select the cluster size. (The more the cluster size the better the speed) 
    
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166118529-c0439dbf-586c-4099-abed-644e5bb8cf9c.png"/> 

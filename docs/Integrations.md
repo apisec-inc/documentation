@@ -3,7 +3,7 @@ APIsec allows you to integrate a number of platforms with the Project. These int
 ### **5.1. Reports Storage**
 User can export reports to AWSS3, GCP, and Azure cloud accounts. The reports are sent automatically at the beginning of every month. 
 
-If the credentials for the Report Storage account already stored in the vault can be used or the user can add new credentials. The process of adding the new credentials is already explained in Chapter 6. 
+If the credentials for the Report Storage account already stored in the vault can be used or the user can add new credentials. The process of adding the new credentials is already explained in chapter 8. 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322387-9309887a-5b8f-4df0-9241-fd71bbe0f666.png" />
 
@@ -15,7 +15,7 @@ I choose 'APIsec Issues'. All the vulnerabilities will be logged in the APIsec P
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322396-cb3d863e-f920-4113-b1d9-2f0bab92c71c.png" />
 
-A user can chose the Issue Tracker system as per their convenience. The credentials varies with the chosen system. The process for adding the new credentials of Issue Tracker system is same as explained in Chapter 6. 
+A user can chose the Issue Tracker system as per their convenience. The credentials varies with the chosen system. The process for adding the new credentials of Issue Tracker system is same as explained in chapter 8. 
 
 ### **5.3. Notifications**
 APIsec allows the users to integrate Slack Channel with the Project for receiving notifications and Scan Reports. 

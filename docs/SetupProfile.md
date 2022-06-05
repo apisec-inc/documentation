@@ -81,7 +81,7 @@ If the user is already registered then `click` 'Skip' or else `click` 'Save & Co
 
 The below screenshot shows the users of the "Demo" organization. Here, an Enterprise Admin can 'Edit' the organization and user details. He can also invite a 'Guest User' or add 'New Users'.
 
-The details for the the 'New Users' are given in the chapter 10.3.
+The details for the the 'New Users' are given in the chapter 12.3.
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/171651284-cdc06348-a5c7-419f-92e6-e5bff9c36c47.png"/>
 
