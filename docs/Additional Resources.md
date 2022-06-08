@@ -8,6 +8,6 @@
 
 The following is a list of some libraries and resources which can be helpful in generating an OpenAPI Specification (OAS) document for your existing REST API application grouped by implementation technology.
     
-   **ASP.NET Core** : 
+    **ASP.NET Core**  
    - The two main OpenAPI implementations for .NET are Swashbuckle and NSwag. They are explained nicely in the Microsoft ASP.NET documentation - [ASP.NET Core web API documentation with Swagger / OpenAPI | Microsoft Docs](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-6.0)
    - The OpenAPI.NET SDK contains a useful object model for OpenAPI documents in .NET along with common serializers to extract raw OpenAPI JSON and YAML documents from the model - [GitHub - microsoft/OpenAPI.NET](https://github.com/microsoft/OpenAPI.NET)
