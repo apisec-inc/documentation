@@ -14,6 +14,9 @@ nav:
     - 11. View Notifications: Notifications.md
     - 12. Set up the Profile: SetupProfile.md
     - 13. Sign up Free Account: FreeAccount.md
+nav:
+    - OAS Generator Doc : index.md 
+
 
 theme:
     name: material
