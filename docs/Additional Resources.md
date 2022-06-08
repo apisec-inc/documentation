@@ -2,8 +2,6 @@
 
 ## **Generating OpenAPI Specification (OAS) documentation for your REST APIs**
 
-!!! example "Generating OpenAPI Specification (OAS)"
-    
     - The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection.
     - **APISec** supports 1.0, 2.0, 3.x versions of the OpenAPI specification (OAS) as well as Postman and RAML formats.
     - The following is a list of some libraries and resources which can be helpful in generating an OpenAPI Specification (OAS) document for your existing REST API application grouped by implementation technology.
