@@ -14,11 +14,10 @@ nav:
     - 11. View Notifications: Notifications.md
     - 12. Set up the Profile: SetupProfile.md
     - 13. Sign up Free Account: FreeAccount.md
-    - Additional Resources.md
     - Additional Resources:
       - Generating OpenAPI Specification (OAS) : section/Additional Resources.md
 
-nav:
+#nav:
   - Section:
     - section/index.md
     - Page 1: section/Additional Resources.md
