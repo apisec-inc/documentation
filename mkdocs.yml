@@ -16,7 +16,10 @@ nav:
     - 13. Sign up Free Account: FreeAccount.md
     - Additional Resources.md
 
+
 theme:
+  features:
+    - navigation.expand
     name: material
     favicon: favicon.png
     logo: logo.png
