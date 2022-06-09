@@ -25,3 +25,31 @@ The following is a list of some libraries and resources which can be helpful in 
  - Falcon-apispec is an apispec plugin that generates OpenAPI specification (aka Swagger) for Falcon web applications -  [Github - alysivji/falcon-apispec](https://github.com/alysivji/falcon-apispec)
  - drf-yasg - Yet another Swagger generator helps in automated generation of real Swagger/OpenAPI 2.0 schemas from Django REST Framework code. - [GitHub - axnsan12/drf-yasg](https://github.com/axnsan12/drf-yasg)
  - drf-spectacular is a sane and flexible OpenAPI 3 schema generation for Django REST framework - [GitHub - tfranzel/drf-spectacular](https://github.com/tfranzel/drf-spectacular) 
+
+### **Node.js**
+ - swagger-autogen performs the automatic construction of the Swagger documentation - [swagger-autogen - npm](https://www.npmjs.com/package/swagger-autogen) 
+ - NestJS provides a dedicated module which allows generating OpenAPI (Swagger) - [Github - nestjs/swagger](https://github.com/nestjs/swagger)
+ - swagger-express is a simple and clean solution to integrate swagger with Express - [swagger-express - npm](https://www.npmjs.com/package/swagger-express)
+ - express-oas-generator automatically generates OpenAPI (Swagger) specification for existing ExpressJS 4.x REST API applications - [express-oas-generator - npm](https://www.npmjs.com/package/express-oas-generator)
+ - Hapi-swagger is a OpenAPI (aka Swagger) plug-in for Hapi When installed it will self document the API interface in a project - [hapi-swagger - npm](https://www.npmjs.com/package/hapi-swagger)
+
+### **PHP**
+ - swagger-php is a php swagger annotation and parsing library which generates interactive OpenAPI documentation for your RESTful API using doctrine annotations. -  [GitHub - zircote/swagger-php](https://github.com/zircote/swagger-php)
+
+### **Ruby**
+ - rspec-openapi generates OpenAPI schema from RSpec request specs - [Github - rspec-openapi](https://github.com/k0kubun/rspec-openapi)  
+ - rswag seamlessly adds a Swagger to Rails-based APIs - [Github - rswag](https://github.com/rswag/rswag) 
+ - zero-rails_openapi is a concise DSL for generating OpenAPI Specification 3 (OAS3) JSON documentation for Ruby application - [GitHub - zhandao/zero-rails_openapi](https://github.com/zhandao/zero-rails_openapi)
+ - The grape-swagger gem provides an auto generated documentation for your Grape API - [GitHub - ruby-grape/grape-swagger](https://github.com/ruby-grape/grape-swagger)
+ - Swagger::Blocks is a DSL for pure Ruby code blocks that can be turned into Swagger JSON - [.GitHub - fotinakis/swagger-blocks](https://github.com/fotinakis/swagger-blocks)
+ - openapi-rails is a CRUD interface for Rails models with OpenAPI (Swagger) specification support and Swagger UI integration - [GitHub - slate-studio/openapi-rails](https://github.com/slate-studio/openapi-rails)
+
+### **Go**
+ - swag automatically generates RESTful API documentation with Swagger 2.0 - [GitHub - swaggo/swag](https://github.com/swaggo/swag) 
+ - go-swagger (golang implementation of Swagger 2.0) is a complete suite of fully-featured, high-performance, API components to work with a Swagger API: server, client and data model - [Github - Swagger 2.0 implementation for go](https://github.com/go-swagger/go-swagger)
+
+**APISec** seamlessly integrates with most of the popular API gateways and automatically pulls the API specs in OAS format for easy API registration.  For the purpose of document completion and developer curiosity, a select few are mentioned below. 
+
+### **AWS API Gateway**
+ - get-export  is a CLI  command to export OAS from AWS API Gateway - [get-export — AWS CLI 2.4.27 Command Reference](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/apigateway/get-export.html) 
+
