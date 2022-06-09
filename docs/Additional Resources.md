@@ -66,7 +66,7 @@ The following is a list of some libraries and resources which can be helpful in 
  - Convert Postman Collections v2.1/v2.0 to OpenAPI v3.0 -  [postman-to-openapi - npm](https://www.npmjs.com/package/postman-to-openapi) 
 
 
-Help us improve this article by sending your suggestions and comments to [support@apisec.ai]. Thanks!
+Help us improve this article by sending your suggestions and comments to [support@apisec.ai](). Thanks!
 
 
 ### **References:**
