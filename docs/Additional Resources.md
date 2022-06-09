@@ -53,3 +53,29 @@ The following is a list of some libraries and resources which can be helpful in 
 ### **AWS API Gateway**
  - get-export  is a CLI  command to export OAS from AWS API Gateway - [get-export — AWS CLI 2.4.27 Command Reference](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/apigateway/get-export.html) 
 
+### **Google Cloud Endpoints**
+ - Generating the OpenAPI document is described here -, [Adding API management | Cloud Endpoints Frameworks for App Engine](https://cloud.google.com/endpoints/docs/frameworks/java/adding-api-management) 
+
+### **Azure API Management**
+ - API developers can export API definitions in OAS format - [Export API definitions from API Management developer portal | Azure updates | Microsoft Azure](https://azure.microsoft.com/en-in/updates/export-api-definitions-from-api-management-developer-portal/)
+
+### **Apigee Edge**
+ - Apigee Edge Proxy to OpenAPI 2.0 conversion tool. - [GitHub - anil614sagar/apigee2openapi](https://github.com/anil614sagar/apigee2openapi) 
+
+### **Postman**
+ - Convert Postman Collections v2.1/v2.0 to OpenAPI v3.0 -  [postman-to-openapi - npm](https://www.npmjs.com/package/postman-to-openapi) 
+
+
+Help us improve this article by sending your suggestions and comments to [support@apisec.ai]. Thanks!
+
+
+### **References:**
+ 1. [OpenAPI Initiative](https://www.openapis.org/)
+
+
+
+
+
+
+
+
