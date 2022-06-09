@@ -14,7 +14,7 @@ nav:
     - 11. View Notifications: Notifications.md
     - 12. Set up the Profile: SetupProfile.md
     - 13. Sign up Free Account: FreeAccount.md
-    - Trouble Shooting : dummy.md
+    - TroubleShooting : dummy.md
     - Additional Resources:
       - Generating OpenAPI Specification (OAS) : Additional Resources.md
 
