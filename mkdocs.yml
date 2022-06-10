@@ -18,6 +18,13 @@ nav:
     - Additional Resources:
       - Generating OpenAPI Specification (OAS) : Additional Resources.md
 
+# Google Analytics	
+extra:
+  analytics:
+    provider: google
+    property: G-MCT52689D6     
+    
+
 #nav:
 #  - Section:
 #    - section/index.md
