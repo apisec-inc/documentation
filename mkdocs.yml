@@ -14,8 +14,8 @@ nav:
     - 11. View Notifications: Notifications.md
     - 12. Set up the Profile: SetupProfile.md
     - 13. Sign up Free Account: FreeAccount.md
-    - TroubleShooting : dummy.md
-    - Additional Resources:
+   
+    - Troubleshooting:
       - Generating OpenAPI Specification (OAS) : Generating OAS.md
       - How to Add Token Generation Code : Token Generation Code.md
       - Scan APIs locally with APIsec CLI : APIsec CLI.md
