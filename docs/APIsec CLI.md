@@ -1,5 +1,5 @@
 <h1 align="center"> <b> Scan APIs locally with APIsec CLI </b> </h1>
-<div style="text-align: right"> 
+<div style="text-align: justify"> 
 
 ### **Scan local APIs to find vulnerabilities with APIsec CLI**
 
