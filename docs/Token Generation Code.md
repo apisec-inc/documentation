@@ -1,3 +1,5 @@
+<h1 align="center"> <b> How to Add Token Generation Code </b> </h1>
+
 ### **Step 1: Provide a curl for generating token**
 
 Sample command:
