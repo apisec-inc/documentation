@@ -17,9 +17,11 @@ Command: Signup –c  -e
 
 apisec> signup -c mycompany -e john@mycompany.com
 
-It returns the login credentials, i.e., the user name and an auto generated password. Save these in a file called fx.properties at the location specified. Upon next execution, you’ll be automatically logged-in to your tenant.
+It returns the login credentials, i.e., the user name and an auto generated password. Save these in a file called
+fx.properties at the location specified. Upon next execution, you’ll be automatically logged-in to your tenant.
 
-Alternatively, you can keep the password with you, and when you execute the script next time you need to manually login using the below command.
+Alternatively, you can keep the password with you, and when you execute the script next time you need to manually
+login using the below command.
 
 Command: login –u  -p
 
