@@ -17,6 +17,7 @@ nav:
     - TroubleShooting : dummy.md
     - Additional Resources:
       - Generating OpenAPI Specification (OAS) : Additional Resources.md
+      - How to Add Token Generation Code : Token Generation Code.md
 
 #nav:
 #  - Section:
