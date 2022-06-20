@@ -16,7 +16,7 @@ nav:
     - 13. Sign up Free Account: FreeAccount.md
     - TroubleShooting : dummy.md
     - Additional Resources:
-      - Generating OpenAPI Specification (OAS) : Additional Resources.md
+      - Generating OpenAPI Specification (OAS) : Generating OAS.md
       - How to Add Token Generation Code : Token Generation Code.md
 
 #nav:
