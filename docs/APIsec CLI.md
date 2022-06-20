@@ -1,5 +1,5 @@
 <h1 align="center"> <b> Scan APIs locally with APIsec CLI </b> </h1>
-<div style="text-align: justify"> 
+
 
 ### **Scan local APIs to find vulnerabilities with APIsec CLI**
 
@@ -81,4 +81,3 @@ Use the below commands to remove the local scanner in your tenant. Command: scan
 
 apisec> scanner rm -n MyLocalScanner
 
-  </div>
