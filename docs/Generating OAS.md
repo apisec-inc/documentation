@@ -74,7 +74,7 @@ Help us improve this article by sending your suggestions and comments to [suppor
 
 
 Author :
-(Abdullah Akbar)[https://github.com/Abdullah-Akbar]
+[Abdullah Akbar](https://github.com/Abdullah-Akbar)
 
 
 
