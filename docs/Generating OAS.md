@@ -1,6 +1,6 @@
-<h1 align="center"> <b> APIsec Official Documentation </b> </h1>
+<h1 align="center"> <b> Generating OpenAPI Specification (OAS) documentation for your REST APIs </b> </h1>
 
-## **Generating OpenAPI Specification (OAS) documentation for your REST APIs**
+
 
  The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection.
 
