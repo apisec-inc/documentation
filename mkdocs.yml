@@ -21,9 +21,9 @@ nav:
       - Scan APIs locally with APIsec CLI : APIsec CLI.md
       - How to Call APIsec APIs : Call APIsec APIs.md
 
-plugins:
-  - search
-  - git-authors
+#plugins:
+ # - search
+  #- git-authors
 
 
 # Google Analytics	
