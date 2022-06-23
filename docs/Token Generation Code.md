@@ -1,6 +1,6 @@
-<h1 align="center"> <b> How to Add Token Generation Code </b> </h1>
+<h1 align="center" style="color: #F5F5F5;"> <b> How to Add Token Generation Code </b> </h1>
 
-   By **[Intesar Shannan Mohammed](https://github.com/intesar)** on **March 23,2021** 
+<p style="text-align: left;color: 	#A9A9A9;"> By <b><a href="https://github.com/intesar">Intesar Shannan Mohammed</a></b> on <b>March 23,2021</b> </p>
 
 ### **Step 1: Provide a curl for generating token**
 
