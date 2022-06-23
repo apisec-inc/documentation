@@ -1,6 +1,6 @@
 <h1 align="center"> <b> Generating OpenAPI Specification (OAS) documentation for your REST APIs </b> </h1>
 
-
+By **[Abdullah Akbar](https://github.com/Abdullah-Akbar)** on **April 5,2022** 
 
  The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection.[[1]](https://www.openapis.org/)
 
@@ -74,7 +74,7 @@ Help us improve this article by sending your suggestions and comments to [docume
 
 
 
-       By **[Abdullah Akbar](https://github.com/Abdullah-Akbar)** on **April 5,2022** 
+       
 
 
 
