@@ -13,9 +13,9 @@ curl -s -X POST https://cloud.fxlabs.io/auth/login -H 'Accept: application/json'
 You should receive a token back.
 
 {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOZXRCYW5raW5nLy9pbnRlc2FyQGZ4bGFicy5pbyIs
-InNjb3BlcyI6IlJPTEVfVVNFUixST0xFX
-1BST0pFQ1RfTUFOQUdFUixST0xFX0FETUlOLFJPTEVfRU5URVJQUklTRV9BRE1JTiIsImlhdCI6MTYwOTg4NzQ5NywiZXhwIjoxNjA5OTA1NDk3fQ.8k
-kPdbacGy6BDfzqnTM6EiUi6aHS_mWDHCfWirvma_s"}
+InNjb3BlcyI6IlJPTEVfVVNFUixST0xFX1BST0pFQ1RfTUFOQUdFUixST0xFX0FETUlOLFJPTEVfRU5URVJQ
+UklTRV9BRE1JTiIsImlhdCI6MTYwOTg4NzQ5NywiZXhwIjoxNjA5OTA1NDk3fQ.8kkPdbacGy6BDfzqnTM
+6EiUi6aHS_mWDHCfWirvma_s"}
 
 Note: The token is valid for 5 hours.
 
@@ -25,8 +25,8 @@ Note: Use the token from the previous call as part of the header value in “Aut
 
 curl -s -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOZXRCYW5raW5nLy9pbnRlc2FyQGZ4bGFicy5pbyIsInNjb3Bl
 cyI6IlJPTEVfVVNFUixST0xFX1BST0pFQ1RfTUFOQUdFUixST0xFX0FETUlOLFJPTEVfRU5URVJQ
-UklTRV9BRE1JTiIsImlhdCI6MTYwOTg4NzQ5NywiZXhwIjoxNjA5OTA1NDk3fQ.8kkPdbacGy6BDfzqnTM6EiUi6aHS_mWDHCfWirvma_s" 
--H "Content-Type: application/json" -H 
+UklTRV9BRE1JTiIsImlhdCI6MTYwOTg4NzQ5NywiZXhwIjoxNjA5OTA1NDk3fQ.8kkPdbacGy6BD
+fzqnTM6EiUi6aHS_mWDHCfWirvma_s" -H "Content-Type: application/json" -H 
 "Accept: application/json" -X GET https://cloud.fxlabs.io/api/v1/projects
 
 Response structure
