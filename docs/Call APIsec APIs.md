@@ -39,8 +39,8 @@ Note: This call returns Critical and High vulnerabilities only from the master e
 
 curl -s -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOZXRCYW5raW5nLy9pbnRlc2FyQGZ4bGFicy5pbyIsInNjb3Bl
 cyI6IlJPTEVfVVNFUixST0xFX1BST0pFQ1RfTUFOQUdFUixST0xFX0FETUlOLFJPTEVfRU5URVJQ
-UklTRV9BRE1JTiIsImlhdCI6MTYwOTg4NzQ5NywiZXhwIjoxNjA5OTA1NDk3fQ.8kkPdbacGy6BDfzqnTM6EiUi6aHS_mWDHCfWirvma_s" 
--H "Content-Type: application/json" -H 
+UklTRV9BRE1JTiIsImlhdCI6MTYwOTg4NzQ5NywiZXhwIjoxNjA5OTA1NDk3fQ.8kkPdbacGy6BD
+fzqnTM6EiUi6aHS_mWDHCfWirvma_s" -H "Content-Type: application/json" -H 
 "Accept: application/json" -X GET https://cloud.fxlabs.io/api/v1/projects/{projectId}/vulnerabilities
 
 Here are a few important attributes of the vulnerability entity:
