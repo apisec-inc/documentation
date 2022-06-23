@@ -37,11 +37,14 @@ Command: register –n  -o
 
 apisec> register –n orders -o http://mycompany.com/orders/v2/api/docs
 
-APIsec parses the specs and generates the security playbooks for scanning. This might take a few seconds depending on the number of endpoints in the API.
+APIsec parses the specs and generates the security playbooks for scanning. This might take a few seconds 
+depending on the number of endpoints in the API.
 
-If your application is hosted internally and the OAS Url is not available publicly, APIsec recommends you to upload the OAS file in json/yaml format to any public location like github and provide its direct url.
+If your application is hosted internally and the OAS Url is not available publicly, APIsec recommends 
+you to upload the OAS file in json/yaml format to any public location like github and provide its direct url.
 
-Note: You can register multiple APIs in the same tenant by repeating the above step. Use ‘ls’ command to view the list of all the registered APIs with APIsec
+Note: You can register multiple APIs in the same tenant by repeating the above step. Use ‘ls’ command 
+to view the list of all the registered APIs with APIsec
 
 Command: ls
 
@@ -55,9 +58,11 @@ Command: scan –n < api name>
 
 apisec> scan –n orders
 
-It runs all the playbooks generated in the above step, which invokes the endpoints at the application hosted (the host url and the basepath provided in the OAS Specs).
+It runs all the playbooks generated in the above step, which invokes the endpoints at the application 
+hosted (the host url and the basepath provided in the OAS Specs).
 
-If the application is hosted internally and no public IP is available, you need to scan using your local scanner. The steps to create a local scanner are available in the next section.
+If the application is hosted internally and no public IP is available, you need to scan using your 
+local scanner. The steps to create a local scanner are available in the next section.
 
 ### **5. Create a local scanner**
 
@@ -71,7 +76,9 @@ Command: scan –n  -s
 
 apisec> scan –n orders –s MyLocalScanner
 
-This command returns the docker and kubernetes scripts to deploy the scanner. Run the docker or kubernetes script as per your environment setup on the same machine where the API is hosted or any other machine in the network which can access the APIs. The script It will deploy the scanner in that machine.
+This command returns the docker and kubernetes scripts to deploy the scanner. Run the docker or 
+kubernetes script as per your environment setup on the same machine where the API is hosted or 
+any other machine in the network which can access the APIs. The script It will deploy the scanner in that machine.
 
 Use the below commands to view the list of all local scanners created in your tenant.
 
