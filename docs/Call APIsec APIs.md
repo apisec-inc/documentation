@@ -1,5 +1,7 @@
 <h1 align="center"> <b> How to Call APIsec APIs </b> </h1>
 
+   By **[Intesar Shannan Mohammed](https://github.com/intesar)** on **March 23,2021** 
+
 ### **Step 1: Register A New User Account**
 
 Note: Don’t use personal credentials when accessing APIsec APIs. Instead, register a new user with the role “USER” 
@@ -61,4 +63,4 @@ Here are a few important attributes of the vulnerability entity:
   - path
 
 
-       By **[Intesar Shannan Mohammed](https://github.com/intesar)** on **March 23,2021** 
+       
