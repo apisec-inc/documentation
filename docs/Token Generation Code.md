@@ -1,5 +1,7 @@
 <h1 align="center"> <b> How to Add Token Generation Code </b> </h1>
 
+   By **[Intesar Shannan Mohammed](https://github.com/intesar)** on **March 23,2021** 
+
 ### **Step 1: Provide a curl for generating token**
 
 Sample command:
@@ -75,4 +77,4 @@ e.g. {{ -> { {.
 
 
 
-   By **[Intesar Shannan Mohammed](https://github.com/intesar)** on **March 23,2021** 
+   
