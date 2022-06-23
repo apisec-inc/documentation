@@ -2,7 +2,7 @@
 
 
 
- The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection.
+ The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection.[[1]](https://www.openapis.org/)
 
 **APISec** supports 1.0, 2.0, 3.x versions of the OpenAPI specification (OAS) as well as Postman and RAML formats.
 
