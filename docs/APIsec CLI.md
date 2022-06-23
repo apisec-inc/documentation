@@ -1,5 +1,6 @@
 <h1 align="center"> <b> Scan APIs locally with APIsec CLI </b> </h1>
 
+   By **[Intesar Shannan Mohammed](https://github.com/intesar)** on **March 23,2021** 
 
 ### **Scan local APIs to find vulnerabilities with APIsec CLI**
 
@@ -91,4 +92,4 @@ Use the below commands to remove the local scanner in your tenant. Command: scan
 apisec> scanner rm -n MyLocalScanner
 
 
-   By **[Intesar Shannan Mohammed](https://github.com/intesar)** on **March 23,2021** 
+   
