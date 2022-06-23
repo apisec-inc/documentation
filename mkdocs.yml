@@ -15,7 +15,7 @@ nav:
     - 12. Set up the Profile: SetupProfile.md
     - 13. Sign up Free Account: FreeAccount.md
    
-    - Troubleshooting:
+    - Knowledge Base:
       - Generating OpenAPI Specification (OAS) : Generating OAS.md
       - How to Add Token Generation Code : Token Generation Code.md
       - Scan APIs locally with APIsec CLI : APIsec CLI.md
