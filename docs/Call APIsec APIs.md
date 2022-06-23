@@ -13,9 +13,9 @@ curl -s -X POST https://cloud.fxlabs.io/auth/login -H 'Accept: application/json'
 You should receive a token back.
 
 {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOZXRCYW5raW5nLy9pbnRlc2FyQGZ4bGFicy5pbyIs
-InNjb3BlcyI6IlJPTEVfVVNFUixST0xFX1BST0pFQ1RfTUFOQUdFUixST0xFX0FETUlOLFJPTEVfRU5U
-RVJQUklTRV9BRE1JTiIsImlhdCI6MTYwOTg4NzQ5NywiZXhwIjoxNjA5OTA1NDk3fQ.8kkPdbacGy
-6BDfzqnTM6EiUi6aHS_mWDHCfWirvma_s"}
+InNjb3BlcyI6IlJPTEVfVVNFUixST0xFX1BST0pFQ1RfTUFOQUdFUixST0xFX0FETUlOLFJPTEVfRU
+5URVJQUklTRV9BRE1JTiIsImlhdCI6MTYwOTg4NzQ5NywiZXhwIjoxNjA5OTA1NDk3fQ.8kkPdbac
+Gy6BDfzqnTM6EiUi6aHS_mWDHCfWirvma_s"}
 
 Note: The token is valid for 5 hours.
 
