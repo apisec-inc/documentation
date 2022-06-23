@@ -1,4 +1,4 @@
-<h1 align="center;color: #F5F5F5;"> <b> Generating OpenAPI Specification (OAS) documentation for your REST APIs </b> </h1>
+<h1 align="center"> <b> Generating OpenAPI Specification (OAS) documentation for your REST APIs </b> </h1>
 
 <p style="text-align: left;color: 	#F0F0F0;"> By <b><a href="https://github.com/Abdullah-Akbar">Abdullah Akbar</a></b> on <b>April 5,2022</b> </p> 
 
