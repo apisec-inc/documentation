@@ -2,15 +2,19 @@
 
 ### **Step 1: Register A New User Account**
 
-Note: Don’t use personal credentials when accessing APIsec APIs. Instead, register a new user with the role “USER” in Apisec™ UI and entitled this account to required projects.
+Note: Don’t use personal credentials when accessing APIsec APIs. Instead, register a new user with the role “USER” 
+in Apisec™ UI and entitled this account to required projects.
 
 ### **Step 2: Authenticating and Generating A JWT Token**
 
-curl -s -X POST https://cloud.fxlabs.io/auth/login -H 'Accept: application/json' -H 'Content-Type: application/json' -d '{"username": "", "password": ""}'
+curl -s -X POST https://cloud.fxlabs.io/auth/login -H 'Accept: application/json' -H 'Content-Type: application/json'
+-d '{"username": "", "password": ""}'
 
 You should receive a token back.
 
-{"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOZXRCYW5raW5nLy9pbnRlc2FyQGZ4bGFicy5pbyIsInNjb3BlcyI6IlJPTEVfVVNFUixST0xFX1BST0pFQ1RfTUFOQUdFUixST0xFX0FETUlOLFJPTEVfRU5URVJQUklTRV9BRE1JTiIsImlhdCI6MTYwOTg4NzQ5NywiZXhwIjoxNjA5OTA1NDk3fQ.8kkPdbacGy6BDfzqnTM6EiUi6aHS_mWDHCfWirvma_s"}
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOZXRCYW5raW5nLy9pbnRlc2FyQGZ4bGFicy5pbyIsInNjb3BlcyI6IlJPTEVfVVNFUixST0xFX
+1BST0pFQ1RfTUFOQUdFUixST0xFX0FETUlOLFJPTEVfRU5URVJQUklTRV9BRE1JTiIsImlhdCI6MTYwOTg4NzQ5NywiZXhwIjoxNjA5OTA1NDk3fQ.8k
+kPdbacGy6BDfzqnTM6EiUi6aHS_mWDHCfWirvma_s"}
 
 Note: The token is valid for 5 hours.
 
@@ -18,7 +22,10 @@ Note: The token is valid for 5 hours.
 
 Note: Use the token from the previous call as part of the header value in “Authorization: Bearer ”
 
-curl -s -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOZXRCYW5raW5nLy9pbnRlc2FyQGZ4bGFicy5pbyIsInNjb3BlcyI6IlJPTEVfVVNFUixST0xFX1BST0pFQ1RfTUFOQUdFUixST0xFX0FETUlOLFJPTEVfRU5URVJQUklTRV9BRE1JTiIsImlhdCI6MTYwOTg4NzQ5NywiZXhwIjoxNjA5OTA1NDk3fQ.8kkPdbacGy6BDfzqnTM6EiUi6aHS_mWDHCfWirvma_s" -H "Content-Type: application/json" -H "Accept: application/json" -X GET https://cloud.fxlabs.io/api/v1/projects
+curl -s -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOZXRCYW5raW5nLy9pbnRlc2FyQGZ4bGFicy5pbyIsInNjb3Bl
+cyI6IlJPTEVfVVNFUixST0xFX1BST0pFQ1RfTUFOQUdFUixST0xFX0FETUlOLFJPTEVfRU5URVJQUklTRV9BRE1JTiIsImlhdCI6MTYwOTg4NzQ5Nyw
+iZXhwIjoxNjA5OTA1NDk3fQ.8kkPdbacGy6BDfzqnTM6EiUi6aHS_mWDHCfWirvma_s" -H "Content-Type: application/json" -H 
+"Accept: application/json" -X GET https://cloud.fxlabs.io/api/v1/projects
 
 Response structure
 
@@ -28,7 +35,10 @@ Using the response from Step 3, make individual calls to retrieve project-specif
 
 Note: This call returns Critical and High vulnerabilities only from the master environment.
 
-curl -s -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOZXRCYW5raW5nLy9pbnRlc2FyQGZ4bGFicy5pbyIsInNjb3BlcyI6IlJPTEVfVVNFUixST0xFX1BST0pFQ1RfTUFOQUdFUixST0xFX0FETUlOLFJPTEVfRU5URVJQUklTRV9BRE1JTiIsImlhdCI6MTYwOTg4NzQ5NywiZXhwIjoxNjA5OTA1NDk3fQ.8kkPdbacGy6BDfzqnTM6EiUi6aHS_mWDHCfWirvma_s" -H "Content-Type: application/json" -H "Accept: application/json" -X GET https://cloud.fxlabs.io/api/v1/projects/{projectId}/vulnerabilities
+curl -s -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOZXRCYW5raW5nLy9pbnRlc2FyQGZ4bGFicy5pbyIsInNjb3Bl
+cyI6IlJPTEVfVVNFUixST0xFX1BST0pFQ1RfTUFOQUdFUixST0xFX0FETUlOLFJPTEVfRU5URVJQUklTRV9BRE1JTiIsImlhdCI6MTYwOTg4NzQ5Nyw
+iZXhwIjoxNjA5OTA1NDk3fQ.8kkPdbacGy6BDfzqnTM6EiUi6aHS_mWDHCfWirvma_s" -H "Content-Type: application/json" -H 
+"Accept: application/json" -X GET https://cloud.fxlabs.io/api/v1/projects/{projectId}/vulnerabilities
 
 Here are a few important attributes of the vulnerability entity:
 
@@ -48,3 +58,4 @@ Here are a few important attributes of the vulnerability entity:
   - path
 
 
+By **[Intesar Shannan Mohammed](https://github.com/intesar)** on **March 23,2021** 
