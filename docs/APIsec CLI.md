@@ -84,5 +84,4 @@ Use the below commands to remove the local scanner in your tenant. Command: scan
 apisec> scanner rm -n MyLocalScanner
 
 
-
-                                                                      By **[Intesar Shannan Mohammed](https://github.com/intesar)** on **March 23,2021** 
+   By **[Intesar Shannan Mohammed](https://github.com/intesar)** on **March 23,2021** 
