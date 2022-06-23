@@ -61,4 +61,4 @@ Here are a few important attributes of the vulnerability entity:
   - path
 
 
-By **[Intesar Shannan Mohammed](https://github.com/intesar)** on **March 23,2021** 
+       By **[Intesar Shannan Mohammed](https://github.com/intesar)** on **March 23,2021** 
