@@ -4,7 +4,8 @@
 
 Sample command:
 
-curl -s -d ‘{“username”:”admin”, “password”:”secret”}’ -H “Content-Type: application/json” -H “Accept: application/json” -X POST https://ip/user/login
+curl -s -d ‘{“username”:”admin”, “password”:”secret”}’ -H “Content-Type: application/json” -H “Accept: application/json” 
+-X POST https://ip/user/login
 
 ### **Step 2: Provide Token extraction logic using grep/jq**
 
@@ -12,9 +13,11 @@ If the Step 1 response look like this
 
 {“time”: “1594073751605”, “info”: {“token”: “val”}}.
 
-and your token path is “info.token” you can use json parser (jq) to extract the token. Alternatively, you can also use “grep” to extract the value. For example:
+and your token path is “info.token” you can use json parser (jq) to extract the token. Alternatively, you can also use 
+“grep” to extract the value. For example:
 
-curl -s -d ‘{“username”:”admin”, “password”:”secret”}’ -H “Content-Type: application/json” -H “Accept: application/json” -X POST https://ip/user/login | jq –raw-output “.info.token”
+curl -s -d ‘{“username”:”admin”, “password”:”secret”}’ -H “Content-Type: application/json” -H “Accept: application/json”
+-X POST https://ip/user/login | jq –raw-output “.info.token”
 
 ### **Step 3: Provide a token usage example.**
 
@@ -34,7 +37,8 @@ Authorization: Bearer {{@Cmd | Step-2-content }}
 
 Sample code:
 
-Authorization: Bearer {{@Cmd | curl -s -d ‘{“username”:”admin”,”password”:”secret”}’ -H “Content-Type: application/json” -H “Accept: application/json” -X POST https://ip/user/login | jq –raw-output “.info.token” }}
+Authorization: Bearer {{@Cmd | curl -s -d ‘{“username”:”admin”,”password”:”secret”}’ -H “Content-Type: application/json”
+-H “Accept: application/json” -X POST https://ip/user/login | jq –raw-output “.info.token” }}
 
 ### **Step 5: Using @CmdCache**
 
@@ -50,7 +54,8 @@ Authorization: Bearer {{@Cmd | Step-2-content }}
 
 Sample code:
 
-Authorization: Bearer {{@CmdCache | curl -s -d ‘{“username”:”admin”,”password”:”secret”}’ -H “Content-Type: application/json” -H “Accept: application/json” -X POST https://ip/user/login | jq –raw-output “.info.token” }}
+Authorization: Bearer {{@CmdCache | curl -s -d ‘{“username”:”admin”,”password”:”secret”}’ -H “Content-Type: application/json”
+-H “Accept: application/json” -X POST https://ip/user/login | jq –raw-output “.info.token” }}
 
 ### **Step 6: Using @Vault for secure password usage.**
 
@@ -62,7 +67,12 @@ Usage:
 
 e.g.
 
-Authorization: Bearer {{@CmdCache | curl -s -d ‘{“username”:”admin”,”password”:”[[@Vault.ORG-NAME/KEY-NAME]]”}’ -H “Content-Type: application/json” -H “Accept: application/json” -X POST https://ip/user/login | jq –raw-output “.info.token” }}
+Authorization: Bearer {{@CmdCache | curl -s -d ‘{“username”:”admin”,”password”:”[[@Vault.ORG-NAME/KEY-NAME]]”}’ -H 
+“Content-Type: application/json” -H “Accept: application/json” -X POST https://ip/user/login | jq –raw-output “.info.token” }}
 
-Note: If the request body contains 2 or more opening/closing curly brackets together. Make sure to escape them using spaces e.g. {{ -> { {.
+Note: If the request body contains 2 or more opening/closing curly brackets together. Make sure to escape them using spaces 
+e.g. {{ -> { {.
 
+
+
+By **[Intesar Shannan Mohammed](https://github.com/intesar)** on **March 23,2021** 
