@@ -85,4 +85,4 @@ apisec> scanner rm -n MyLocalScanner
 
 
 
-By **[Intesar Shannan Mohammed](https://github.com/intesar)** on **March 23,2021** 
+                                                                      By **[Intesar Shannan Mohammed](https://github.com/intesar)** on **March 23,2021** 
