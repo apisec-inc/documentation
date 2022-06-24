@@ -1,6 +1,6 @@
 <h1 align="center" style="color: #F5F5F5;"> <b> How to Add Token Generation Code </b> </h1>
 
-<p style="text-align: left;color: 	#A9A9A9;font-size:14px;"> By <b><a href="https://github.com/fersy02">Feroz</a></b> on <b>March 23,2021</b> </p>
+<p style="text-align: left;color: 	#A9A9A9;font-size:16px;"> By <b><a href="https://github.com/fersy02">Feroz</a></b> on <b>March 23,2021</b> </p>
 
 ### **Step 1: Provide a curl for generating token**
 
