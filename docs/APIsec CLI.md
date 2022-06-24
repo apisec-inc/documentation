@@ -1,6 +1,6 @@
 <h1 align="center" style="color: #F5F5F5;"> <b> Scan APIs locally with APIsec CLI </b> </h1>
 
-<p style="text-align: left;color: 	#A9A9A9;"> By <b><a href="https://github.com/Mohammed-Luqman-Shareef">Mohammed Luqman Shareef
+<p style="text-align: left;color: 	#A9A9A9;font-size:14px;"> By <b><a href="https://github.com/Mohammed-Luqman-Shareef">Mohammed Luqman Shareef
 </a></b> on <b>March 23,2021</b> </p> 
 
 ### **Scan local APIs to find vulnerabilities with APIsec CLI**
