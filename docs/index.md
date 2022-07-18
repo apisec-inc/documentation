@@ -23,7 +23,7 @@ The ***Advanced Section*** requires the following information:
 	- The format is UserA||Basic||[user1@example.com](mailto:user1@example.com)||admin123$
 <br>
 2. **Tokens**:  An API token is similar to a password and allows a user to authenticate to a software API to perform actions. The API service generates a unique token for the requested application or user, which is used every time for authentication when the user requests to use the service.
-	- Find the steps to generate the token by clicking `Show More` on the comment box of the **Advanced Section**. 
+	- Find the steps to generate the token by clicking `show more` on the comment box of the **Advanced Section**. 
 <br>
 3. **Scanner Selection**:  You can `select` a scanner from the list of APIsec private scanners available in the drop-down menu. I selected Super_1 for this demo. 
 
