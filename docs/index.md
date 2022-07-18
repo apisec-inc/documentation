@@ -11,7 +11,7 @@ The ***Basic Section*** requires the following information:
 
 1. **API name**: Provide any name that you would like to link with your project. 
 2. **API Document URL or File**: Provide a URL or upload a file to allow APIsec to record your API in the database for automated security coverage. 
-	- The supported formats for a URL link are OpenAPI Specification (OAS), Swagger, Postman & RAML.  e.g. https://example.com/v2/api-docs 
+	- The supported formats for a URL link are OpenAPI Specification (OAS), Swagger, Postman & RAML.  e.g. `https://example.com/v2/api-docs` 
 	- The supported formats for an API document file are same as for URL link. 
 
 <img alt="Register Api Basic Section" src="https://user-images.githubusercontent.com/75529175/166118460-fc02dcab-c25a-4161-92af-11aa850c21c2.png" />
@@ -20,7 +20,7 @@ The ***Basic Section*** requires the following information:
 The ***Advanced Section*** requires the following information:
 
 1. **Credentials**:  Provide credentials for the API i.e. username, role, email & password. These credentials are for specific user accounts you want to scan via APIsec. We recommend including a user to represent each role within your product or organization. 
-	- The format is UserA||Basic||[user1@example.com](mailto:user1@example.com)||admin123$
+	- The format is `UserA||Basic||[user1@example.com](mailto:user1@example.com)||admin123$`
 <br>
 2. **Tokens**:  An API token is similar to a password and allows a user to authenticate to a software API to perform actions. The API service generates a unique token for the requested application or user, which is used every time for authentication when the user requests to use the service.
 	- Find the steps to generate the token by clicking `show more` on the comment box of the **Advanced Section**. 
