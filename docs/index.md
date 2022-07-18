@@ -22,8 +22,8 @@ The ***Advanced Section*** requires the following information:
 1. **Credentials**:  Provide credentials for the API i.e. username, role, email & password. These credentials are for specific user accounts you want to scan via APIsec. 
 	- The format is UserA||Basic||[user1@example.com](mailto:user1@example.com)||admin123$
 <br>
-2. **Tokens**: An API token is similar to a password and allows a user to authenticate to a software API to perform actions as you. The API service generates a unqiue token for the requesting application or user. This unique token is used everytime for authentication when the user requests to use the service.
-	- The procedure to generate token can be found by clicking show more on the comment box of **Advanced Section**. 
+2. **Tokens**: An API token is similar to a password and allows a user to authenticate to a software API to perform actions. The API service generates a unqiue token for the requesting application or user.  This unique token is used everytime for authentication when the user requests to use the service.
+	- Find the steps to generate the token by clicking Show More on the comment box of **Advanced Section**. 
 <br>
 3. **Scanner Selection**: You can `select` a scanner from the list of APIsec private scanners available in the drop-down menu. I selected Super_1 for this demo. 
 
