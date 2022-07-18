@@ -1,7 +1,5 @@
 An API gateway is a server and we normally call it an API server.  It is an entry point into the application or software.  Most organizations' APIs are deployed through a cloud API gateway.  API gateways handle and process the incoming API calls from the clients and respond accordingly.  Clients can be user browsers, scripts from partners, other application components, or anything else that needs to use the common interface.
 
-c
-
 1. On the **Home** page, `click` **API Gateways**.
    
 
@@ -12,9 +10,7 @@ c
 
 <img alt="Register API gateway" src="https://user-images.githubusercontent.com/75529175/166118467-47f9f0ec-17a0-4527-bd20-1f7640aa6510.png" />
 
-The important thing to note here is the 'Enable Automated Onboarding' checkbox, which will allow you to:
-   - Enable automated onboarding of APIs.
-   - It will onboard all the APIs uploaded or updated on that registered API gateway weekly.
+The important thing to note here is the 'Enable Automated Onboarding' checkbox, which will enable automated onboarding of APIs and onboard all the APIs uploaded or updated on that registered API gateway weekly.
 
 <img alt="Register API gateway" src="https://user-images.githubusercontent.com/75529175/166118470-7a37261f-c884-462a-9a30-377fecd7d524.png" />
 <br>
