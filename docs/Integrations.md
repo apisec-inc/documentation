@@ -36,7 +36,9 @@ A user can configure an SSO/Okta account with the APIsec account.  This option i
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322601-3c5a9deb-23b8-4dfa-af92-b4a878249ec2.png" />
 
-A guide on 'How to Configure OKTA SSO for APIsec?' is also available which can be accessed by clicking on the question in blue. The link redirects the user to a Google doc as shown in the below screenshot.
+A guide on 'How to Configure OKTA SSO for APIsec?' is also available in the instructions which can be accessed by clicking on the question in blue.  The link redirects the user to a Google doc as shown in the below screenshot.
+
+Here is a snippet of the documentation.
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322647-fb5dbc74-9278-485f-a4c8-d6249dbd9635.png" />
 
