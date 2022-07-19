@@ -1,9 +1,9 @@
-The user profile configuration options can be found under the user Profile menu on the top right corner of the user Home page. 
+The User Profile configuration options can be found under the User Profile menu on the top right corner of the User Home page. 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322759-e2b1e1cf-fefb-4093-8174-f04e21a45e35.png" />
 
 ### **12.1. View the Activities**
-It contains all the activities performed by this user profile. Also, user can view the logs of the activities performed. Search filters can also be applied to optimize the activities list.
+It contains all the activities performed by this user profile. You can view the logs of the activities performed and apply Search filters to optimize the activities list.
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322576-3437a6c5-d90e-47ff-8a98-9b3a47a9df8e.png" />
 
@@ -13,16 +13,16 @@ Here is the view of activity logs.
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168327382-3063d023-f9e2-49d4-80c0-ac69aa342b43.png" />
 
 ### **12.2. View Account Details**
-The user can view the account details by clicking on the 'Account' under the user profile menu. 
+You can view the account details by clicking on the 'Account' under the user profile menu. 
 
 *<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322670-80793acc-5d82-44f2-bcc7-d3d402808e31.png" />*
 
 #### **12.2.1 Link SSO/Okta account**
-A user can link SSO/Okta account with the APIsec account. This option is available in the 'Account' under the user Profile menu. 
+You can link SSO/Okta account with the APIsec account. This option is available in the 'Account' under the User Profile menu. 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322601-3c5a9deb-23b8-4dfa-af92-b4a878249ec2.png" />
 
-A guide on 'How to Configure OKTA SSO for APIsec?' is also available which can be accessed by clicking on the question in blue. The link redirects the user to a Google doc as shown in the below screenshot. 
+A guide on 'How to Configure OKTA SSO for APIsec?' is available which can be accessed by clicking on the question in blue. The link redirects you to a Google doc as shown in the below screenshot. 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322647-fb5dbc74-9278-485f-a4c8-d6249dbd9635.png" />
 
@@ -44,11 +44,11 @@ Please follow the given format for adding the user credentials.
 
 To add a guest user, `click` on '+ Add Guest User'.
 
-Only Email and Role is required for the guest user. APIsec sends the invite to the guest on the given mail. If the guest accepts the invite then the user is added. 
+Only Email and Role are required for the guest user. APIsec sends the invite to the guest on the given mail. If the guest accepts the invite then the user is added. 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322724-21799488-338b-485b-8c90-d1e7e2cc3146.png" />
 
-To edit the newly added users or already existing, `click` on 'More' drop-down menu. The drop-down has Edit and Reset Password options. 
+To edit the newly added users or already existing `click` on 'More' drop-down menu. The drop-down has Edit and Reset Password options. 
 
 ## 12.4 Add/Edit Orgs
 Only Enterprise Admins can add, edit, and delete organizations in the APIsec database. 
@@ -65,9 +65,9 @@ At the 'Orgs' page, user can view and edit the existing organizations or add a n
 To add a new organization, `click` '+ New Org' and enter the required credentials. 
 The notable options here are the:
 
-- Enterprise Licenses: enter the number of API registration licenses provided to the organization. 
-- Tag: tag the organization for identification and segmentation purpose. 
-- Playbook monthly execution limit: enter the monthly max limit for Playbook execution via Scans.
+- Enterprise Licenses: Enter the number of API registration licenses provided to the organization. 
+- Tag: Eag the organization for identification and segmentation purpose. 
+- Playbook monthly execution limit: Enter the monthly max limit for Playbook execution via Scans.
 
 `click` 'Create & Next' at the bottom left corner of the page to save the "Org Details" and proceed to "User Details" section. 
 
@@ -87,7 +87,7 @@ The details for the the 'New Users' are given in the chapter 12.3.
 
 
 ## **12.5 View My Profile** 
-User can view his profile by visiting 'My Profile' under the user Profile menu. This section also provides the option to view organizatoin access and reset the password.  
+You can view your user profile by visiting 'My Profile' under the user Profile menu. This section also provides the option to view organizatoin access and reset the password.  
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322735-1d0176cb-3d7b-45b8-aa7c-5ed0284f132b.png" />
 
@@ -100,7 +100,7 @@ To sign out the account, `click` 'Sign Out' under the user Profile menu.
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/171663783-65644566-799c-4a36-82cd-91083ec351ac.png" />
 
-<p>User can request a new password by clicking on 'Forgot Password'. It will prompt to enter the registered email. Once users enters the email, further instructions will be sent on that mail. </p>
+<p>You can request a new password by clicking on 'Forgot Password'. It will prompt to enter the registered email. Once you enter the email, further instructions will be sent to that address. </p>
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/169666107-cd357cc5-dc55-4bfb-a8d4-83cf60c338a4.png" />
 
 
