@@ -34,7 +34,7 @@ APIsec offers an amazing feature for terminal / command line users to trigger on
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322423-aa08bb33-0362-4c67-82d3-b74282bfe944.png" />
 
 ### **5.6. Configure Single Sign-On/Okta account** 
-You can configure an SSO/Okta account with the APIsec account.  This option is available in the 'Account' under the user Profile menu, then click on the SSO/Okta Settings tab.
+This option is available in the 'Account' under the user Profile menu, then click on the SSO/Okta Settings tab.  You can configure an SSO/Okta account with the APIsec account.
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322601-3c5a9deb-23b8-4dfa-af92-b4a878249ec2.png" />
 
@@ -43,4 +43,3 @@ A guide on 'How to Configure OKTA SSO for APIsec?' is also available in the inst
 Here is a snippet of the documentation.
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322647-fb5dbc74-9278-485f-a4c8-d6249dbd9635.png" />
-
