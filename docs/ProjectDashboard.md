@@ -61,7 +61,7 @@ The important feature on the 'Project' page is the 'Scan'. You can initiate a Sc
 Before initiating a scan, you need to do quick configurations which includes:
 
 - **Profile**: Select the environment and profile to run the scan on. (more details in chapter 4.2.3.)
-- **Scanner**: Select a Public or Private Scanner. 
+- **Scanner**: Select a Public or Private Scanner. (scanner details in chapter 7: Deploy Scanners)
 - **Categories**: Select the Security Category(s) to test against the API. (more details in chapter 9)
 
 You can initiate a Scan by clicking on 'Submit' or go to the 'Advanced' section for more custom settings. 
