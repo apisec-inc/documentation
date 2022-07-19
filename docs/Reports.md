@@ -1,7 +1,7 @@
-The 'Reports' page of APIsec covers the trends, summary, and coverage. This section of the Project Dashboard contains brief stats of the current Project. Also, it has graphical representations of Project Stats. 
+The 'Reports' page of APIsec covers the trends, summary, and coverage. This section of the Project Dashboard contains brief stats of the current Project. It also has graphical representations of Project Stats. 
 
 ### **6.1. Trends**
-The 'Email Report' button at the very top right corner of the 'Trends' page allows a user to receive PDF of Pentest, Developer, and compliance Report in the mail box. The reports are sent on the registered email address. 
+The 'Email Report' button at the top right corner of the 'Trends' page allows you to receive PDF of Pentest, Developer, and compliance Report in the mail box. The reports are sent on the registered email address. 
 
 The "API Composition" Pie chart's each slice represents the API methods along with total number of requests. 
 
@@ -9,7 +9,7 @@ The "Endpoints Trend" graph shows the trend of API Endpoints. The trend changes 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322487-6b390603-2522-4383-8bc4-2afd0a05530b.png" />
 
-The "Coverage Breakdown" and "Playbooks Trend" are already explained in the Chapter 4.2.4.
+The "Coverage Breakdown" and "Playbooks Trend" are explained in the Chapter 4.2.4.
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322496-2e79aabb-8dca-4b4c-8c40-72e1e02e8c48.png" />
 
@@ -30,7 +30,7 @@ Below is the view of Excel file.
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322530-802bbf73-8014-4b6c-a3ac-aa89e483a016.png" />
 
 ## **6.2. Summary**
-The 'Summary' Page contains the briefs of Project API Scan. The user can download the PDF of the summary. 
+The 'Summary' Page contains the briefs of Project API Scan where you can download the PDF of the summary. 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322538-4d8e395a-fabc-48d7-8e63-11fa1e7cd1c3.png" />
 
@@ -41,15 +41,15 @@ The 'Y' green box shows that the particular category was mapped against the API.
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322542-159c350b-b8a8-4650-bb9a-584e4ac64830.png" />
 
-If a user intends to re-test the category for a particular resource then `click` on the green box. 
+If you need to re-test the category for a particular resource then `click` on the green box. 
 Select the environment -> Select Scanner -> `click` Scan 
 
-Please note that the categories with 'N' status cannot be re-assessed. 
+*the categories with 'N' status cannot be re-assessed. 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322552-b41cf272-f961-4386-9288-ad15aa20fa67.png" />
 
 The important feature on this page is the 'Download as Excel' button at the bottom right corner of the page. 
 
-Below is the view of Excel. 
+Below is an example of the Excel file. 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322557-1ba15faa-4fe4-449b-a5d7-9b5531c07546.png" />
