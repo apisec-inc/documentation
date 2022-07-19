@@ -1,9 +1,11 @@
 APIsec allows you to integrate you project with a number of platforms.  Integrations provide connectivity across platforms and automate the processes. 
 
 ### **5.1. Reports Storage**
-You can export reports to AWSS3, GCP, and Azure cloud accounts.  The reports are sent automatically at the beginning of every month. 
+You can export reports to AWSS3, GCP, and Azure cloud accounts.  The reports are sent automatically at the beginning of every month.  If You have stored the credentials for the Report Storage account in the vault, it can be used or you can add new credentials.
 
-If You have stored the credentials for the Report Storage account in the vault, it can be used or you can add new credentials. The process of adding the new credentials is explained in <a href="https://apisec-inc.github.io/documentation/Vault/">chapter 8</a>. 
+**Note:**  When you're adding a new credential, from the drop down menu make sure to select the Account Type under the Report Storage section.
+
+The process of adding the new credentials is explained in <a href="https://apisec-inc.github.io/documentation/Vault/">chapter 8</a>. 
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322387-9309887a-5b8f-4df0-9241-fd71bbe0f666.png" />
 
