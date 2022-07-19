@@ -5,7 +5,7 @@ APIsec allows you to use a public or private security category(s) while running 
 ### **9.1. Public Security Categories**
 APIsec has 118 total up-to date public security categories. These security categories include OWASP Top 10 along with other known API vulnerabilities. 
 
-The security categories are constantly updated. But, include:
+The security categories are constantly updated. Existing ones include:
 
 - Unsecured Endpoints 
 - Authentication Weakness
@@ -26,7 +26,7 @@ To add a new security model:
 1. `click` 'New Security Model' and select the type of mode from the drop-down menu. <br>
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166119699-40a61d6a-f0bf-4303-b114-22c6612082ef.png" />
 
-2. For this demo, i selected 'Injection'.
+2. 'Injection' is selected for this demo.
    
    The ***basic section*** requires following information:
    
@@ -35,11 +35,11 @@ To add a new security model:
      
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166119702-91656384-e946-4d3c-9a06-27b8169bffde.png" />
    
-   The ***advanced section*** requires following information: 
+   The ***Advanced Section*** requires following information: 
    
    - **Key**: This is autofilled according to the name of the security model.
-   - **Assertions**: Provide the assertions for the said security model. The rules and details are mentioned in the comment box next to 'assertions'.
-   - **Security Model Description**: This is optional but it can be added to make it easy for others to understand the purpose of model. It can be written in plain-text or HTML tags. 
+   - **Assertions**: Provide the assertions for the security model. The rules and details are mentioned in the comment box next to 'Assertions'.
+   - **Security Model Description**: This is optional but it can be added to make it easy for others to understand the purpose of the model. It can be written in plain-text or HTML tags. 
    - **Assertions Description**: This is also an optional requirement but it can be added to explicitly define the meaning of assertion expressions.
    - **Remediation**: Admin can add the mitigation techniques for the vulnerability(s) covered under the security model. 
    - **Tags**: The tags are for the classification of vulnerability(s). for e.g, OWASP Top#2 can be a tag for the security model that covers OWASP top 2 vulnerability.
