@@ -3,7 +3,9 @@ APIsec allows you to integrate you project with a number of platforms.  Integrat
 ### **5.1. Reports Storage**
 You can export reports to AWSS3, GCP, and Azure cloud accounts.  The reports are sent automatically at the beginning of every month.  If you have stored the credentials for the Report Storage account in the vault, it can be used or you can add new credentials.
 
-**Note:**  When you're adding a new credential, from the drop down menu make sure to select the Account Type under the Report Storage section.
+**Note:**  When you're adding a new credential, from the drop down menu make sure to select the Account Type under the Report Storage section as shown in the screenshot.
+
+<img width="918" alt="report-storage-account-type-selection" src="https://user-images.githubusercontent.com/109250250/180088654-122b6e7c-3ec9-4fa5-b29e-2d0c8d3e596c.png">
 
 The process of adding the new credentials is explained in <a href="https://apisec-inc.github.io/documentation/Vault/">chapter 8</a>. 
 
@@ -31,7 +33,7 @@ With this feature, you can integrate a Git source code repository for backing up
 ### **5.5. CI/CD**
 APIsec offers an amazing feature for terminal / command line users to trigger on-demand scans via external CI/CD Systems.  It supports ten CI/CD platforms that include AWS, GitHub Actions, Jenkins, MS Azure Pipelines and more. 
 
-Note: The JQ and wget commands are prerequisites for this set up.
+**Note:** The JQ and wget commands are prerequisites for this set up.
 
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322423-aa08bb33-0362-4c67-82d3-b74282bfe944.png" />
 
