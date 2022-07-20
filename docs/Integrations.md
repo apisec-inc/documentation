@@ -31,6 +31,8 @@ With this feature, you can integrate a Git source code repository for backing up
 ### **5.5. CI/CD**
 APIsec offers an amazing feature for terminal / command line users to trigger on-demand scans via external CI/CD Systems.  It supports ten CI/CD platforms that include AWS, GitHub Actions, Jenkins, MS Azure Pipelines and more. 
 
+Note: The JQ and wget commands are prerequisites for this set up.
+
 <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/168322423-aa08bb33-0362-4c67-82d3-b74282bfe944.png" />
 
 ### **5.6. Configure Single Sign-On/Okta account** 
