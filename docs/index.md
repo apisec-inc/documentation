@@ -16,7 +16,7 @@ The ***Basic Section*** requires the following information:
 
 <img alt="Register Api Basic Section" src="https://user-images.githubusercontent.com/75529175/166118460-fc02dcab-c25a-4161-92af-11aa850c21c2.png" />
 
-## **1.2. Advance Section**
+## **1.2. Advanced Section**
 The ***Advanced Section*** requires the following information:
 
 1. **Credentials**:  Provide credentials for the API i.e. username, role, email & password. These credentials are for specific user accounts you want to scan via APIsec. We recommend including a user to represent each role within your product or organization. 
