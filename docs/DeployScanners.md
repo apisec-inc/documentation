@@ -8,11 +8,11 @@ You can deploy Private Scanners across AWS, Azure, GCP, Kubernetes, and On-premi
 #### **7.1.1. Deploy a New Private Scanner on Cloud**
 1. `click` '+ New Scanner' on the Scanners module page.
 
-<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166118496-56bedf77-f288-4686-856d-71b530fa149c.png" /><br>
+<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166118496-56bedf77-f288-4686-856d-71b530fa149c.png" /><br>
 <br>
 2. Enter Scanner name that you would like to associate to the scanner. It is recommended to give unique names to the Scanners to easily identify them  while deploying a registered Private Scanner. 
     
-<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166118505-d0897564-08e8-4e78-a108-195d4c6110d1.png" /> <br>
+<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166118505-d0897564-08e8-4e78-a108-195d4c6110d1.png" /> <br>
 <br>
 3. You need to register the cloud service, which you will use for hosting the Scanner.
    <br> 
@@ -26,7 +26,7 @@ b. Provide the required cloud credentials. For 'Azure' the credentials shown in 
 **Note**: Credentials requirements vary with the selected cloud type. 
 <br>
 
-<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166118506-a21ceff5-32d0-49ac-8ace-c8727b705798.png" />
+<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166118506-a21ceff5-32d0-49ac-8ace-c8727b705798.png" />
 
 	 
 c.`click` 'Advanced section' below and select the available region. 
@@ -34,15 +34,15 @@ c.`click` 'Advanced section' below and select the available region.
 **Note**: credentials requirements varies with the selected cloud type.
 <br>
 
-<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166118509-18494304-3ef2-4cd2-86d7-6fa8fb9f2630.png" /> 
+<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166118509-18494304-3ef2-4cd2-86d7-6fa8fb9f2630.png" /> 
 
 d. `click` 'Add' and the registered cloud service will appear on the current page.
 
-<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166118513-45f082b0-97e8-4b30-bf78-d03ec932c47d.png" />
+<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166118513-45f082b0-97e8-4b30-bf78-d03ec932c47d.png" />
 
  e. `click` 'Submit' to deploy the private scanner on the cloud.
 	      
-<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166118517-aaa9ee4f-b4b3-4c0c-9614-0bca7d3d60ea.png"/>
+<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166118517-aaa9ee4f-b4b3-4c0c-9614-0bca7d3d60ea.png"/>
 	    
 ####  **7.1.2. Deploying a New Private Scanner On-premisses**
 To deploy an On-prem private scanner, you need to set up the Docker/Kubernetes on the host machine. 
@@ -50,24 +50,24 @@ To deploy an On-prem private scanner, you need to set up the Docker/Kubernetes o
 1.  Follow the step 1 and 2 of the chapter 7.1.1.
 2. `click` 'Docker/Kubernetes Installer' and select the cluster size. (The larger cluster sizes are higher speed) 
    
-<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166118529-c0439dbf-586c-4099-abed-644e5bb8cf9c.png"/> 
+<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166118529-c0439dbf-586c-4099-abed-644e5bb8cf9c.png"/> 
 <br>
 3. `click` 'Submit' and a screen with commands for deploying the Scanner on Kubernetes, Docker, and AWS Fargate will appear. 
    
-<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166118532-4554c374-4c66-4e79-aae0-799f79bb8b2e.png"/>
+<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166118532-4554c374-4c66-4e79-aae0-799f79bb8b2e.png"/>
 <br>
 4. Click 'Ok' to proceed. 
 <br>
 5. Enter the IP address of the Scanner. This IP is for the machine on which private scanner is deployed. 
 <br>
-6. The commands for setting up the Scanners on Docker, Kubernetes, and AWS Fargate are provided on the same page. You can use the commands for the host system enviornment. 
+6. The commands for setting up the Scanners on Docker, Kubernetes, and AWS Fargate are provided on the same page. You can use the commands for the host system environment. 
 <br>
 7. `click` 'Check Status' at the end of page to check the status of Scanner. This status tells us if the scanner is deployed successfully and running. 
 <br>
 8. `click` 'Save' to deploy the On-prem private scanner. 
 <br>
 
-<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166118536-5b297263-1a3f-437e-a1ef-366d781d167f.png"/>
+<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166118536-5b297263-1a3f-437e-a1ef-366d781d167f.png"/>
 
 ### **7.2. Global Scanners**
 APIsec also allows you to select a ready to use Global Scanner. These scanners are deployed on the Virtual Machines of APIsec Inc. They are provided for the ease of users who do not want to set up a separate private scanner.  
@@ -81,4 +81,4 @@ A total of 9 Global Scanners are currently available.
 - Super Scanners are fast. 
 - The other scanners are deployed on the Cloud in different regions. 
   
-<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166118529-c0439dbf-586c-4099-abed-644e5bb8cf9c.png"/>
+<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166118529-c0439dbf-586c-4099-abed-644e5bb8cf9c.png"/>

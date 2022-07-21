@@ -10,4 +10,4 @@ You can also switch between 'My Projects' or 'All Projects' with the toggle besi
 - 'My Projects' only show the Projects created by the current user. 
 - 'All Projects' are restricted to admins only
    
-<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166119727-9ed6f766-02ae-44af-a115-bf88611e9df0.png"/>
+<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166119727-9ed6f766-02ae-44af-a115-bf88611e9df0.png"/>

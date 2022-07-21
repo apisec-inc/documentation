@@ -15,7 +15,7 @@ git clone https://github.com/intesar/apisec-clicd apisec-clijava -jar apisec-cli
 
 For the new users, you need to sign-up with APIsec. It creates a new tenant for you in the APIsec SaaS Platform.
 
-Command: Signup –c  -e
+Command: signup –c  -e
 
 apisec> signup -c mycompany -e john@mycompany.com
 

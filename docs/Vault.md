@@ -1,10 +1,10 @@
 You can securely store and use API keys and credentials, tokens, passwords, and key-value pairs. APIsec vault is just like a password manager that securely stores all your credentials for ease of access. 
 
-<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166119691-4428b51a-0711-4159-9206-df970be918b6.png"/>
+<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166119691-4428b51a-0711-4159-9206-df970be918b6.png"/>
 
 In the below screenshot, you can see all the stored credentials. When you integrate an account with your APIsec account the credentials are automatically stored in the vault. 
 
-<img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166119692-643b3dc7-b821-4eb5-8b34-fd9474db4751.png"/>
+<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166119692-643b3dc7-b821-4eb5-8b34-fd9474db4751.png"/>
 
 APIsec also allows you to add new credentials in the vault for later use. 
 
@@ -23,9 +23,9 @@ To add new credentials:
    
  **Note**: The credentials requirement varies according to the account type. Also, it is advised to provide the mandatory and optional account credentials for smooth integration. 
 
- <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166119695-fee13ad6-ae56-45e3-b348-8c13884f3166.png"/>
+ <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166119695-fee13ad6-ae56-45e3-b348-8c13884f3166.png"/>
  <br>
  <br>
  4. `click` 'Create' and the credentials will be successfully added in the vault. 
    
-   <img alt="APIsec Screenshort" src="https://user-images.githubusercontent.com/75529175/166119696-ff83c70a-c45a-44df-942e-7fb733e814d4.png"/>
+   <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166119696-ff83c70a-c45a-44df-942e-7fb733e814d4.png"/>
