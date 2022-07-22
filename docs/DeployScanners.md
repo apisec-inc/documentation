@@ -1,3 +1,5 @@
+`Reading time 7 min`
+
 APIsec allows you to deploy a Private or Global Scanner. Go to the Scanner module by `click` 'Scanners' on the home page. 
 
 <img alt="Deploy Scanner" src="https://user-images.githubusercontent.com/75529175/166118486-438d314c-d5e7-4221-a0fc-528387791cee.png" />
