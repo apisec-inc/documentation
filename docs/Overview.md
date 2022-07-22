@@ -1,4 +1,5 @@
 ### Discover APIsec
+`Reading time 1 min`
 
 The Only 100% Automated `API` Testing Platform.  APIsec automatically creates and runs thousands of test cases tailored to your unique API architecture - integrated directly into your workflow.
  
