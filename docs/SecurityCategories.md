@@ -1,9 +1,11 @@
+`Reading time 4 min`
+
 APIsec allows you to use a public or private security category(s) while running a Scan.
 
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166119715-6dc082bd-ea19-4d20-9700-8e2b883fa44b.png" />
 
 ### **9.1. Public Security Categories**
-APIsec has 118 total up-to date public security categories. These security categories include OWASP Top 10 along with other known API vulnerabilities. 
+APIsec has 118 total up-to-date public security categories. These security categories include OWASP Top 10 along with other known API vulnerabilities. 
 
 The security categories are constantly updated. Existing ones include:
 
