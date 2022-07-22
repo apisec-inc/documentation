@@ -1,3 +1,5 @@
+`Reading time < 1 min`
+
 The APIsec Home page has a Project section below the Services tiles. Once you Register an API, a Project is created and added in this section. The name of the Project is same as the API name you enter while registering the API.
 
 This section has two views. i.e, Grid and List view. You can select the one that works best for you. 
