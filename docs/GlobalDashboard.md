@@ -1,3 +1,5 @@
+`Reading time <2 min`
+
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166119719-fd0aee0a-28f0-4780-826e-51377ade318d.png"/>
 
 APIsec offers a Global Dashboard where you can view all the Project(s) stats that include:
