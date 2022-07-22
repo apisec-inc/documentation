@@ -1,3 +1,6 @@
+### **What API Gateway?**
+`Reading time 2 min`
+
 An API gateway is a server and we normally call it an API server.  It is an entry point into the application or software.  Most organizations' APIs are deployed through a cloud API gateway.  API gateways handle and process the incoming API calls from the clients and respond accordingly.  Clients can be user browsers, scripts from partners, other application components, or anything else that needs to use the common interface.
 
 1. On the **Home** page, `click` **API Gateways**.
