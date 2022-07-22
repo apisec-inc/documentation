@@ -1,3 +1,5 @@
+`Reading time 2 min`
+
 You can securely store and use API keys and credentials, tokens, passwords, and key-value pairs. APIsec vault is just like a password manager that securely stores all your credentials for ease of access. 
 
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166119691-4428b51a-0711-4159-9206-df970be918b6.png"/>
