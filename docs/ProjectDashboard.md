@@ -1,3 +1,6 @@
+
+`Reading time 21 min`
+
 After registering the API, a Project tile is added in the 'Projects Section'. Users can view the Individual Project Dashboard by clicking on the desired Project tile or row. 
 
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166120411-f011f054-d5cb-4424-9da2-269643ce1726.png"/>
