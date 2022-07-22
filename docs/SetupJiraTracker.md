@@ -7,7 +7,7 @@ The expectation is that you already have an account with JIRA or know how to set
 1. From the homepage select your project > Then, select the `Configurations` tab 
 2. Select the `Integrations` tab from the top menu
 3. From the left menu select `Issue Tracker`
-4. Choose a Environment Name Profile 
+4. Choose an Environment Name Profile 
 5. Select `Jira` for the Issue Tracker  
 6. Create New Issue Tracker Credentials by clicking on the button.  Or, select from the Credentials dropdown if it's already created.
 
