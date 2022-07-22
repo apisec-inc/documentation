@@ -1,4 +1,4 @@
-`Reading time 5 min`
+`Reading time 7 min`
 
 The APIsec allows you to integrate you project with a number of platforms.  Integrations provide connectivity across platforms and automate the processes. 
 
