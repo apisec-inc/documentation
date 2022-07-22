@@ -47,3 +47,4 @@ A guide on 'How to Configure OKTA SSO for APIsec?' is also available in the inst
 Here is a snippet of the documentation.
 
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/168322647-fb5dbc74-9278-485f-a4c8-d6249dbd9635.png" />
+
