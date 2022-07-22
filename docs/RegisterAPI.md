@@ -1,6 +1,6 @@
 <h1 align="center"> <b> APIsec Technical Documentation </b> </h1>
 ## **1. Register an API**
-`Reading time 2-3 min`
+`Reading time < 3 min`
 
 To get started with APIsec security coverage and scanning for your APIs, you need to first register your API.
 
