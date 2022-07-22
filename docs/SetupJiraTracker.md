@@ -10,6 +10,7 @@ The expectation is that the user should already have an account with JIRA or kno
 4. Choose a Profile
 5. Issue Tracker:  Jira.  
 6. Create New Issue Tracker Credentials by clicking on the button.  Or, select from the Credentials dropdown if it's already created.
+
    Note: You can create a new user with read/write access to the test repository.
 
 7. Once you add the credentials, add the Issue-Tracker URL
@@ -19,3 +20,8 @@ The following fields are optional:
 
 9. Assignee Account ID. e.g. https://mycompany.atlassian.net/
 10. Label should be a single word without any white spaces. If more than one label to be tagged, provide comma (,) seperated labels.
+
+
+Finally, click on `Test Credentials` button to validate the connection has established.
+
+Click Save.
