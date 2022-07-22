@@ -1,5 +1,7 @@
-<h1 align="center"> <b> APIsec Official Documentation </b> </h1>
+<h1 align="center"> <b> APIsec Technical Documentation </b> </h1>
 ## **1. Register an API**
+`Reading time 2-3 min`
+
 To get started with APIsec security coverage and scanning for your APIs, you need to first register your API.
 
 On the **Homepage**, `click` **Register API** 
@@ -20,7 +22,8 @@ The ***Basic Section*** requires the following information:
 The ***Advanced Section*** requires the following information:
 
 1. **Credentials**:  Provide credentials for the API i.e. username, role, email & password. These credentials are for specific user accounts you want to scan via APIsec. We recommend including a user to represent each role within your product or organization. 
-	- The format is `UserA||Basic||[user1@example.com](mailto:user1@example.com)||admin123$`
+	- The format is <b>
+	`UserA||Basic||[user1@example.com](mailto:user1@example.com)||admin123$`
 <br>
 2. **Tokens**:  An API token is similar to a password and allows a user to authenticate to a software API to perform actions. The API service generates a unique token for the requested application or user, which is used every time for authentication when the user requests to use the service.
 	- Find the steps to generate the token by clicking `show more` on the comment box of the **Advanced Section**. 
