@@ -21,6 +21,7 @@ The following fields are optional:
 9. Assignee Account ID. e.g. https://mycompany.atlassian.net/
 10. Label should be a single word without any white spaces. If more than one label to be tagged, provide comma (,) seperated labels.
 
+Activating the toggle button will log the vulnerabilities to Jira.
 
 Finally, click on `Test Credentials` button to validate the connection has established.
 
