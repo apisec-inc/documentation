@@ -7,7 +7,7 @@ nav:
     - 3. Projects Section: ProjectSection.md
     - 4. Project Dashboard: ProjectDashboard.md
     - 5. Integrations: Integrations.md
-      - 5.1 Jira Issue Tracker Setup: SetupJiraTracker.md
+      - 5.1. Jira Issue Tracker Setup: SetupJiraTracker.md
     - 6. Reports: Reports.md
     - 7. Deploy Scanners: DeployScanners.md
     - 8. Vault: Vault.md
