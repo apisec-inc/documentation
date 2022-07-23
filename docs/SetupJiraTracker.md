@@ -13,8 +13,8 @@ The expectation is that you already have an account with JIRA or know how to set
 
    Note: You'll need the your email and and API token to add your JIRA account (more info on the popup).
    
-   <img width="899" alt="new-issue-tracker-creds" src="https://user-images.githubusercontent.com/109250250/180610153-417e57b0-ddc7-4ff2-92a7-87e4242362a8.png">
    
+   <img width="899" alt="new-issue-tracker-creds" src="https://user-images.githubusercontent.com/109250250/180610320-e877267c-11e6-42fd-9158-d1d5e34159c3.png">
 
 7. Once you add the credentials, add the Issue-Tracker URL.
 8. Add the Project Key.  Should match the key value from Jira/Atlassian project page.
