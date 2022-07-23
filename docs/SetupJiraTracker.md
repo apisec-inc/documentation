@@ -24,6 +24,10 @@ The following fields are optional:
 
 Activating the toggle button will log the vulnerabilities to Jira.
 
-Finally, click on `Test Credentials` button to validate the connection has established.
+Finally, click on `Test Credentials` button to validate the connection has established and click Save.
 
-Click Save.
+If everything is setup correctly, you'll see Valid Jira Credentials message at the bottom of the screen.
+
+<img width="1495" alt="jira-valid-creds" src="https://user-images.githubusercontent.com/109250250/180609364-42943462-c306-4257-888b-447bc7998667.png">
+
+
