@@ -20,7 +20,7 @@ The expectation is that you already have an account with Github or know how to s
 
 The following fields are optional:
 
-9. Assignee Username.  The gtHub username of the assignee must be a collaborator with write access.
+8. Assignee Username.  The gtHub username of the assignee must be a collaborator with write access.
 
 Activating the toggle button will log the vulnerabilities to Github.
 
