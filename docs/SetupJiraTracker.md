@@ -1,6 +1,8 @@
-This document outlines the steps to setup your Atlassian Jira account with APIsec.  
-
 ### **Setup Jira Issue Tracker**
+
+`Reading time 3 min`
+
+This document outlines the steps to setup your Atlassian Jira account with APIsec.  
 
 The expectation is that you already have an account with JIRA or know how to set one up.  You can find more information <a href="https://confluence.atlassian.com/jirakb/how-to-find-your-site-url-to-set-up-the-jira-data-center-and-server-mobile-app-954244798.html">here</a>.
 
@@ -33,4 +35,7 @@ If everything is setup correctly, you'll see Valid Jira Credentials message at t
 
 <img width="1495" alt="jira-valid-creds" src="https://user-images.githubusercontent.com/109250250/180609364-42943462-c306-4257-888b-447bc7998667.png">
 
+Once the account is set up, you'll start to see tickets getting created with any vulnerability that's detected as shown in the screenshot below.
+
+<img width="1504" alt="jira-issues logged" src="https://user-images.githubusercontent.com/109250250/180658369-5c672a22-9b4f-4a7d-9cad-40731edbb3e2.png">
 
