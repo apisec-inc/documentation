@@ -1,8 +1,8 @@
-### **Setup Jira Issue Tracker**
+This document outlines the steps to setup your Atlassian Jira account with APIsec.  
 
 `Reading time 3 min`
 
-This document outlines the steps to setup your Atlassian Jira account with APIsec.  
+### **Setup Jira Issue Tracker**
 
 The expectation is that you already have an account with JIRA or know how to set one up.  You can find more information <a href="https://confluence.atlassian.com/jirakb/how-to-find-your-site-url-to-set-up-the-jira-data-center-and-server-mobile-app-954244798.html">here</a>.
 
