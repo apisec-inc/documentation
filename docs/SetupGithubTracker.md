@@ -1,5 +1,7 @@
 This document outlines the steps to setup your Github account with APIsec.  
 
+`Reading time < 3 min`
+
 ### **Setup Github Issue Tracker**
 
 The expectation is that you already have an account with Github or know how to set one up.  
