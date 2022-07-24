@@ -6,7 +6,8 @@ nav:
     - 2. Register an API Gateway: RegisterGateway.md
     - 3. Projects Section: ProjectSection.md
     - 4. Project Dashboard: ProjectDashboard.md
-    - 5. Integrations: Integrations.md
+    - 5. Integrations: 
+         - Overview: Integrations.md
          - Jira Issue Tracker Setup: SetupJiraTracker.md
     - 6. Reports: Reports.md
     - 7. Deploy Scanners: DeployScanners.md
