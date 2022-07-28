@@ -13,6 +13,6 @@ Create and update new and existing `Security Categories` to remediate/test new a
 
 Your organization’s security is presented in graphical and statistical formats for better visibility in the `Dashboard`.
 
-Let’s get started!  Btw, once you register your API, it will appear under the Project section below the content tiles.
+Let’s <a href="https://docs.apisec.ai/GettingStarted/">get started</a>!  Btw, once you register your API, it will appear under the Project section below the content tiles.
 
 <img width="1505" alt="apisec-homepage" src="https://user-images.githubusercontent.com/109250250/180360118-c09108f4-e2a6-49ba-858b-e9cc2b9b9586.png">
