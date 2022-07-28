@@ -1,4 +1,4 @@
-## Getting Started
+`Reading time < 5 min`
 
 ### **1. Register for an account**
     
@@ -11,7 +11,7 @@
 ### **2. Register an API**
     
     After you login you'll be on the user homepage.
-    1. Register and API by clicking on the first block.
+    1. Register an API by clicking on the first block.
     2. Give your API Project a name.
     3. Add a spec URL for an OpenAPI Spec.
     4. Click "Register".
@@ -49,7 +49,7 @@
     - Verify scan results.
     - Rescan after changes.
     - Update credentials and variables.
-    - Integrate to ticket, notification and CI/CD systems [full details](/Integrations).
+    - Integrate to ticket, notification and CI/CD systems.
     - Make scan summary reports a part of your regular security practices.
 ![Screen Shot 2022-07-22 at 3 06 37 PM](https://user-images.githubusercontent.com/138704/180506923-1af4ed28-9cd4-4b71-8d48-25ad7171e1a1.png)
 
