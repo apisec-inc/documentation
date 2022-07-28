@@ -1,5 +1,7 @@
 `Reading time < 5 min`
 
+Let's get started with an overview of what you can accomplish in APIsec and you can dive into each section by navigating the content on the left.
+
 ### **1. Register for an account**
     
     From the login page:
