@@ -1,7 +1,7 @@
 The APIsec platform helps you integrate with wide range of applications that connect with your API Gateway.  
 Let's start by registering the Postman APIs.  
 
-First, add your Postman credentials as described in the <a href="[url](https://docs.apisec.ai/Vault/)">Vault</a> section.  
+First, add your Postman credentials as described in the <a href="[https://www.w3schools.com](https://docs.apisec.ai/Vault/)">Vault</a> section.  
 **Note:** In the dropdown menu, the Postman option will be under the API Gateway section.
 
 Once you have your credentials setup, from the homepage, click on the API Gateway.
