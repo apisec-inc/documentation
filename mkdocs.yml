@@ -6,7 +6,7 @@ nav:
     - 1. Register an API: RegisterAPI.md
     - 2. Register an API Gateway: 
          - API Gateway Overview: RegisterGateway.md
-         - Postman Set Up: SetupPostmanApiGateway.md
+         - Postman Set Up: setup-postman.md
     - 3. Projects Section: ProjectSection.md
     - 4. Project Dashboard: ProjectDashboard.md
     - 5. Integrations: 
