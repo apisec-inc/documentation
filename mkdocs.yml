@@ -27,6 +27,7 @@ nav:
       - How to Add Token Generation Code : Token Generation Code.md
       - Scan APIs locally with APIsec CLI : APIsec CLI.md
       - How to Call APIsec APIs : Call APIsec APIs.md
+      - Securing APIsec Service Account Credentials in Vault : Securing Credentials Externally.md
 
 #plugins:
  # - search
