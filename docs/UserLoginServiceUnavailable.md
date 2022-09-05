@@ -1,6 +1,6 @@
 <h1 align="center" style="color: #F5F5F5;"> <b> Service Unavailable Error When Login To APIsec</b> </h1>
 
-<p style="text-align: left;color: 	#A9A9A9;font-size:16px;"> By <b><a href="https://github.com/fersy02">Feroz Syed</a></b> on <b>August 23,2022</b> </p>
+<p style="text-align: left;color: 	#A9A9A9;font-size:16px;"> By <b><a href="https://github.com/fersy02">Feroz Syed</a></b> on <b>September 05,2022</b> </p>
 
 ### **Problem Statement:**
 
@@ -21,5 +21,8 @@ It is most likely that one or more duplicate accounts with the same email addres
 
 
 ### **Summary**
+Duplicate user Accounts are restricted as it leads to user login errors. Existing duplicate accounts shall be disabled.
 
+
+### **Note**
 Ensure the primary account you would like to continue using is Active and if required, request the administrator to reset the password.
