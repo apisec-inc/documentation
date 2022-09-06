@@ -5,3 +5,4 @@ To get started with APIsec security coverage and scanning for your APIs, you nee
 On the **Homepage**, `click` **Register API** 
 
 
+## **2. Deploying Scanners**
