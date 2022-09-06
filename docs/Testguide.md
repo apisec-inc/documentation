@@ -28,9 +28,9 @@ APIsec allows you to deploy a Private or Global Scanner. Go to the Scanner modul
   The 'Authentications' list contains all the 'Credentials/Tokens' previously provided while registering the API. You can also add and edit them on this page.
   
 It is mandatory to have a "Default" an "Invalid_Auth" authentications in a every environment for security testing.
-    1.To add Environment Click on 'Add Env', Insert Name and BaseURL. 
-    2.To Add an Auth Click on 'Add Auth' Insert and select 'Authentication Type'.
-    3.To Test added Authentication, select Auth and click on 'Test Authentications'.
+    1.To add Environment Click on 'Add Env', Insert Name and BaseURL. <br>
+    2.To Add an Auth Click on 'Add Auth' Insert and select 'Authentication Type'.<br>
+    3.To Test added Authentication, select Auth and click on 'Test Authentications'.<br>
 
 ## **4. Initiate a Scan** :
   The important feature on the 'Project' page is the 'Scan'. You can initiate a Scan on the current Project by clicking on scan tile on the right of the page.
