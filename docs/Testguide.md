@@ -1,4 +1,4 @@
-## **1. Register an API**
+## **1. Register an API** :
 To get started with APIsec security coverage and scanning for your APIs, you need to first register your API.
 On the **Homepage**, `click` **Register API** 
 
@@ -13,18 +13,18 @@ Once you completed all of the requirements, `click` **Register** and proceed.
 ## **2. Deploying Scanners**
 APIsec allows you to deploy a Private or Global Scanner. Go to the Scanner module by `click` 'Scanners' on the home page.
 
-### **2.1. Private Scanner** :
+## **2.1. Private Scanner** :
    You can deploy Private Scanners across AWS, Azure, GCP, Kubernetes, and On-premises. The APIsec scanner is a light-weight Docker container. You can      deploy the On-prem Scanner as a docker container on any Linux host or deploy across the above mentioned cloud regions.<br>
   1.Click on New Scanner on the Scanner module page.<br>
   2.Enter Scanner name and register the cloud service.<br>
   3.Click Submit to deploy the private scanner. <br>
 
-####  **2.2. Deploying a New Private Scanner On-premisses** :
+## **2.2. Deploying a New Private Scanner On-premises** :
   To deploy an On-prem private scanner, you need to set up the Docker/Kubernetes on the host machine.<br>
    1.Click on 'Docker/Kubernetes installer' and select cluster size.<br>
    2.Click 'Submit' and 'OK' to proceed.<br>
 
-### **2.3. Global Scanners** :
+## **2.3. Global Scanners** :
   APIsec also allows you to select a ready to use Global Scanner. These scanners are deployed on the Virtual Machines of APIsec Inc. They are provided for the ease of users who do not want to set up a separate private scanner.  
 
 
@@ -48,7 +48,7 @@ It is mandatory to have a "Default" an "Invalid_Auth" authentications in a every
 ## **5. View Open Vulnerabilities** :
   At the bottom of the 'Project' page, the list of Open Vulnerabilities appears after the Scan. You can view the details of each vulnerability by clicking on it. and it includes certain actions like Reverify,Not a Vulnerability,Mark endpoint unsecured,Delete etc.
 
-   ## **5.1 Review False Positives (FP)** :
+## **5.1. Review False Positives (FP)** : <br>
    False positive are identified and marked by AI Bot.<br> 
     AI Bot can learn and analyse vast amounts of data in the blink of an eye.<br>
 
