@@ -45,5 +45,13 @@ It is mandatory to have a "Default" an "Invalid_Auth" authentications in a every
   After the Scan is completed, it displays all the results.   <br>
 
 
-## **5. View Open Vulnerabilities (FP)** :
+## **5. View Open Vulnerabilities** :
   At the bottom of the 'Project' page, the list of Open Vulnerabilities appears after the Scan. You can view the details of each vulnerability by clicking on it. and it includes certain actions like Reverify,Not a Vulnerability,Mark endpoint unsecured,Delete etc.
+
+   ## **5.1 Review False Positives (FP)** :
+   False positive are identified and marked by AI Bot.<br> 
+    AI Bot can learn and analyse vast amounts of data in the blink of an eye.<br>
+
+ 
+   
+   
