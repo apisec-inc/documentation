@@ -12,9 +12,9 @@ Once you completed all of the requirements, `click` **Register** and proceed.
 APIsec allows you to deploy a Private or Global Scanner. Go to the Scanner module by `click` 'Scanners' on the home page.
 ### **2.1. Private Scanner** :
    You can deploy Private Scanners across AWS, Azure, GCP, Kubernetes, and On-premises. The APIsec scanner is a light-weight Docker container. You can deploy the On-prem Scanner as a docker container on any Linux host or deploy across the above mentioned cloud regions.
-   1.Click on New Scanner on the Scanner module page
-   2.Enter Scanner name and register the cloud service.
-   3.Click Submit to deploy the private scanner 
+  1.Click on New Scanner on the Scanner module page.
+  2.Enter Scanner name and register the cloud service.
+  3.Click Submit to deploy the private scanner. 
 ####  **2.2. Deploying a New Private Scanner On-premisses** :
   To deploy an On-prem private scanner, you need to set up the Docker/Kubernetes on the host machine.
    1.Click on 'Docker/Kubernetes installer' and select cluster size.
