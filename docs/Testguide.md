@@ -40,9 +40,9 @@ It is mandatory to have a "Default" an "Invalid_Auth" authentications in a every
 
 
 ## **4. Initiate a Scan** :
-  The important feature on the 'Project' page is the 'Scan'. You can initiate a Scan on the current Project by clicking on scan tile on the right of the page.
-   Select Profile + Select Scanner  + Select Categories, You can initiate a Scan by clicking on 'Submit'.
-  After the Scan is completed, it displays all the results.   
+  The important feature on the 'Project' page is the 'Scan'. You can initiate a Scan on the current Project by clicking on scan tile on the right of the    page.<br>
+  Select Profile + Select Scanner  + Select Categories, You can initiate a Scan by clicking on 'Submit'.<br>
+  After the Scan is completed, it displays all the results.   <br>
 
 
 ## **5. View Open Vulnerabilities (FP)** :
