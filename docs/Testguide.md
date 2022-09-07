@@ -6,7 +6,9 @@ On the **Homepage**, `click` **Register API** <br>
 
 
 ## **1.1. Basic Section** : 
-  It requires API Name, API Documentation URL/File.![Basic section](https://user-images.githubusercontent.com/87167471/188849698-5ede3180-941f-4af6-8882-7877506ccb70.png)
+  It requires API Name, API Documentation URL/File.<br>
+  
+  ![image](https://user-images.githubusercontent.com/87167426/188886850-50f4c9ca-9af8-4a5d-9f15-ded1d6d1620b.png)
 
 
 ## **1.2. Advanced Section** :
