@@ -29,7 +29,7 @@ nav:
       - How to Call APIsec APIs : Call APIsec APIs.md
       - Securing APIsec Service Account Credentials in Vault : SecuringCredentialsExternally.md
       - Resolving Service Unavailable Error Upon User Login : UserLoginServiceUnavailable.md
-      - Test Guide : Testguide.md
+      - On-Premises Sanity Test Guide : Testguide.md
 
 #plugins:
  # - search
