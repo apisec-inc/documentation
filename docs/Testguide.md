@@ -11,10 +11,11 @@ On the **Homepage**, `click` **Register API** <br>
   ![image](https://user-images.githubusercontent.com/87167426/188886850-50f4c9ca-9af8-4a5d-9f15-ded1d6d1620b.png)
 
 
-## **1.2. Advanced Section** :
-  It requires Credentials/Tokens and Scanner Selection.
-Once you completed all of the requirements, `click` **Register** and proceed.![ADV section](https://user-images.githubusercontent.com/87167471/188850215-0483a00e-c142-4683-9bbd-1d6eee7e1e13.png)
+## **1.2. Advanced Section** :<br>
+  It requires Credentials/Tokens and Scanner Selection.<br>
+Once you completed all of the requirements, `click` **Register** and proceed.<br>
  
+ ![image](https://user-images.githubusercontent.com/87167426/188887335-52f2ecc5-7f7d-41a9-b87c-9327f32181ff.png)
 
 
 ## **2. Deploying Scanners**
