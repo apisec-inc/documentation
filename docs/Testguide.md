@@ -21,16 +21,19 @@ APIsec allows you to deploy a Private or Global Scanner. Go to the Scanner modul
    You can deploy Private Scanners across AWS, Azure, GCP, Kubernetes, and On-premises. The APIsec scanner is a light-weight Docker container. You can      deploy the On-prem Scanner as a docker container on any Linux host or deploy across the above mentioned cloud regions.<br>
   1.Click on New Scanner on the Scanner module page.<br>![Scanners1](https://user-images.githubusercontent.com/87167471/188851748-71c27718-4da2-4c39-bf43-06a1856695a5.png)
 
-  2.Enter Scanner name and register the cloud service.<br>
+  2.Enter Scanner name and register the cloud service.<br>![Scanners2](https://user-images.githubusercontent.com/87167471/188854919-cdf49a54-7228-42b1-8621-65c938dd10ca.png)
+
   3.Click Submit to deploy the private scanner. <br>
 
 ## **2.2. Deploying a New Private Scanner On-premises** :
   To deploy an On-prem private scanner, you need to set up the Docker/Kubernetes on the host machine.<br>
    1.Click on 'Docker/Kubernetes installer' and select cluster size.<br>
-   2.Click 'Submit' and 'OK' to proceed.<br>
+   2.Click 'Submit' and 'OK' to proceed.<br>![Scanners3](https://user-images.githubusercontent.com/87167471/188855392-c5624fbb-2ba8-4515-a05a-8b0d3be7c096.png)
+
 
 ## **2.3. Global Scanners** :
-  APIsec also allows you to select a ready to use Global Scanner. These scanners are deployed on the Virtual Machines of APIsec Inc. They are provided for the ease of users who do not want to set up a separate private scanner.  
+  APIsec also allows you to select a ready to use Global Scanner. These scanners are deployed on the Virtual Machines of APIsec Inc. They are provided for the ease of users who do not want to set up a separate private scanner. ![scanners4](https://user-images.githubusercontent.com/87167471/188855688-fc5851a9-6b85-4e58-b7af-e49dbeabd50f.png)
+ 
 
 
 ## **3. Setup Environment or Authentications** :
@@ -39,7 +42,9 @@ APIsec allows you to deploy a Private or Global Scanner. Go to the Scanner modul
   The 'Authentications' list contains all the 'Credentials/Tokens' previously provided while registering the API. You can also add and edit them on this page.
   
 It is mandatory to have a "Default" an "Invalid_Auth" authentications in a every environment for security testing.<br>
-    1.To add Environment Click on 'Add Env', Insert Name and BaseURL. <br>
+    1.To add Environment Click on 'Add Env', Insert Name and BaseURL. <br>![env1](https://user-images.githubusercontent.com/87167471/188856333-c8891cbb-75ef-427d-ad81-3389ce20c899.png)![evn2](https://user-images.githubusercontent.com/87167471/188857013-18d52ee0-2252-42ca-bd5a-88f1b54800ed.png)
+
+
     2.To Add an Auth Click on 'Add Auth' Insert and select 'Authentication Type'.<br>
     3.To Test added Authentication, select Auth and click on 'Test Authentications'.<br>
 
