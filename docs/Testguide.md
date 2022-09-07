@@ -43,30 +43,33 @@ Go to the Scanner module by `click` 'Scanners' on the home page.<br>
 ## **2.2. Deploying a New Private Scanner On-premises** :
   To deploy an On-prem private scanner, you need to set up the Docker/Kubernetes on the host machine.<br>
    1.`click` on 'Docker/Kubernetes installer' and select cluster size.<br>
+   
+   ![image](https://user-images.githubusercontent.com/87167426/188889247-ff4a3159-3208-4861-8d0f-7afc5bb2520a.png)
   
    2.`click` 'Submit' and 'OK' to proceed.<br>
-   
-   
-
+ 
 
 ## **2.3. Global Scanners** :
-  APIsec also allows you to select a ready to use Global Scanner. These scanners are deployed on the Virtual Machines of APIsec Inc. They are provided for the ease of users who do not want to set up a separate private scanner. ![scanners4](https://user-images.githubusercontent.com/87167471/188855688-fc5851a9-6b85-4e58-b7af-e49dbeabd50f.png)
- 
+  APIsec also allows you to select a ready to use Global Scanner.<br>
+  These scanners are deployed on the Virtual Machines of APIsec Inc.<br>
+  They are provided for the ease of users who do not want to set up a separate private scanner.<br> 
+  
+  ![image](https://user-images.githubusercontent.com/87167426/188889582-4174aadf-1183-476c-b04e-ca7cb8a500d5.png)
 
 
 ## **3. Setup Environment or Authentications** :
-  To add, edit, and delete the current API testing environment and the API user-login credentials.
-  When you register the API, the API environment is created. The default name is "Master" and the base URL is   the API URL registered. You can add or clone an environment by clicking on the ellipsis besides the scroll bar.
-  The 'Authentications' list contains all the 'Credentials/Tokens' previously provided while registering the API. You can also add and edit them on this page.
+  To add, edit, and delete the current API testing environment and the API user-login credentials.<br>
+  When you register the API, the API environment is created. The default name is "Master" and the BaseURL is the API URL registered.<br> 
+  You can add or clone an environment by clicking on the ellipsis besides the scroll bar.<br>
+  The 'Authentications' list contains all the 'Credentials/Tokens' previously provided while registering the API.<br> 
+  You can also add and edit them on this page.<br>
   
 It is mandatory to have a "Default" an "Invalid_Auth" authentications in a every environment for security testing.<br>
-    1.To add Environment Click on 'Add Env', Insert Name and BaseURL. <br>![env1](https://user-images.githubusercontent.com/87167471/188856333-c8891cbb-75ef-427d-ad81-3389ce20c899.png)![evn2](https://user-images.githubusercontent.com/87167471/188857013-18d52ee0-2252-42ca-bd5a-88f1b54800ed.png)
-
-
-    2.To Add an Auth Click on 'Add Auth' Insert and select 'Authentication Type'.<br>![auth1](https://user-images.githubusercontent.com/87167471/188860694-41f7a722-2c7f-439d-8b65-4d99fae76341.png)
-
-
-    3.To Test added Authentication, select Auth and click on 'Test Authentications'.<br>
+   1.To add Environment Click on 'Add Env', Insert Name and BaseURL. <br>
+   
+   2.To Add an Auth Click on 'Add Auth' Insert and select 'Authentication Type'.<br>
+    
+   3.To Test added Authentication, select Auth and click on 'Test Authentications'.<br>
 
 
 
