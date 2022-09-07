@@ -1,31 +1,21 @@
-## **1. Register an API** :
+## **1. API Registration** :
 To get started with APIsec security coverage and scanning for your APIs, you need to first register your API.<br>
 On the **Homepage**, `click` **Register API** <br>
 
 ![image](https://user-images.githubusercontent.com/87167426/188885759-5ed7c93a-d380-4f31-b323-610777a47784.png)
 
-
-## **1.1. Basic Section** : 
   It requires API Name, API Documentation URL/File.<br>
   
   ![image](https://user-images.githubusercontent.com/87167426/188886850-50f4c9ca-9af8-4a5d-9f15-ded1d6d1620b.png)
 
 
-## **1.2. Advanced Section** :<br>
-  It requires Credentials/Tokens and Scanner Selection.<br>
-Once you completed all of the requirements, `click` **Register** and proceed.<br>
- 
- ![image](https://user-images.githubusercontent.com/87167426/188887335-52f2ecc5-7f7d-41a9-b87c-9327f32181ff.png)
+## **2. Scanners Deployment**
 
-
-## **2. Deploying Scanners**
-APIsec allows you to deploy a Private or Global Scanner. <br>
 Go to the Scanner module by `click` 'Scanners' on the home page.<br>
 
 ![image](https://user-images.githubusercontent.com/87167426/188887698-773d600c-5620-403f-be7a-7daf11aa53e5.png)
 
 
-## **2.1. Private Scanner** :
    You can deploy Private Scanners across AWS, Azure, GCP, Kubernetes, and On-premises.<br> 
    The APIsec scanner is a light-weight Docker container.<br> 
    You can deploy the On-prem Scanner as a docker container on any Linux host or deploy across the above mentioned cloud regions.<br>
@@ -40,8 +30,7 @@ Go to the Scanner module by `click` 'Scanners' on the home page.<br>
 
   3.Click `Submit` to deploy the private scanner. <br>
 
-## **2.2. Deploying a New Private Scanner On-premises** :
-  To deploy an On-prem private scanner, you need to set up the Docker/Kubernetes on the host machine.<br>
+  To deploy an on-prem private scanner, you need to set up the Docker/Kubernetes on the host machine.<br>
    1.`click` on 'Docker/Kubernetes installer' and select cluster size.<br>
    
    ![image](https://user-images.githubusercontent.com/87167426/188889247-ff4a3159-3208-4861-8d0f-7afc5bb2520a.png)
@@ -49,15 +38,7 @@ Go to the Scanner module by `click` 'Scanners' on the home page.<br>
    2.`click` 'Submit' and 'OK' to proceed.<br>
  
 
-## **2.3. Global Scanners** :
-  APIsec also allows you to select a ready to use Global Scanner.<br>
-  These scanners are deployed on the Virtual Machines of APIsec Inc.<br>
-  They are provided for the ease of users who do not want to set up a separate private scanner.<br> 
-  
-  ![image](https://user-images.githubusercontent.com/87167426/188889582-4174aadf-1183-476c-b04e-ca7cb8a500d5.png)
-
-
-## **3. Setup Environment or Authentications** :
+## **3. Environment and Authentications Configuration** :
   To add, edit, and delete the current API testing environment and the API user-login credentials.<br>
   When you register the API, the API environment is created. The default name is "Master" and the BaseURL is the API URL registered.<br> 
   You can add or clone an environment by clicking on the ellipsis besides the scroll bar.<br>
@@ -72,7 +53,7 @@ It is mandatory to have a "Default" an "Invalid_Auth" authentications in a every
    ![image](https://user-images.githubusercontent.com/87167426/188890629-fc3557bd-0428-40de-9a29-5daa3032e8f0.png)
 
 
-## **4. Initiate a Scan** :
+## **4. Triggering Scans** :
   The important feature on the 'Project' page is the 'Scan'. <br>
   You can initiate a Scan on the current Project by clicking on scan tile on the right of the page.<br>
   Select Profile + Select Scanner  + Select Categories, You can initiate a Scan by clicking on 'Submit'.<br>
@@ -81,16 +62,15 @@ It is mandatory to have a "Default" an "Invalid_Auth" authentications in a every
   ![image](https://user-images.githubusercontent.com/87167426/188890887-b649f7f7-6303-4df6-af69-35a00deb65d2.png)
 
 
-## **5. View Open Vulnerabilities** :
+## **5.  Detected Vulnerabilities View** :
   At the bottom of the 'Project' page, the list of Open Vulnerabilities appears after the Scan.<br>
   You can view the details of each vulnerability by clicking on it.<br>
   
-  ![image](https://user-images.githubusercontent.com/87167426/188891056-25f0aaac-9a22-47e1-a8de-c7051691575a.png)
+  ![image](https://user-images.githubusercontent.com/87167426/188941095-18060f9f-9c28-490a-bf46-f58b0e043c23.png)
 
 
-## **5.1. Review False Positives (FP)** : <br>
+## **5.1. False Positives Review (FP)** : <br>
    False positives are identified and marked by AI Bot.<br> 
-    AI Bot can learn and analyse vast amounts of data in the blink of an eye.<br>
     
    ![image](https://user-images.githubusercontent.com/87167426/188891615-a935f33a-f41c-48f2-a765-681e4771d576.png)
 
