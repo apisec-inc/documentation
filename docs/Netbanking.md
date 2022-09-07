@@ -21,7 +21,7 @@
     
        sudo chmod a+x fx-nb-installer.sh
     
-       bash fx-nb-installer.sh --username “<docker-hub-username>” --password “<docker-hub-password>”
+       bash fx-nb-installer.sh 
        
        ## Once script execution finishes and installation is done, Netbanking Application and its API specs can be at the following links.
        
