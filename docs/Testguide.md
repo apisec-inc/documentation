@@ -26,17 +26,27 @@ Go to the Scanner module by `click` 'Scanners' on the home page.<br>
 
 
 ## **2.1. Private Scanner** :
-   You can deploy Private Scanners across AWS, Azure, GCP, Kubernetes, and On-premises. The APIsec scanner is a light-weight Docker container. You can      deploy the On-prem Scanner as a docker container on any Linux host or deploy across the above mentioned cloud regions.<br>
-  1.Click on New Scanner on the Scanner module page.<br>![Scanners1](https://user-images.githubusercontent.com/87167471/188851748-71c27718-4da2-4c39-bf43-06a1856695a5.png)
+   You can deploy Private Scanners across AWS, Azure, GCP, Kubernetes, and On-premises.<br> 
+   The APIsec scanner is a light-weight Docker container.<br> 
+   You can deploy the On-prem Scanner as a docker container on any Linux host or deploy across the above mentioned cloud regions.<br>
+   1. `click` on New Scanner on the Scanner module page.<br>
+   
+   ![image](https://user-images.githubusercontent.com/87167426/188888217-2ec96aeb-9ef6-47ab-8f5d-f1b2b6f7c6f9.png)
 
-  2.Enter Scanner name and register the cloud service.<br>![Scanners2](https://user-images.githubusercontent.com/87167471/188854919-cdf49a54-7228-42b1-8621-65c938dd10ca.png)
 
-  3.Click Submit to deploy the private scanner. <br>
+  2.Enter Scanner name and register the cloud service.<br>
+  
+  ![image](https://user-images.githubusercontent.com/87167426/188888441-998679f7-091f-4746-a0f3-e2c3194f5b17.png)
+
+  3.Click `Submit` to deploy the private scanner. <br>
 
 ## **2.2. Deploying a New Private Scanner On-premises** :
   To deploy an On-prem private scanner, you need to set up the Docker/Kubernetes on the host machine.<br>
-   1.Click on 'Docker/Kubernetes installer' and select cluster size.<br>
-   2.Click 'Submit' and 'OK' to proceed.<br>![Scanners3](https://user-images.githubusercontent.com/87167471/188855392-c5624fbb-2ba8-4515-a05a-8b0d3be7c096.png)
+   1.`click` on 'Docker/Kubernetes installer' and select cluster size.<br>
+  
+   2.`click` 'Submit' and 'OK' to proceed.<br>
+   
+   
 
 
 ## **2.3. Global Scanners** :
