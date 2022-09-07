@@ -1,6 +1,7 @@
 ## **1. Register an API** :
 To get started with APIsec security coverage and scanning for your APIs, you need to first register your API.
-On the **Homepage**, `click` **Register API** 
+On the **Homepage**, `click` **Register API** ![registerAPI](https://user-images.githubusercontent.com/87167471/188848252-8770eab9-fce4-490f-a8d8-510bed9640b0.png)
+
 
 ## **1.1. Basic Section** : 
   It requires API Name, API Documentation URL/File.
