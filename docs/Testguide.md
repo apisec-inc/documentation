@@ -19,7 +19,10 @@ Once you completed all of the requirements, `click` **Register** and proceed.<br
 
 
 ## **2. Deploying Scanners**
-APIsec allows you to deploy a Private or Global Scanner. Go to the Scanner module by `click` 'Scanners' on the home page.![scanners](https://user-images.githubusercontent.com/87167471/188850757-9ce11509-019b-4fc8-99d7-51e380240d16.png)
+APIsec allows you to deploy a Private or Global Scanner. <br>
+Go to the Scanner module by `click` 'Scanners' on the home page.<br>
+
+![image](https://user-images.githubusercontent.com/87167426/188887698-773d600c-5620-403f-be7a-7daf11aa53e5.png)
 
 
 ## **2.1. Private Scanner** :
