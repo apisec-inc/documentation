@@ -4,19 +4,23 @@ On the **Homepage**, `click` **Register API** ![registerAPI](https://user-images
 
 
 ## **1.1. Basic Section** : 
-  It requires API Name, API Documentation URL/File.
+  It requires API Name, API Documentation URL/File.![Basic section](https://user-images.githubusercontent.com/87167471/188849698-5ede3180-941f-4af6-8882-7877506ccb70.png)
+
 
 ## **1.2. Advanced Section** :
   It requires Credentials/Tokens and Scanner Selection.
-Once you completed all of the requirements, `click` **Register** and proceed. 
+Once you completed all of the requirements, `click` **Register** and proceed.![ADV section](https://user-images.githubusercontent.com/87167471/188850215-0483a00e-c142-4683-9bbd-1d6eee7e1e13.png)
+ 
 
 
 ## **2. Deploying Scanners**
-APIsec allows you to deploy a Private or Global Scanner. Go to the Scanner module by `click` 'Scanners' on the home page.
+APIsec allows you to deploy a Private or Global Scanner. Go to the Scanner module by `click` 'Scanners' on the home page.![scanners](https://user-images.githubusercontent.com/87167471/188850757-9ce11509-019b-4fc8-99d7-51e380240d16.png)
+
 
 ## **2.1. Private Scanner** :
    You can deploy Private Scanners across AWS, Azure, GCP, Kubernetes, and On-premises. The APIsec scanner is a light-weight Docker container. You can      deploy the On-prem Scanner as a docker container on any Linux host or deploy across the above mentioned cloud regions.<br>
-  1.Click on New Scanner on the Scanner module page.<br>
+  1.Click on New Scanner on the Scanner module page.<br>![Scanners1](https://user-images.githubusercontent.com/87167471/188851748-71c27718-4da2-4c39-bf43-06a1856695a5.png)
+
   2.Enter Scanner name and register the cloud service.<br>
   3.Click Submit to deploy the private scanner. <br>
 
