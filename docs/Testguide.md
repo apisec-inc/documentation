@@ -66,27 +66,34 @@ Go to the Scanner module by `click` 'Scanners' on the home page.<br>
   
 It is mandatory to have a "Default" an "Invalid_Auth" authentications in a every environment for security testing.<br>
    1.To add Environment Click on 'Add Env', Insert Name and BaseURL. <br>
-   
    2.To Add an Auth Click on 'Add Auth' Insert and select 'Authentication Type'.<br>
-    
    3.To Test added Authentication, select Auth and click on 'Test Authentications'.<br>
-
+   
+   ![image](https://user-images.githubusercontent.com/87167426/188890629-fc3557bd-0428-40de-9a29-5daa3032e8f0.png)
 
 
 ## **4. Initiate a Scan** :
-  The important feature on the 'Project' page is the 'Scan'. You can initiate a Scan on the current Project by clicking on scan tile on the right of the    page.<br>
+  The important feature on the 'Project' page is the 'Scan'. <br>
+  You can initiate a Scan on the current Project by clicking on scan tile on the right of the page.<br>
   Select Profile + Select Scanner  + Select Categories, You can initiate a Scan by clicking on 'Submit'.<br>
-  After the Scan is completed, it displays all the results.   <br>
+  After the Scan is completed, it displays all the results.<br>
+  
+  ![image](https://user-images.githubusercontent.com/87167426/188890887-b649f7f7-6303-4df6-af69-35a00deb65d2.png)
 
 
 ## **5. View Open Vulnerabilities** :
-  At the bottom of the 'Project' page, the list of Open Vulnerabilities appears after the Scan. You can view the details of each vulnerability by clicking on it. 
+  At the bottom of the 'Project' page, the list of Open Vulnerabilities appears after the Scan.<br>
+  You can view the details of each vulnerability by clicking on it.<br>
   
+  ![image](https://user-images.githubusercontent.com/87167426/188891056-25f0aaac-9a22-47e1-a8de-c7051691575a.png)
+
+
 ## **5.1. Review False Positives (FP)** : <br>
    False positives are identified and marked by AI Bot.<br> 
     AI Bot can learn and analyse vast amounts of data in the blink of an eye.<br>
+    
+   ![image](https://user-images.githubusercontent.com/87167426/188891615-a935f33a-f41c-48f2-a765-681e4771d576.png)
 
- 
    
    
 
