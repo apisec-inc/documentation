@@ -45,8 +45,10 @@ It is mandatory to have a "Default" an "Invalid_Auth" authentications in a every
     1.To add Environment Click on 'Add Env', Insert Name and BaseURL. <br>![env1](https://user-images.githubusercontent.com/87167471/188856333-c8891cbb-75ef-427d-ad81-3389ce20c899.png)![evn2](https://user-images.githubusercontent.com/87167471/188857013-18d52ee0-2252-42ca-bd5a-88f1b54800ed.png)
 
 
-    2.To Add an Auth Click on 'Add Auth' Insert and select 'Authentication Type'.<br>
-    3.To Test added Authentication, select Auth and click on 'Test Authentications'.<br>
+    2.To Add an Auth Click on 'Add Auth' Insert and select 'Authentication Type'.<br>![auth1](https://user-images.githubusercontent.com/87167471/188858382-10de33da-63b7-4600-a068-2d45a6256a05.png)
+
+    3.To Test added Authentication, select Auth and click on 'Test Authentications'.<br>![auth2](https://user-images.githubusercontent.com/87167471/188858544-598cbe0b-0773-4918-a042-930a54a65b27.png)
+
 
 
 ## **4. Initiate a Scan** :
