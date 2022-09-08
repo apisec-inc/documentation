@@ -1,4 +1,5 @@
 ## **1. API Registration** 
+Register APIs for security test and compliance. <br>
 To get started with APIsec security coverage and scanning for your APIs, you need to first register your API.<br>
 On the **Homepage**, `click` **Register API** <br>
 
@@ -10,6 +11,7 @@ On the **Homepage**, `click` **Register API** <br>
 
 
 ## **2. Scanners Deployment**
+Scans playbooks and tests are executed to uncover vulnerabilities.<br>
 
 Go to the Scanner module by `click` 'Scanners' on the home page.<br>
 
@@ -39,6 +41,7 @@ Go to the Scanner module by `click` 'Scanners' on the home page.<br>
  
 
 ## **3. Environment and Authentications Configuration** 
+Based on security categories, environments and authentications are configured to access APIs.<br>
   To add, edit, and delete the current API testing environment and the API user-login credentials.<br>
   When you register the API, the API environment is created. The default name is "Master" and the BaseURL is the API URL registered.<br> 
   You can add or clone an environment by clicking on the ellipsis besides the scroll bar.<br>
@@ -54,6 +57,7 @@ It is mandatory to have a "Default" an "Invalid_Auth" authentications in a every
 
 
 ## **4. Triggering Scans** 
+Executes generated playbooks of OWASP categories.<br>
   The important feature on the 'Project' page is the 'Scan'. <br>
   You can initiate a Scan on the current Project by clicking on scan tile on the right of the page.<br>
   Select Profile + Select Scanner  + Select Categories, You can initiate a Scan by clicking on 'Submit'.<br>
@@ -63,6 +67,7 @@ It is mandatory to have a "Default" an "Invalid_Auth" authentications in a every
 
 
 ## **5.  Detected Vulnerabilities View** 
+Analyses the vulnerable test results.<br>
   At the bottom of the 'Project' page, the list of Open Vulnerabilities appears after the Scan.<br>
   You can view the details of each vulnerability by clicking on it.<br>
   
