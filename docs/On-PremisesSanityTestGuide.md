@@ -69,7 +69,7 @@ It is mandatory to have a "Default" an "Invalid_Auth" authentications in a every
   ![image](https://user-images.githubusercontent.com/87167426/188941095-18060f9f-9c28-490a-bf46-f58b0e043c23.png)
 
 
-## **5.1. False Positives Review (FP)** 
+## **6. False Positives Review (FP)** 
    False positives are identified and marked by AI Bot.<br> 
     
    ![image](https://user-images.githubusercontent.com/87167426/188891615-a935f33a-f41c-48f2-a765-681e4771d576.png)
