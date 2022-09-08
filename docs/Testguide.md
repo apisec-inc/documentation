@@ -1,4 +1,4 @@
-## **1. API Registration** :
+## **1. API Registration** 
 To get started with APIsec security coverage and scanning for your APIs, you need to first register your API.<br>
 On the **Homepage**, `click` **Register API** <br>
 
@@ -16,9 +16,9 @@ Go to the Scanner module by `click` 'Scanners' on the home page.<br>
 ![image](https://user-images.githubusercontent.com/87167426/188887698-773d600c-5620-403f-be7a-7daf11aa53e5.png)
 
 
-   You can deploy Private Scanners across AWS, Azure, GCP, Kubernetes, and On-premises.<br> 
+   You can deploy Private Scanners across AWS, Azure, GCP, Kubernetes, and on-premises.<br> 
    The APIsec scanner is a light-weight Docker container.<br> 
-   You can deploy the On-prem Scanner as a docker container on any Linux host or deploy across the above mentioned cloud regions.<br>
+   You can deploy the on-prem Scanner as a docker container on any Linux host or deploy across the above mentioned cloud regions.<br>
    1. `click` on New Scanner on the Scanner module page.<br>
    
    ![image](https://user-images.githubusercontent.com/87167426/188888217-2ec96aeb-9ef6-47ab-8f5d-f1b2b6f7c6f9.png)
@@ -38,7 +38,7 @@ Go to the Scanner module by `click` 'Scanners' on the home page.<br>
    2.`click` 'Submit' and 'OK' to proceed.<br>
  
 
-## **3. Environment and Authentications Configuration** :
+## **3. Environment and Authentications Configuration** 
   To add, edit, and delete the current API testing environment and the API user-login credentials.<br>
   When you register the API, the API environment is created. The default name is "Master" and the BaseURL is the API URL registered.<br> 
   You can add or clone an environment by clicking on the ellipsis besides the scroll bar.<br>
@@ -53,7 +53,7 @@ It is mandatory to have a "Default" an "Invalid_Auth" authentications in a every
    ![image](https://user-images.githubusercontent.com/87167426/188890629-fc3557bd-0428-40de-9a29-5daa3032e8f0.png)
 
 
-## **4. Triggering Scans** :
+## **4. Triggering Scans** 
   The important feature on the 'Project' page is the 'Scan'. <br>
   You can initiate a Scan on the current Project by clicking on scan tile on the right of the page.<br>
   Select Profile + Select Scanner  + Select Categories, You can initiate a Scan by clicking on 'Submit'.<br>
@@ -62,14 +62,14 @@ It is mandatory to have a "Default" an "Invalid_Auth" authentications in a every
   ![image](https://user-images.githubusercontent.com/87167426/188890887-b649f7f7-6303-4df6-af69-35a00deb65d2.png)
 
 
-## **5.  Detected Vulnerabilities View** :
+## **5.  Detected Vulnerabilities View** 
   At the bottom of the 'Project' page, the list of Open Vulnerabilities appears after the Scan.<br>
   You can view the details of each vulnerability by clicking on it.<br>
   
   ![image](https://user-images.githubusercontent.com/87167426/188941095-18060f9f-9c28-490a-bf46-f58b0e043c23.png)
 
 
-## **5.1. False Positives Review (FP)** : <br>
+## **5.1. False Positives Review (FP)** 
    False positives are identified and marked by AI Bot.<br> 
     
    ![image](https://user-images.githubusercontent.com/87167426/188891615-a935f33a-f41c-48f2-a765-681e4771d576.png)
