@@ -1,4 +1,7 @@
 ## **1. API Registration** 
+
+`Reading time 11 min`
+
 **Register your APIs for security test and compliance.** <br>
 
 To get started with APIsec security coverage and scanning for your APIs, you need to first register your API.<br>
