@@ -51,7 +51,7 @@ On the **Homepage**, `click` **Register API** <br>
  
 
 ## **3. Environment and Authentications Configuration** 
-**Based on security categories, environments and authentications are configured to access APIs.**<br>
+**Based on security categories, the environments and authentications are configured to access APIs.**<br>
 
   To add, edit, and delete the current API testing environment and the API user-login credentials.<br>
   When you register the API, the API environment is created. The default name is "Master" and the BaseURL is the API URL registered.<br> 
