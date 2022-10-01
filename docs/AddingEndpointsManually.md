@@ -1,5 +1,7 @@
 **Adding endpoints to an existing project**
 
+Altough endpoints are added at the time of registering an API, you can still add these manually. This document outlines step-be-step to add that.
+
 From the homepage find for a previously created project where you need to add more endpoints. Open that project and click on the Endpoints tile. 
 
 <img width="1506" alt="Screen Shot 2022-09-30 at 22 37 14" src="https://user-images.githubusercontent.com/109250250/193392623-24d46de7-7570-4db1-9930-a1a3f5b6a5a9.png">
@@ -30,3 +32,4 @@ Go to the Dashboard of the project > Observe the endpoint count has been increas
 
 Run Scan if you haven’t already in the previous screen.
 
+More information about the dashboard can be found [here](https://docs.apisec.ai/ProjectDashboard/). 
