@@ -3,7 +3,8 @@ site_url: https://apisec-inc.github.io/documentation/
 nav:
     - APIsec Overview: index.md
     - Getting Started: GettingStarted.md
-    - 1. Register an API: RegisterAPI.md
+    - 1. Register an API: 
+         - Register API: RegisterAPI.md
          - Add Endpoints: AddingEndpointsManually.md
     - 2. Register an API Gateway: 
          - API Gateway Overview: RegisterGateway.md
