@@ -1,4 +1,4 @@
-Adding endpoints to an existing project
+**Adding endpoints to an existing project**
 
 From the homepage find for a previously created project where you need to add more endpoints. Open that project and click on the Endpoints tile. 
 
