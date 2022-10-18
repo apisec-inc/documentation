@@ -38,3 +38,12 @@ From IBM Cloud > create an API key
 Copy/download the key and added in SwaggerHub
 In SwaggerHub, synchronize the API definition with IBM API connect
 Once the APIs are published in IBM Cloud, the APIs will be available for external use
+
+**References**
+
+API Connect Gateway Types
+https://www.ibm.com/docs/en/api-connect/2018.x?topic=overview-api-connect-gateway-types
+
+SwaggerHub with IBM API Connect 
+https://support.smartbear.com/swaggerhub/docs/integrations/ibm-api-connect.html
+
