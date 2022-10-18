@@ -1,6 +1,8 @@
 
 # **Getting OAS for an API from IBM DataPower**
 
+`Reading time 2 min`
+
 ### **Overview**
 
 The **IBM API Connect** supports **two** gateway types: DataPower Gateway (v5 compatible) **and** DataPower API Gateway.
