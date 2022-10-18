@@ -4,6 +4,7 @@
 ### **Overview**
 
 The **IBM API Connect** supports **two** gateway types: DataPower Gateway (v5 compatible) **and** DataPower API Gateway.
+
 - **DataPower API Gateway** is a new gateway with the same security focus as DataPower Gateway (v5 compatible), with some limitations. - This is the one that connects with OAS.
 - **DataPower Gateway (v5 compatible)** has been available with IBM API Connect for a number of years.  - No support for OpenAPI
 
