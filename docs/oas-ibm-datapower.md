@@ -25,9 +25,9 @@ OAS definitions are created in the IBM API Connect, which is done either by usin
 For API Manager, the specifications for the APIs and Products are stored on the management server.
 For API Designer, the specifications for the APIs and Products are stored in the directory that you specified when you logged in. 
 
-### **Additionally SwaggerHub can be Used**
+### **Connect SwaggerHub with IBM API Connect**
 
-SwaggerHub connects with IBM API Connect - to design and collaborate on the API definition, then synchronize it with IBM Cloud to create an API Gateway.
+SwaggerHub connects with IBM API Connect to design and collaborate on the API definition, and then synchronize it with IBM Cloud to create an API Gateway.
 1. SwaggerHub requires an API key 
 2. From IBM Cloud > create an API key
 3. Copy/download the key and added in SwaggerHub
