@@ -15,6 +15,7 @@ nav:
          - Overview: Integrations.md
          - Github Issue Tracker Set up: SetupGithubTracker.md
          - Jira Issue Tracker Set up: SetupJiraTracker.md
+         - JupiterOne IT Integration: jupiter-one-integration.md
          - Linear IT Configuration: linear-it-configuration.md
     - 6. Reports: Reports.md
     - 7. Deploy Scanners: DeployScanners.md
