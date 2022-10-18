@@ -17,6 +17,7 @@ nav:
          - Jira Issue Tracker Set up: SetupJiraTracker.md
          - JupiterOne IT Integration: jupiter-one-integration.md
          - Linear IT Configuration: linear-it-configuration.md
+         - Wrike IT Configuration: wrike-it-configuration.md
     - 6. Reports: Reports.md
     - 7. Deploy Scanners: DeployScanners.md
     - 8. Vault: Vault.md
