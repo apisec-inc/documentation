@@ -1,13 +1,13 @@
 
-**Getting OAS for an API from IBM DataPower**
+# **Getting OAS for an API from IBM DataPower**
 
-**Overview**
+### **Overview**
 
 The **IBM API Connect** supports **two** gateway types: DataPower Gateway (v5 compatible) **and** DataPower API Gateway.
 - **DataPower API Gateway** is a new gateway with the same security focus as DataPower Gateway (v5 compatible), with some limitations. - This is the one that connects with OAS.
 - **DataPower Gateway (v5 compatible)** has been available with IBM API Connect for a number of years.  - No support for OpenAPI
 
-**DataPower API Gateway**
+### **DataPower API Gateway**
 
 &nbsp;&nbsp;**OpenAPI 3.0 support in IBM API Connect**
 
@@ -23,14 +23,14 @@ The **IBM API Connect** supports **two** gateway types: DataPower Gateway (v5 co
 
 &nbsp;&nbsp;&nbsp;&nbsp;Limitations for APIs that are enforced by the DataPower API Gateway
 
-**How to get OAS?**
+### **How to get OAS?**
 
 OAS definitions are created in the IBM API Connect, which is done either by using the API Designer UI application, or by using the browser based API Manager UI.
 
 For API Manager, the specifications for the APIs and Products are stored on the management server.
 For API Designer, the specifications for the APIs and Products are stored in the directory that you specified when you logged in. 
 
-**Additionally SwaggerHub can be used**
+### **Additionally SwaggerHub can be Used**
 
 SwaggerHub connects with IBM API Connect - to design and collaborate on the API definition, then synchronize it with IBM Cloud to create an API Gateway.
 SwaggerHub requires an API key 
@@ -39,11 +39,9 @@ Copy/download the key and added in SwaggerHub
 In SwaggerHub, synchronize the API definition with IBM API connect
 Once the APIs are published in IBM Cloud, the APIs will be available for external use
 
-**References**
+### **References**
 
-API Connect Gateway Types
-https://www.ibm.com/docs/en/api-connect/2018.x?topic=overview-api-connect-gateway-types
+[API Connect Gateway Types](https://www.ibm.com/docs/en/api-connect/2018.x?topic=overview-api-connect-gateway-types)
 
-SwaggerHub with IBM API Connect 
-https://support.smartbear.com/swaggerhub/docs/integrations/ibm-api-connect.html
+[SwaggerHub with IBM API Connect](https://support.smartbear.com/swaggerhub/docs/integrations/ibm-api-connect.html)
 
