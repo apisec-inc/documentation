@@ -28,11 +28,11 @@ For API Designer, the specifications for the APIs and Products are stored in the
 ### **Additionally SwaggerHub can be Used**
 
 SwaggerHub connects with IBM API Connect - to design and collaborate on the API definition, then synchronize it with IBM Cloud to create an API Gateway.
-SwaggerHub requires an API key 
-From IBM Cloud > create an API key
-Copy/download the key and added in SwaggerHub
-In SwaggerHub, synchronize the API definition with IBM API connect
-Once the APIs are published in IBM Cloud, the APIs will be available for external use
+1. SwaggerHub requires an API key 
+2. From IBM Cloud > create an API key
+3. Copy/download the key and added in SwaggerHub
+4. In SwaggerHub, synchronize the API definition with IBM API connect
+5. Once the APIs are published in IBM Cloud, the APIs will be available for external use
 
 ### **References**
 
