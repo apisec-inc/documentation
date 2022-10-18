@@ -32,6 +32,7 @@ nav:
       - Securing APIsec Service Account Credentials in Vault : SecuringCredentialsExternally.md
       - Resolving Service Unavailable Error Upon User Login : UserLoginServiceUnavailable.md
       - On-Premises Sanity Test Guide : On-PremisesSanityTestGuide.md
+      - Getting OAS from IBM DataPower: oas-ibm-datapower.md
 
 #plugins:
  # - search
