@@ -9,19 +9,14 @@ The **IBM API Connect** supports **two** gateway types: DataPower Gateway (v5 co
 
 ### **DataPower API Gateway**
 
-&nbsp;&nbsp;**OpenAPI 3.0 support in IBM API Connect**
+**OpenAPI 3.0 support in IBM API Connect**
 
-&nbsp;&nbsp;&nbsp;&nbsp;OpenAPI 3.0 API support is provided by the DataPower API Gateway only. It has some limitations.
+OpenAPI 3.0 API support is provided by the DataPower API Gateway only but it has some limitations.  There is no OpenAPI 3.0 API support with the DataPower® Gateway (v5 compatible).  OpenAPI 3.0 APIs can be validated in the local file system by using the apic validate command provided by the developer toolkit CLI.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;There is no OpenAPI 3.0 API support with the DataPower® Gateway (v5 compatible)
+**Limitations**
 
-&nbsp;&nbsp;&nbsp;&nbsp;OpenAPI 3.0 APIs can be validated in the local file system by using the apic validate command provided by the developer toolkit CLI.  
-
-&nbsp;&nbsp;**Limitations**
-
-&nbsp;&nbsp;&nbsp;&nbsp;User interface limitations
-
-&nbsp;&nbsp;&nbsp;&nbsp;Limitations for APIs that are enforced by the DataPower API Gateway
+- User interface limitations
+- Limitations for APIs that are enforced by the DataPower API Gateway
 
 ### **How to get OAS?**
 
