@@ -9,7 +9,7 @@ in Apisec™ UI and entitled this account to required projects.
 
 ### **Step 2: Authenticating and Generating A JWT Token**
 
-curl -s -X POST https://cloud.fxlabs.io/auth/login -H 'Accept: application/json' -H 'Content-Type: application/json'
+curl -s -X POST https://cloud.apisec.ai/auth/login -H 'Accept: application/json' -H 'Content-Type: application/json'
 -d '{"username": "", "password": ""}'
 
 You should receive a token back.
@@ -29,7 +29,7 @@ curl -s -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOZXRCYW5raW5nL
 cyI6IlJPTEVfVVNFUixST0xFX1BST0pFQ1RfTUFOQUdFUixST0xFX0FETUlOLFJPTEVfRU5URVJQ
 UklTRV9BRE1JTiIsImlhdCI6MTYwOTg4NzQ5NywiZXhwIjoxNjA5OTA1NDk3fQ.8kkPdbacGy6BD
 fzqnTM6EiUi6aHS_mWDHCfWirvma_s" -H "Content-Type: application/json" -H 
-"Accept: application/json" -X GET https://cloud.fxlabs.io/api/v1/projects
+"Accept: application/json" -X GET https://cloud.apisec.ai/api/v1/projects
 
 Response structure
 
@@ -43,7 +43,7 @@ curl -s -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOZXRCYW5raW5nL
 cyI6IlJPTEVfVVNFUixST0xFX1BST0pFQ1RfTUFOQUdFUixST0xFX0FETUlOLFJPTEVfRU5URVJQ
 UklTRV9BRE1JTiIsImlhdCI6MTYwOTg4NzQ5NywiZXhwIjoxNjA5OTA1NDk3fQ.8kkPdbacGy6BD
 fzqnTM6EiUi6aHS_mWDHCfWirvma_s" -H "Content-Type: application/json" -H 
-"Accept: application/json" -X GET https://cloud.fxlabs.io/api/v1/projects/{projectId}/vulnerabilities
+"Accept: application/json" -X GET https://cloud.apisec.ai/api/v1/projects/{projectId}/vulnerabilities
 
 Here are a few important attributes of the vulnerability entity:
 
