@@ -1,6 +1,6 @@
 **Scanner Sizing Recommendations**
 
-- scaners without resource limit will be faster to complet the jobs.
+- scaners without resource limit will be faster to complete the jobs.
 - Below chart shows execution time of playbooks with different resource limits.
 
 
