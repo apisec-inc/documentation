@@ -36,6 +36,7 @@ nav:
       - Resolving Service Unavailable Error Upon User Login : UserLoginServiceUnavailable.md
       - On-Premises Sanity Test Guide : On-PremisesSanityTestGuide.md
       - Getting OAS from IBM DataPower: oas-ibm-datapower.md
+      - Scanner Sizing Recommendations: scanner-sizing.md
 
 #plugins:
  # - search
