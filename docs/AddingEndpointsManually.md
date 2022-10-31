@@ -14,10 +14,7 @@ On the top right corner of the page, click on the Add Endpoints button.
 
 In the Popup > Add the endpoint along with its method, for example: post:/api/v1/addAccount/sample > Before you Save, keeping the checkbox checked will scan these specific endpoint against different categories.
 
-
-<img width="1255" alt="Screen Shot 2022-10-03 at 10 45 51" src="https://user-images.githubusercontent.com/109250250/193657997-82284093-c3cc-4739-a9ec-b93989526abd.png">
-
-
+<img width="1358" alt="Screen Shot 2022-10-31 at 13 54 53" src="https://user-images.githubusercontent.com/109250250/199087796-be67f99d-5036-43db-8777-fb4aac9f060a.png">
 
 Observe the newly endpoint and a tag is added to identify the manual entries.
 
