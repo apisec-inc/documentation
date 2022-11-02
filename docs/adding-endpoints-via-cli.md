@@ -14,7 +14,6 @@ Register a new API project in APIsec using the JSON API documentation located in
 
 **Generate an access token**
 
-
 curl --location --request POST 'https://`<APIsec On-Prem URL>`/auth/login' --header 'Content-Type: application/json' --data-raw '{"username":"`<username>`","password":"`<password>`"}'
 
 
@@ -34,11 +33,9 @@ https://cloud.apisec.ai/#/app/projects/8adc83a083ca93f30183d73048333ab8/dashboar
 
 From the URL the Project ID is: **8adc83a083ca93f30183d73048333ab8**
 
-**Add Endpoint**
+**Add Endpoint using cURL**
        
-The User will call the APIsec API endpoint via this example cURL or similar programming script
-       
-The format of the request will be:
+The User will call the APIsec API endpoint via this example cURL or similar programming script.  The format of the request will be:
 
 
 curl --location --request POST 'https://`<APISecOn-PremURL>`/api/v1/endpoint/project/`<ADD-Project-ID>`' \
@@ -52,8 +49,8 @@ curl --location --request POST 'https://`<APISecOn-PremURL>`/api/v1/endpoint/pro
 
 **After you execute the command**
 
-Confirm that API returns a successful completion message
+Confirm that API returns a successful completion message.
 
-Login to the APIsec portal, access the corresponding project, and confirm the addition of the new endpoints
+Login to the APIsec portal, access the corresponding project, and confirm the addition of the new endpoints.
 
-Execute the Unsecured Endpoints security category and confirm successful completion of the tests
+Execute the Unsecured Endpoints security category and confirm successful completion of the tests.
