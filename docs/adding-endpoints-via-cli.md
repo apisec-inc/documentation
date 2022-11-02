@@ -1,7 +1,7 @@
-# Overview
+# Adding Endpoints via CLI
 
-This document outlines the steps that are needed to add an endpoint using the command line.
-
+## Overview
+This document outlines the steps that are needed to add an endpoint using the command line. For adding endpoints using the UI, refer to the 'Add Endpoints - UI' section from the left hand navigation.
 
 
 ### Using command line to add endpoints
