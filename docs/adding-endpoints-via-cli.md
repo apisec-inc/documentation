@@ -1,4 +1,4 @@
-# Add Endpoints via CLI
+# Add Endpoints via cURL
 
 ## Overview
 This document outlines the steps that are needed to add an endpoint using the command line. For adding endpoints using the UI, refer to the 'Add Endpoints - UI' section from the left hand navigation.
