@@ -1,4 +1,4 @@
-# Adding Endpoints via UI
+# Add Endpoints via UI
 
 **Adding endpoints to an existing project**
 
