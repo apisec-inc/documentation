@@ -1,6 +1,8 @@
+# Adding Endpoints via UI
+
 **Adding endpoints to an existing project**
 
-Altough endpoints are added at the time of registering an API, you can still add these manually. This document outlines step-be-step to add that.
+Although endpoints are added at the time of registering an API, you can still add these manually. This document outlines step-be-step to add that.
 
 From the homepage find for a previously created project where you need to add more endpoints. Open that project and click on the Endpoints tile. 
 
