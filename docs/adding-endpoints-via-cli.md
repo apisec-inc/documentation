@@ -1,4 +1,4 @@
-# Adding Endpoints via CLI
+# Add Endpoints via CLI
 
 ## Overview
 This document outlines the steps that are needed to add an endpoint using the command line. For adding endpoints using the UI, refer to the 'Add Endpoints - UI' section from the left hand navigation.
@@ -14,41 +14,41 @@ Register a new API project in APIsec using the JSON API documentation located in
 
 **Generate an access token**
 
-```
-curl --location --request POST 'https://<APIsec On-Prem URL>/auth/login' --header 'Content-Type: application/json' --data-raw '{"username":"<username>","password":"<password>"}'
-```
+
+curl --location --request POST 'https://`<APIsec On-Prem URL>`/auth/login' --header 'Content-Type: application/json' --data-raw '{"username":"`<username>`","password":"`<password>`"}'
+
 
 **Get Project ID**
 
 Get the Project ID of the API Project registered in Step 1. The easiest way is to find it in the UI by navigating to the project and extracting it from the URL:
 
 **Format:**
+
 ```
 https://cloud.apisec.ai/#/app/projects/<project-id>/dashboard
 ```
-
-The following URL what you’ll see after an API is registered:
+**Note:**  Replace the <project-id> from the UI by following the details below after an API is registered:
 
 
 https://cloud.apisec.ai/#/app/projects/8adc83a083ca93f30183d73048333ab8/dashboard
 
-The Project ID is: 8adc83a083ca93f30183d73048333ab8
-
-The User will call the APIsec API endpoint via this example cURL or similar programming script
+From the URL the Project ID is: **8adc83a083ca93f30183d73048333ab8**
 
 **Add Endpoint**
-
+       
+The User will call the APIsec API endpoint via this example cURL or similar programming script
+       
 The format of the request will be:
 
-```
-curl --location --request POST 'https://<APISecOn-PremURL>/api/v1/endpoint/project/<ADD-Project-ID>' \
---header 'Authorization: Bearer <token> \
+
+curl --location --request POST 'https://`<APISecOn-PremURL>`/api/v1/endpoint/project/`<ADD-Project-ID>`' \
+--header 'Authorization: Bearer `<token>` \
 --header 'Content-Type: application/json' \
 --data-raw '[{
        "endpoint":"get:/api/v1/orgs/{id}/users?page=0&pageSize=20"
     }
     ]'
-```
+
 
 **After you execute the command**
 
