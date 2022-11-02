@@ -5,7 +5,8 @@ nav:
     - Getting Started: GettingStarted.md
     - 1. Register an API: 
          - Register API: RegisterAPI.md
-         - Add Endpoints: AddingEndpointsManually.md
+         - Add Endpoints - UI: AddingEndpointsManually.md
+         - Add Endpoints - CLI: adding-endpoints-via-cli.md
     - 2. Register an API Gateway: 
          - API Gateway Overview: RegisterGateway.md
          - Postman Set Up: setup-postman.md
