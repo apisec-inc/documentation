@@ -11,7 +11,7 @@
   <tr style="border:1px solid white;margin: 0px auto;">
     <td style="border:1px solid white;">1</td>
     <td style="border:1px solid white;">cloud.apisec.ai</td>
-    <td style="border:1px solid white;">APIsec Cloud platform</td>
+    <td style="border:1px solid white;">APIsec Cloud Platform</td>
     <td style="border:1px solid white;">104.196.107.163</td>
     
   </tr>
