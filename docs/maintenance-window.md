@@ -9,10 +9,10 @@ The following tasks are executed during the maintenance windows:
 
 Service status during the maintenance windows:
 
-- All updates are triggered automatically and/or done by the APIsec staff
-- All updates are applied as rolling updates resulting in zero to a few mins of service being not accessible.
-- All changes pre and post-deployments are automatically tested by our continuous test automation suite if deemed unfit automatic rollbacks are triggered.
-- If you see service issues during the maintenance window, please try again after the window time.
+- All updates are triggered automatically and/or done by the APIsec staff.
+- All updates are applied as rolling updates resulting in minimal downtime, if any. 
+- All changes pre and post-deployments are automatically tested by our continuous test automation suite.  If we determine any deficiences, an automatic rollback is triggered.
+- If you experience service issues during the maintenance window, please wait a few minutes and try again.
 
 ## Maintenance Window Times
 
