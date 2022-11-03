@@ -38,6 +38,7 @@ nav:
       - On-Premises Sanity Test Guide : On-PremisesSanityTestGuide.md
       - Getting OAS from IBM DataPower: oas-ibm-datapower.md
       - Scanner Sizing Recommendations: scanner-sizing.md
+      - APIsec IP Whitelisting: IP Whitelisting.md
 
 #plugins:
  # - search
