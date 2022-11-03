@@ -19,6 +19,6 @@ Service status during the maintenance windows:
 APIsec currently is using the following maintenance times:
 
 ```
-- Monday - Saturday: 2:30 AM PST until 3 AM PST
-- Sunday 2:30 AM PST until 3:30 AM PST.
+- 2:30 AM PST to 3 AM PST. Monday - Saturday
+- 2:30 AM PST to 3:30 AM PST. Sunday
 ```
