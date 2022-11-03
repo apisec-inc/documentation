@@ -1,7 +1,7 @@
 **APIsec IP Whitelisting**
 
 - Please whitelist all the below mentioned IPs to use APIsec platform.
-- cloud.apisec.ai is the cloud URL of APIsec.
+- 104.196.107.163 is the APIsec cloud IP.
 - All other IP's are of Scanners.
 <p>
 
