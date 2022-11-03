@@ -3,9 +3,9 @@
 APIsec is committed to a continuous delivery cycle and as such will have a nightly maintenance window.
 The following tasks are executed during the maintenance windows:
 
-- Application and scanner deployments
-- UX, bug fixes, enhancements, and new feature deployments
-- Configuration changes related to security and usability are applied
+- Application and scanner deployments.
+- UX, bug fixes, enhancements, and new feature deployments,
+- Configuration changes related to security and usability are applied.
 
 Service status during the maintenance windows:
 
@@ -18,5 +18,7 @@ Service status during the maintenance windows:
 
 APIsec currently is using the following maintenance times:
 
+```
 - Monday - Saturday: 2:30 am PST until 3 am PST
 - Sunday 2:30 am PST until 3:30 am PST.
+```
