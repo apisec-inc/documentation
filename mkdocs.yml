@@ -39,7 +39,7 @@ nav:
       - Getting OAS from IBM DataPower: oas-ibm-datapower.md
       - Scanner Sizing Recommendations: scanner-sizing.md
       - APIsec IP Whitelisting: IP-Whitelisting.md
-
+    - Maintenance Window: maintenance-window.md
 #plugins:
  # - search
   #- git-authors
