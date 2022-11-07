@@ -6,14 +6,14 @@
 <img width="644" alt="Screen Shot 2022-10-29 at 08 41 12" src="https://user-images.githubusercontent.com/109250250/198834815-f95fbf46-3e07-4a2e-9bcc-fe64b299cc62.png">
 
 <table style="border:1px solid white;text-align:center;">
-  <tr style="border:1px solid white;text-align:center;">
-    <th style="border:1px solid white;text-align:center;">Cluster Count/Size</th>
-    <th style="border:1px solid white;text-align:center;">No of Playbooks</th>
-    <th style="border:1px solid white;text-align:center;">Duration in Seconds</th>
-    <th style="border:1px solid white;text-align:center;">CPU Request</th>
-    <th style="border:1px solid white;text-align:center;">CPU Limit</th>
-    <th style="border:1px solid white;text-align:center;">Memory Request</th>
-    <th style="border:1px solid white;text-align:center;">Memory Limit</th>
+  <tr>
+    <th style="border:1px solid white;">Cluster Count/Size</th>
+    <th style="border:1px solid white;">No of Playbooks</th>
+    <th style="border:1px solid white;">Duration in Seconds</th>
+    <th style="border:1px solid white;">CPU Request</th>
+    <th style="border:1px solid white;">CPU Limit</th>
+    <th style="border:1px solid white;">Memory Request</th>
+    <th style="border:1px solid white;">Memory Limit</th>
     
   </tr>
   <tr>
