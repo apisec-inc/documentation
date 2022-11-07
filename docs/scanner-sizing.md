@@ -3,7 +3,7 @@
 - Scanners without resource limit will be faster to complete the jobs.
 - Below chart shows the execution time of playbooks with different resource limits.
 
-<table style="border:1px solid white;text-align:center;">
+<table style="border:1px solid white;max-width:100%;overflow-x:hidden;">
   <tr>
     <th style="border:1px solid white;">Cluster Count/Size</th>
     <th style="border:1px solid white;">No of Playbooks</th>
