@@ -1,4 +1,5 @@
 **Scanner Sizing Recommendations**
+<p style="text-align: left;color: 	#A9A9A9;font-size:16px;"> By <b><a href="https://github.com/mjameel757">Mohammed Jameel</a></b> on <b>Oct 17,2022</b> </p> 
 
 - Scanners without resource limit will be faster to complete the jobs.
 - Below chart shows the execution time of playbooks with different resource limits.
