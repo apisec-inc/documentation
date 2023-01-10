@@ -25,7 +25,9 @@ nav:
     - 9. Security Categories: SecurityCategories.md
     - 10. Global Dashboard: GlobalDashboard.md
     - 11. View Notifications: Notifications.md
-    - 12. Set up the Profile: SetupProfile.md
+    - 12. Profile: 
+          - Set up the Profile: SetupProfile.md
+          - Two-Factor Auth: 2fa.md
     - 13. Sign up Free Account: FreeAccount.md
    
     - Knowledge Base:
