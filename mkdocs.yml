@@ -42,6 +42,7 @@ nav:
       - Scanner Sizing Recommendations: scanner-sizing.md
       - APIsec IP Acceptlist: IP-Acceptlist.md
     - Maintenance Window: maintenance-window.md
+    - Service Level Agreement: ServiceLevelAgreement.md
 #plugins:
  # - search
   #- git-authors
