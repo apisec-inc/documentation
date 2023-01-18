@@ -37,7 +37,7 @@ To add new credentials:
 
 # How does APIsec keep items in your vault secure?
  <br>
-  APIsec stores the vault data in a postgreSQL database encrypted using PGP with a Symmetric key.
+  APIsec stores the vault data in a postgreSQL database encrypted using PGP with a symmetric key.
  <br><br>
  APISec passes a secret key (called as session key) DB to encrypt and decrypt. The Key and its size can't be revealed.
  <br><br>
