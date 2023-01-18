@@ -2,7 +2,8 @@
 
 You can securely store and use API keys and credentials, tokens, passwords, and key-value pairs. APIsec vault is just like a password manager that securely stores all your credentials for ease of access. 
 
-<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166119691-4428b51a-0711-4159-9206-df970be918b6.png"/>
+![image](https://user-images.githubusercontent.com/115025465/213296236-afaf708e-ee20-47ff-a952-467e0228fb05.png)
+
 
 In the below screenshot, you can see all the stored credentials. When you integrate an account with your APIsec account the credentials are automatically stored in the vault. 
 
@@ -31,3 +32,14 @@ To add new credentials:
  4. `click` 'Create' and the credentials will be successfully added in the vault. 
    
    <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166119696-ff83c70a-c45a-44df-942e-7fb733e814d4.png"/>
+ <br>
+ <br>
+
+# How does APIsec keep items in your vault secure?
+ <br>
+  APIsec stores the vault data in a postgreSQL database encrypted using PGP with a Symmetric key.
+ <br><br>
+ APISec passes a secret key (called as session key) DB to encrypt and decrypt. The Key and its size can't be revealed.
+ <br><br>
+For more details on how the PGP Encrption works refer Section "F.28.3. PGP Encryption Functions" at https://www.postgresql.org/docs/current/pgcrypto.html
+ 
