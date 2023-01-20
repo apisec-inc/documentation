@@ -1,14 +1,14 @@
-# JIRA Integration FAQ
+# Jira Integration FAQ
 
-The integration between APIsec and JIRA is incredibly helpful in delivering vulnerabilities discovered in your API's to your development team in a familiar and easy to consume format.
+The integration between APIsec and Jira is incredibly helpful in delivering vulnerabilities discovered in your API's to your development team in a familiar and easy to consume format.
 
-In the prior documentation, we discussed how to enable the JIRA integration, but you probably have a few questions. 
+In the prior documentation, we discussed how to enable the Jira integration, but you probably have a few questions. 
 
-## When does a ticket get created in JIRA?
+## When does a ticket get created in Jira?
 
 APIsec scans your API's for vulnerabilites. When the scan is finished, any vulnerabilites are examined by one of APIsec's AI bots to look for false positives. If the vulnerability is determined to be valid, then a JIRA ticket is opened based on your integration settings.
 
-## What happens if the ticket is closed in JIRA?
+## What happens if the ticket is closed in Jira?
 
 The recomended process is to NOT close the ticket in JIRA itself. Once the developer has addressed the vulnerability, the best course of action is to trigger another scan in APIsec.  If the vulnerability is fixed, the ticket will be transition by the results of the scan.
 
