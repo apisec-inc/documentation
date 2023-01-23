@@ -17,3 +17,12 @@ For the 2FA, it's a 2 step process to activate it
 - A QR code will be shown > Scan it using the app on the phone and 
 - Note: Ensure that the setup is successful and the code is getting generated
 - Click Save
+
+### Certified Applications on IOS
+- Twilio - Authy and
+- Microsoft Authenticator
+
+### Certified Applications on Android
+- Twilio - Authy
+- Microsoft Authenticator and
+- Google Authenticator
