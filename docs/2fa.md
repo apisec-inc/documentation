@@ -2,8 +2,6 @@
 
 Two factor authentication (2FA) allows you to increase the security of your APIsec account which allows the users to authenticate themselves with a two-step process.  This authentication layers makes it harder for the hackers to attack your account.
 
-Currently, the Google Authenticator app is the only certified OTP app.
-
 ## Steps
 
 For the 2FA, it's a 2 step process to activate it
