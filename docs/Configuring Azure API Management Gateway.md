@@ -3,8 +3,7 @@
 
 From the main APIsec dashboard, click API Gateways.
 
-![image](https://user-images.githubusercontent.com/115025465/216377820-312b88a7-35b3-40cb-9d64-80c910d96ba4.png)
-
+![image](https://user-images.githubusercontent.com/115025465/216443349-89d2bfc6-c530-405d-a7f9-9b20c5773715.png)
 
 Once you have done that Click "+ Register Gateway" and then select Azure API Management.
 
