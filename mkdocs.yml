@@ -10,6 +10,7 @@ nav:
     - 2. Register an API Gateway: 
          - API Gateway Overview: RegisterGateway.md
          - Postman Set Up: setup-postman.md
+         - Azure API Gateway: Configuring%20Azure%20API%20Management%20Gateway.md
     - 3. Projects Section: ProjectSection.md
     - 4. Project Dashboard: ProjectDashboard.md
     - 5. Integrations: 
