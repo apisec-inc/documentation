@@ -19,3 +19,5 @@ On the next screen, you will have a number of fields to fill out:
    ![image](https://user-images.githubusercontent.com/115025465/216378444-08dc10b3-3e64-45f1-9f8f-62a148e9134e.png)
 
  *  For Enable Automatic Onboarding, it is recommended starting with this off and then turning it on after validating the registaration of a few API's.*
+
+![image](https://user-images.githubusercontent.com/115025465/216435834-1e5dc15d-68a5-4855-b36e-113d20361943.png)
