@@ -117,11 +117,11 @@ It allows a you to perform certain actions like downloading the reports, closing
 
 <li><strong>Reverify</strong>: Will ask you to perform another scan. This way a you can verify if it was a false positive.</li>
 
-<li><strong>Not a Vulnerability</strong>: Will discard/close the vulnerability and deactivate the 'Playbook'.</li>
+<li><strong>Deactivate Test</strong>: Will discard/close the vulnerability and deactivate the 'Playbook'. This means that this test will not longer run for this endpoint</li>
 
-<li><strong>Mark endpoint unsecured</strong>: Will add a 'Unsecure' flag to that particular endpoint. This can be done for segmentation of secured and unsecured endpoints. </li>
+<li><strong>Mark endpoint unsecured</strong>: Will add a 'Unsecure' flag to that particular endpoint. This can be done for segmentation of secured and unsecured endpoints. This option will only show up for authentication type vulnerabilites</li>
 
-<li><strong>Delete</strong>: Will completely remove the vulnerability from the record.</li>
+<li><strong>Dismiss</strong>: Will completely remove the vulnerability from the record.</li>
 
 <li><strong>Bulk Close/Archive</strong>: Will close or archive all the vulnerabilities. Those particular vulnerabilities will not appear under 'Open vulnerabilities' section. </li>
 
@@ -129,7 +129,7 @@ It allows a you to perform certain actions like downloading the reports, closing
 
 </ul>
 
-<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/171455416-10700b88-b161-4c84-849c-de9271aefeac.png"/>
+<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/115025465/216442113-0fec7e42-1795-4c2c-abec-09fb7ee0ccd2.png"/>
 
 ### **4.2. Configurations Page**
 The 'Configurations' next to the 'Project' tab takes you to the Project configuration page. 
