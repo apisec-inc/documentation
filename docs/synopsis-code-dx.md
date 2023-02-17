@@ -1,8 +1,6 @@
 # Synopsis Code DX Integration
 
-Step1: Go to the Integrations section in the APIsec platform and select Issue Tracker from the left-side menu.
+APIsec also supports synopsis Code Dx integration. This new feature allows users to access a wide range of features and capabilities, making our product even more powerful and versatile.
 
-Step2: Select Synopsis Code DX from the issue tracker dropdown as shown in the image below.
-
-<a href="https://www.synopsys.com/glossary/what-is-api-security-testing.html">Click Here</a> for more info.
+<a href="https://www.synopsys.com/software-integrity/code-dx.html">Click Here</a> for more info.
 
