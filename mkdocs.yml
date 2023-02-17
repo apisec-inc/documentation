@@ -20,17 +20,17 @@ nav:
          - JupiterOne IT Integration: jupiter-one-integration.md
          - Linear IT Configuration: linear-it-configuration.md
          - Wrike IT Configuration: wrike-it-configuration.md
-    - 6. Synopsis Code DX Integration: synopsis-code-dx.md
-    - 7. Reports: Reports.md
-    - 8. Deploy Scanners: DeployScanners.md
-    - 9. Vault: Vault.md
-    - 10. Security Categories: SecurityCategories.md
-    - 11. Global Dashboard: GlobalDashboard.md
-    - 12. View Notifications: Notifications.md
-    - 13. Profile: 
+         - Synopsis Code DX Integration: synopsis-code-dx.md
+    - 6. Reports: Reports.md
+    - 7. Deploy Scanners: DeployScanners.md
+    - 8. Vault: Vault.md
+    - 9. Security Categories: SecurityCategories.md
+    - 10. Global Dashboard: GlobalDashboard.md
+    - 11. View Notifications: Notifications.md
+    - 12. Profile: 
           - Set up the Profile: SetupProfile.md
           - Two-Factor Auth: 2fa.md
-    - 14. Sign up Free Account: FreeAccount.md
+    - 13. Sign up Free Account: FreeAccount.md
    
     - Knowledge Base:
       - Generating OpenAPI Specification (OAS) : Generating OAS.md
