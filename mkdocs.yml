@@ -20,7 +20,7 @@ nav:
          - JupiterOne IT Integration: jupiter-one-integration.md
          - Linear IT Configuration: linear-it-configuration.md
          - Wrike IT Configuration: wrike-it-configuration.md
-         - Synopsis Code DX: synopsis-code-dx.md
+    - 6. Synopsis Code DX: synopsis-code-dx.md
     - 6. Reports: Reports.md
     - 7. Deploy Scanners: DeployScanners.md
     - 8. Vault: Vault.md
