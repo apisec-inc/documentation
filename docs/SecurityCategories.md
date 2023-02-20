@@ -1,15 +1,16 @@
 
 # APIsec Security Categories 
 
+[Using Security Categories in APIsec](SecurityCategoryUse.md)
 
 ## What is a Security Category?
 
-	A Security Category is a set of security tests that will be used to intelligently create tests applied to endpoints. Each security category is a test generator to find security issues.
+A Security Category is a set of security tests that will be used to intelligently create tests applied to endpoints. Each security category is a test generator to find security issues.
 
 
 ## What is a Security Category Tier?
 
-Security Categories are divided into Tiers. The tiers represent a level of sophistication in the security tests generated and the effort required to configure them. The lowest tier has absolutely no configuration and the highest tier has everything configured.
+A Security Category is a set of security tests that will be used to intelligently create tests applied to endpoints. Each security category is a test generator to find security issues.
 
 
 ## Security Category Tiers
