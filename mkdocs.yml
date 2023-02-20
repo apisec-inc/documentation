@@ -24,7 +24,9 @@ nav:
     - 6. Reports: Reports.md
     - 7. Deploy Scanners: DeployScanners.md
     - 8. Vault: Vault.md
-    - 9. Security Categories: SecurityCategories.md
+    - 9. Security Categories: 
+         - APIsec Categories: SecurityCategories.md
+         - Categories Use: SecurityCategoriesUse.md
     - 10. Global Dashboard: GlobalDashboard.md
     - 11. View Notifications: Notifications.md
     - 12. Profile: 
