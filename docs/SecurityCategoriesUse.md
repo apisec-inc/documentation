@@ -1,3 +1,5 @@
+# Security Categories Use
+
 `Reading time 4 min`
 
 APIsec allows you to use a public or private security category(s) while running a Scan.
