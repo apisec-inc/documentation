@@ -1,7 +1,7 @@
 
 # APIsec Security Categories 
 
-[Using Security Categories in APIsec](SecurityCategoryUse.md)
+[Using Security Categories in APIsec](SecurityCategoriesUse.md)
 
 ## What is a Security Category?
 
