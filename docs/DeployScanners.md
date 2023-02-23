@@ -56,7 +56,7 @@ To deploy an On-prem private scanner, you need to set up the Docker/Kubernetes o
 <br>
 3. `click` 'Submit' and a screen with commands for deploying the Scanner on Kubernetes, Docker, and AWS Fargate will appear. 
    
-<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166118532-4554c374-4c66-4e79-aae0-799f79bb8b2e.png"/>
+<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/100760767/220836827-370cd9fc-5e19-4768-8d7a-924ceec76518.png"/>
 <br>
 4. Click 'Ok' to proceed. 
 <br>
