@@ -1,6 +1,7 @@
-`Reading time 3 min`
-
 # Two Factor Authentication Setup
+
+
+`Reading time 3 min`
 
 Two factor authentication (2FA) allows you to increase the security of your APIsec account which allows the users to authenticate themselves with a two-step process.  This authentication layers makes it harder for the hackers to attack your account.
 
