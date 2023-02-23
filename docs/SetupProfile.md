@@ -1,3 +1,5 @@
+`Reading time 10 min`
+
 The User Profile configuration options can be found under the User Profile menu on the top right corner of the User Home page. 
 
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/168322759-e2b1e1cf-fefb-4093-8174-f04e21a45e35.png" />
