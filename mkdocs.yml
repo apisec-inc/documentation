@@ -39,6 +39,7 @@ nav:
       - How to Add Token Generation Code : Token Generation Code.md
       - Scan APIs locally with APIsec CLI : APIsec CLI.md
       - How to Call APIsec APIs : Call APIsec APIs.md
+      - Registering APIs from AWS Gateway via script : AddAPIFromAWSGateway.md
       - Securing APIsec Service Account Credentials in Vault : SecuringCredentialsExternally.md
       - Resolving Service Unavailable Error Upon User Login : UserLoginServiceUnavailable.md
       - On-Premises Sanity Test Guide : On-PremisesSanityTestGuide.md
