@@ -12,6 +12,6 @@ In order to use the script, there are a few steps/prerequisites.
 
 Once you have the prerequisites done and your key information, you can use the script in the following manner.
 
-#Syntax: bash api-gateway-registration.sh --host "" --username "" --password "" --accesskey "&lt;ACCESS_KEY>" --secretkey "&lt;SECRET_KEY>" --name "" --accountType "&lt;ACCOUNT_TYPE>" --region ""
+`#Syntax: bash api-gateway-registration.sh --host "" --username "" --password "" --accesskey "&lt;ACCESS_KEY>" --secretkey "&lt;SECRET_KEY>" --name "" --accountType "&lt;ACCOUNT_TYPE>" --region ""`
 
-#Example usage: bash api-gateway-registration.sh --host "https://cloud.apisec.ai" --username "admin@apisec.ai" --password "xxxxxx" --accesskey "xxxxxxx" --secretkey "xxxxxxxxx" --name "Testing" --accountType "AWS_API_GATEWAY" --region "us-east-1"
+`#Example usage: bash api-gateway-registration.sh --host "https://cloud.apisec.ai" --username "admin@apisec.ai" --password "xxxxxx" --accesskey "xxxxxxx" --secretkey "xxxxxxxxx" --name "Testing" --accountType "AWS_API_GATEWAY" --region "us-east-1"`
