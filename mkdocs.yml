@@ -27,6 +27,7 @@ nav:
     - 9. Security Categories: 
          - APIsec Categories: SecurityCategories.md
          - Categories Use: SecurityCategoriesUse.md
+    - 10. Spec Analysis: SpecAnalysis.md
     - 10. Global Dashboard: GlobalDashboard.md
     - 11. View Notifications: Notifications.md
     - 12. Profile: 
