@@ -28,12 +28,12 @@ nav:
          - APIsec Categories: SecurityCategories.md
          - Categories Use: SecurityCategoriesUse.md
     - 10. Spec Analysis: SpecAnalysis.md
-    - 10. Global Dashboard: GlobalDashboard.md
-    - 11. View Notifications: Notifications.md
-    - 12. Profile: 
+    - 11. Global Dashboard: GlobalDashboard.md
+    - 12. View Notifications: Notifications.md
+    - 13. Profile: 
           - Set up the Profile: SetupProfile.md
           - Two-Factor Auth: 2fa.md
-    - 13. Sign up Free Account: FreeAccount.md
+    - 14. Sign up Free Account: FreeAccount.md
    
     - Knowledge Base:
       - Generating OpenAPI Specification (OAS) : Generating OAS.md
