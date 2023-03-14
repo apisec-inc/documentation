@@ -9,7 +9,7 @@
 ### **Step 2: Authenticating and Generating A JWT Token**
 
 curl -s -X POST https://cloud.apisec.ai/auth/login -H 'Accept: application/json' -H 'Content-Type: application/json'
--d '{"username": "", "password": ""}'
+-d '{"username": "YOURUSERNAME", "password": "YOURPASSWORD"}'
 
 You will receive a token in the response body.
 
