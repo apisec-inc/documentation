@@ -1,7 +1,5 @@
 <h1 align="center" style="color: #F5F5F5;"> <b> How to Call APIsec APIs </b> </h1>
 
-<p style="text-align: left;color: 	#A9A9A9;font-size:16px;"> By <b><a href="https://github.com/fersy02">Feroz Syed</a></b> on <b>March 23,2021</b> </p> 
-
 ### **Step 1: Register A New User Account**
 
 **Note**: Avoid using personal credentials when accessing APIsec APIs. Instead, register a new user and grant an appropriate role in Apisec™ UI and entitle this account to required projects by adding them as collaborators under the Configurations, Details tab.
