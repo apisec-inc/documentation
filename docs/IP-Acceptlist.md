@@ -41,51 +41,58 @@
   
   <tr>
     <td style="border:1px solid white;text-align:center;">5</td>
-    <td style="border:1px solid white;text-align:center;">US_EAST_1</td>
+    <td style="border:1px solid white;text-align:center;">Super_4</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
+    <td style="border:1px solid white;text-align:center;">34.195.172.63</td>
   </tr>
   
   <tr>
     <td style="border:1px solid white;text-align:center;">6</td>
-    <td style="border:1px solid white;text-align:center;">US_WEST_1</td>
+    <td style="border:1px solid white;text-align:center;">US_EAST_1</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
+    <td style="border:1px solid white;text-align:center;">34.192.94.201</td>
   </tr>
   
   <tr>
     <td style="border:1px solid white;text-align:center;">7</td>
-    <td style="border:1px solid white;text-align:center;">US_WEST_2</td>
+    <td style="border:1px solid white;text-align:center;">US_WEST_1</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
+    <td style="border:1px solid white;text-align:center;">34.192.94.201</td>
   </tr>
   
   <tr>
     <td style="border:1px solid white;text-align:center;">8</td>
-    <td style="border:1px solid white;text-align:center;">rate-limit-bot_low</td>
+    <td style="border:1px solid white;text-align:center;">US_WEST_2</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
+    <td style="border:1px solid white;text-align:center;">34.192.94.201</td>
   </tr>
   
   <tr>
     <td style="border:1px solid white;text-align:center;">9</td>
-    <td style="border:1px solid white;text-align:center;">rate-limit-bot_medium</td>
+    <td style="border:1px solid white;text-align:center;">rate-limit-bot_low</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
+    <td style="border:1px solid white;text-align:center;">34.192.94.201</td>
   </tr>
   
   <tr>
     <td style="border:1px solid white;text-align:center;">10</td>
+    <td style="border:1px solid white;text-align:center;">rate-limit-bot_medium</td>
+    <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
+    <td style="border:1px solid white;text-align:center;">34.192.94.201</td>
+  </tr>
+  
+  <tr>
+    <td style="border:1px solid white;text-align:center;">11</td>
     <td style="border:1px solid white;text-align:center;">rate-limit-bot_high</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
+    <td style="border:1px solid white;text-align:center;">34.192.94.201</td>
   </tr>
   
  <tr>
     <td style="border:1px solid white;text-align:center;">11</td>
     <td style="border:1px solid white;text-align:center;">APIPenTest_1</td>
     <td style="border:1px solid white;text-align:center;">APIsec EthicalCheck Scanner</td>
-    <td style="border:1px solid white;text-align:center;">5.161.68.74</td>
+    <td style="border:1px solid white;text-align:center;">34.195.172.63</td>
   </tr>
   
 </table>
