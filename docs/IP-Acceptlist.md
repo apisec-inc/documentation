@@ -22,21 +22,21 @@
     <td style="border:1px solid white;text-align:center;">2</td>
     <td style="border:1px solid white;text-align:center;">Super_1</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">5.161.68.74</td>
+    <td style="border:1px solid white;text-align:center;">34.195.172.63</td>
   </tr>
   
   <tr>
     <td style="border:1px solid white;text-align:center;">3</td>
     <td style="border:1px solid white;text-align:center;">Super_2</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">5.161.68.74</td>
+    <td style="border:1px solid white;text-align:center;">34.195.172.63</td>
   </tr>
   
   <tr>
     <td style="border:1px solid white;text-align:center;">4</td>
     <td style="border:1px solid white;text-align:center;">Super_3</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">5.161.68.74</td>
+    <td style="border:1px solid white;text-align:center;">34.195.172.63</td>
   </tr>
   
   <tr>
