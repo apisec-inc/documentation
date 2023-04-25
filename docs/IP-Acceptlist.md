@@ -22,21 +22,21 @@
     <td style="border:1px solid white;text-align:center;">2</td>
     <td style="border:1px solid white;text-align:center;">Super_1</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">34.195.172.63</td>
+    <td style="border:1px solid white;text-align:center;">34.75.180.220</td>
   </tr>
   
   <tr>
     <td style="border:1px solid white;text-align:center;">3</td>
     <td style="border:1px solid white;text-align:center;">Super_2</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">34.195.172.63</td>
+    <td style="border:1px solid white;text-align:center;">5.161.68.74</td>
   </tr>
   
   <tr>
     <td style="border:1px solid white;text-align:center;">4</td>
     <td style="border:1px solid white;text-align:center;">Super_3</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">34.195.172.63</td>
+    <td style="border:1px solid white;text-align:center;">5.161.68.74</td>
   </tr>
   
   <tr>
@@ -50,42 +50,42 @@
     <td style="border:1px solid white;text-align:center;">6</td>
     <td style="border:1px solid white;text-align:center;">US_EAST_1</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">34.192.94.201</td>
+    <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
   </tr>
   
   <tr>
     <td style="border:1px solid white;text-align:center;">7</td>
     <td style="border:1px solid white;text-align:center;">US_WEST_1</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">34.192.94.201</td>
+    <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
   </tr>
   
   <tr>
     <td style="border:1px solid white;text-align:center;">8</td>
     <td style="border:1px solid white;text-align:center;">US_WEST_2</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">34.192.94.201</td>
+    <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
   </tr>
   
   <tr>
     <td style="border:1px solid white;text-align:center;">9</td>
     <td style="border:1px solid white;text-align:center;">rate-limit-bot_low</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">34.192.94.201</td>
+    <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
   </tr>
   
   <tr>
     <td style="border:1px solid white;text-align:center;">10</td>
     <td style="border:1px solid white;text-align:center;">rate-limit-bot_medium</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">34.192.94.201</td>
+    <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
   </tr>
   
   <tr>
     <td style="border:1px solid white;text-align:center;">11</td>
     <td style="border:1px solid white;text-align:center;">rate-limit-bot_high</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">34.192.94.201</td>
+    <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
   </tr>
   
  <tr>
