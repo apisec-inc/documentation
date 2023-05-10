@@ -22,7 +22,7 @@
     <td style="border:1px solid white;text-align:center;">2</td>
     <td style="border:1px solid white;text-align:center;">Super_1</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
-    <td style="border:1px solid white;text-align:center;">34.75.180.220</td>
+    <td style="border:1px solid white;text-align:center;">5.161.68.74</td>
   </tr>
   
   <tr>
