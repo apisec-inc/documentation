@@ -5,10 +5,9 @@ Let's get started with an overview of what you can accomplish in APIsec and you 
 ### **1. Register for an account**
     
     From the login page:
-    1. Click on 'Sign up now'.
-    2. Fill in the form with your details.
-    3. Login.
-![Screen Shot 2022-07-22 at 2 55 56 PM](https://user-images.githubusercontent.com/138704/180505443-e8aac360-5297-435d-b400-f9b184eb767c.png)
+    1. Fill in the form with your details.
+    2. Click on Login.
+![image](https://github.com/apisec-inc/documentation/assets/105206963/f5eec49a-688f-4890-802b-b165b0168fd9)
 
 ### **2. Register an API**
     
