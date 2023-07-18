@@ -5,7 +5,7 @@ This page is to describe the network connectivitiy required.
 
 We have two endpoints for connecting the scanner to the APIsec platform. Depending on which endpoint you choose, this impacts which ports need to be open. 
 
-The options that we have are 443: or 5671
+The options that we have are 443 or 5671
 
 scanner.APIsec.ai:443  
 cloud.APIsec.ai:5671
