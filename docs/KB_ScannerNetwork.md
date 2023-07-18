@@ -7,11 +7,10 @@ We have two endpoints for connecting the scanner to the APIsec platform. Dependi
 
 The options that we have are 443: or 5671
 
-scanner.APIsec.ai:443
+scanner.APIsec.ai:443\
 cloud.APIsec.ai:5671
 
 
 The image below is used to depict the following information:
 
-
-![Scanner Diagram](https://github.com/apisec-inc/documentation/assets/115025465/66f232f0-c6c7-4760-a709-e4d108d0eafa)
+![Scanner Diagram](https://github.com/apisec-inc/documentation/assets/115025465/89cf707f-2238-4cba-a441-9e22d7a1b6a4)
