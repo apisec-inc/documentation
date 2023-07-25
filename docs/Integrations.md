@@ -39,26 +39,33 @@ APIsec offers an amazing feature for terminal / command line users to trigger on
 
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/168322423-aa08bb33-0362-4c67-82d3-b74282bfe944.png" />
 
-### **5.6. Configure Single Sign-On/Okta account** 
-This option is available in the 'Account' under the user Profile menu, then click on the SSO/Okta Settings tab.  You can configure an SSO/Okta account with the APIsec account.
+### **5.6. Configure Single Sign-On**
 
-<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/168322601-3c5a9deb-23b8-4dfa-af92-b4a878249ec2.png" />
-
-A guide on 'How to Configure OKTA SSO for APIsec?' is also available in the instructions which can be accessed by clicking on the question in blue.  The link redirects you to a Google doc as shown in the below screenshot.
-
-Here is a snippet of the documentation.
-
-<img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/168322647-fb5dbc74-9278-485f-a4c8-d6249dbd9635.png" />
-
-
-### **5.7. Configure Single Sign-On/Azure AD account**
-This option is available in the 'Integrations Tile', then click on the 'SSO tile' and select the integrations type as Azure AD.
-
-<img alt="APIsec Screenshot" src="https://github.com/apisec-inc/documentation/assets/105206963/b243b3af-df9f-425b-8bca-779a2eb71252.png" />
-
-<img alt="APIsec Screenshot" src="https://github.com/apisec-inc/documentation/assets/105206963/68f4fbd3-0667-4a13-b37d-5b81f5b7fc13.png" />
+#### **5.6.1. Okta account**
+This option is available in the 'Integrations Tile'.
 
 ![APIsec screenshot](https://github.com/apisec-inc/documentation/assets/105206963/29130297-9d73-4217-b9f7-ee152c3ea673)
+
+Click on the 'SSO tile' and select the integrations type as Okta.
+
+![Screenshot 2023-07-25 121143](https://github.com/apisec-inc/documentation/assets/105206963/2d87e108-f9c4-4b1d-9557-260de7d8df71)
+
+A guide on ['How to Configure OKTA SSO for APIsec?'](https://docs.google.com/document/d/1u0_Gw0qSBRztOiW-iUn6BkghZhijr49FtRjKdAmVJAU/edit) is also available in the instructions which can be accessed by clicking on the question in blue.  The link redirects you to a Google doc.
+
+
+#### **5.6.2. Azure AD account**
+This option is available in the 'Integrations Tile.
+
+![APIsec screenshot](https://github.com/apisec-inc/documentation/assets/105206963/29130297-9d73-4217-b9f7-ee152c3ea673)
+
+Click on the 'SSO tile' and select the integration type as Azure AD.
+
+![Screenshot2](https://github.com/apisec-inc/documentation/assets/105206963/086f308a-20ce-4ecb-b038-4ad5470059d3)
+
+
+
+A guide on ['How to Configure Azure SSO for APIsec?'](https://docs.google.com/document/d/12cP-1uvGLwiPnmfXHmm8BAckFI8JwYwoRvbGiU0Vq5o/edit) is also available in the instructions which can be accessed by clicking on the question in blue.
+The link redirects you to a Google doc.
 
 
 
