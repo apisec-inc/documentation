@@ -7,19 +7,19 @@ Please use the below Yaml file format for deploying the APIsec Scanner as a Kube
 apiVersion: apps/v1
 kind: Deployment
 metadata:
- name: ScannerName
+ name: <ScannerName>
 spec:
  replicas: 5
  selector:
    matchLabels:
-     app: ScannerName
+     app: <ScannerName>
  template:
    metadata:
      labels:
-       app: ScannerName
+       app: <ScannerName>
    spec:
      containers:
-       - name: ScannerName
+       - name: <ScannerName>
          image: apisec/scanner:latest
          imagePullPolicy: IfNotPresent
          env:
