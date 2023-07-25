@@ -50,3 +50,15 @@ Here is a snippet of the documentation.
 
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/168322647-fb5dbc74-9278-485f-a4c8-d6249dbd9635.png" />
 
+
+### **5.7. Configure Single Sign-On/Azure AD account**
+This option is available in the 'Integrations Tile', then click on the 'SSO tile' and select the integrations type as Azure AD.
+
+<img alt="APIsec Screenshot" src="https://github.com/apisec-inc/documentation/assets/105206963/b243b3af-df9f-425b-8bca-779a2eb71252.png" />
+
+<img alt="APIsec Screenshot" src="https://github.com/apisec-inc/documentation/assets/105206963/68f4fbd3-0667-4a13-b37d-5b81f5b7fc13.png" />
+
+
+
+
+
