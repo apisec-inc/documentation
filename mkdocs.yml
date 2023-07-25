@@ -36,18 +36,19 @@ nav:
     - 14. Sign up Free Account: FreeAccount.md
    
     - Knowledge Base:
-      - Generating OpenAPI Specification (OAS) : Generating OAS.md
-      - How to Add Token Generation Code : Token Generation Code.md
-      - Scan APIs locally with APIsec CLI : APIsec CLI.md
-      - How to Call APIsec APIs : Call APIsec APIs.md
-      - Registering APIs from AWS Gateway via script : AddAPIFromAWSGateway.md
-      - Securing APIsec Service Account Credentials in Vault : SecuringCredentialsExternally.md
-      - Resolving Service Unavailable Error Upon User Login : UserLoginServiceUnavailable.md
-      - On-Premises Sanity Test Guide : On-PremisesSanityTestGuide.md
+      - Generating OpenAPI Specification (OAS): Generating OAS.md
+      - How to Add Token Generation Code: Token Generation Code.md
+      - Scan APIs locally with APIsec CLI: APIsec CLI.md
+      - How to Call APIsec APIs: Call APIsec APIs.md
+      - Registering APIs from AWS Gateway via script: AddAPIFromAWSGateway.md
+      - Securing APIsec Service Account Credentials in Vault: SecuringCredentialsExternally.md
+      - Resolving Service Unavailable Error Upon User Login: UserLoginServiceUnavailable.md
+      - On-Premises Sanity Test Guide: On-PremisesSanityTestGuide.md
       - Getting OAS from IBM DataPower: oas-ibm-datapower.md
       - Scanner Sizing Recommendations: scanner-sizing.md
       - Scanner Architecture: KB_ScannerNetwork.md
       - APIsec IP Acceptlist: IP-Acceptlist.md
+      - K8s Scanner Deployment: k8s-scanner-deployment.md
     - Maintenance Window: maintenance-window.md
     - Service Level Agreement: ServiceLevelAgreement.md
 #plugins:
