@@ -2,7 +2,7 @@
 
 Please use the below yaml file format for deploying the APIsec Scanner as a Kubernetes Deployment.
 
-apiVersion: apps/v1
+```apiVersion: apps/v1
 kind: Deployment
 metadata:
  name: ScannerName
@@ -26,4 +26,4 @@ spec:
          - name: FX_IAM
            value: "<FX_IAM_VALUE>"
          - name: FX_KEY
-           value: "<FX_KEY_VALUE>"
+           value: "<FX_KEY_VALUE>"```
