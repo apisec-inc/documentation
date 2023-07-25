@@ -58,6 +58,8 @@ This option is available in the 'Integrations Tile', then click on the 'SSO tile
 
 <img alt="APIsec Screenshot" src="https://github.com/apisec-inc/documentation/assets/105206963/68f4fbd3-0667-4a13-b37d-5b81f5b7fc13.png" />
 
+![APIsec screenshot](https://github.com/apisec-inc/documentation/assets/105206963/29130297-9d73-4217-b9f7-ee152c3ea673)
+
 
 
 
