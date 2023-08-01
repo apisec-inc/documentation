@@ -1,7 +1,7 @@
 <h1 align="center" style="color: #F5F5F5;"> <b> APIsec IP Acceptlist </b> </h1>
 
 <p style="text-align: left;color: 	#A9A9A9;font-size:16px;"> Last updated on April 20,2023 </p> 
-<P>Please accept all the below mentioned IPs to use APIsec platform.</p>
+<P>Please accept all the below-mentioned IPs to use the APIsec platform.</p>
 
 <table style="border:1px solid white;text-align:center;">
   <tr style="border:1px solid white;text-align:center;">
@@ -9,6 +9,8 @@
     <th style="border:1px solid white;text-align:center;">Component Name</th>
     <th style="border:1px solid white;text-align:center;">Description</th>
     <th style="border:1px solid white;text-align:center;">IP Address</th>
+    <th style="border:2px solid white;text-align:center;">Cloud Provider</th>
+    <th style="border:2px solid white;text-align:center;">Location</th>
     
   </tr>
   <tr>
@@ -16,13 +18,16 @@
     <td style="border:1px solid white;text-align:center;">cloud.apisec.ai</td>
     <td style="border:1px solid white;text-align:center;">APIsec Cloud Platform</td>
     <td style="border:1px solid white;text-align:center;">104.196.107.163</td>
-    
+    <td style="border:1px solid white;text-align:center;">GCP</td>
+    <td style="border:1px solid white;text-align:center;">US-EAST</td>
   </tr>
   <tr>
     <td style="border:1px solid white;text-align:center;">2</td>
     <td style="border:1px solid white;text-align:center;">Super_1</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
     <td style="border:1px solid white;text-align:center;">5.161.68.74</td>
+    <td style="border:1px solid white;text-align:center;">Hetzner</td>
+    <td style="border:1px solid white;text-align:center;">US-EAST</td>
   </tr>
   
   <tr>
@@ -30,6 +35,8 @@
     <td style="border:1px solid white;text-align:center;">Super_2</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
     <td style="border:1px solid white;text-align:center;">5.161.68.74</td>
+    <td style="border:1px solid white;text-align:center;">Hetzner</td>
+    <td style="border:1px solid white;text-align:center;">US-EAST</td>
   </tr>
   
   <tr>
@@ -37,6 +44,8 @@
     <td style="border:1px solid white;text-align:center;">Super_3</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
     <td style="border:1px solid white;text-align:center;">5.161.68.74</td>
+    <td style="border:1px solid white;text-align:center;">Hetzner</td>
+    <td style="border:1px solid white;text-align:center;">US-EAST</td>
   </tr>
   
   <tr>
@@ -44,6 +53,8 @@
     <td style="border:1px solid white;text-align:center;">Super_4</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
     <td style="border:1px solid white;text-align:center;">34.195.172.63</td>
+    <td style="border:1px solid white;text-align:center;">AWS</td>
+    <td style="border:1px solid white;text-align:center;">US-EAST</td>
   </tr>
   
   <tr>
@@ -51,6 +62,8 @@
     <td style="border:1px solid white;text-align:center;">US_EAST_1</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
     <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
+    <td style="border:1px solid white;text-align:center;">Hetzner</td>
+    <td style="border:1px solid white;text-align:center;">US-EAST</td>
   </tr>
   
   <tr>
@@ -58,6 +71,8 @@
     <td style="border:1px solid white;text-align:center;">US_WEST_1</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
     <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
+    <td style="border:1px solid white;text-align:center;">Hetzner</td>
+    <td style="border:1px solid white;text-align:center;">US-EAST</td>
   </tr>
   
   <tr>
@@ -65,6 +80,8 @@
     <td style="border:1px solid white;text-align:center;">US_WEST_2</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
     <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
+    <td style="border:1px solid white;text-align:center;">Hetzner</td>
+    <td style="border:1px solid white;text-align:center;">US-EAST</td>
   </tr>
   
   <tr>
@@ -72,6 +89,8 @@
     <td style="border:1px solid white;text-align:center;">rate-limit-bot_low</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
     <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
+    <td style="border:1px solid white;text-align:center;">Hetzner</td>
+    <td style="border:1px solid white;text-align:center;">US-EAST</td>
   </tr>
   
   <tr>
@@ -79,6 +98,8 @@
     <td style="border:1px solid white;text-align:center;">rate-limit-bot_medium</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
     <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
+    <td style="border:1px solid white;text-align:center;">Hetzner</td>
+    <td style="border:1px solid white;text-align:center;">US-EAST</td>
   </tr>
   
   <tr>
@@ -86,6 +107,8 @@
     <td style="border:1px solid white;text-align:center;">rate-limit-bot_high</td>
     <td style="border:1px solid white;text-align:center;">APIsec Global Scanner</td>
     <td style="border:1px solid white;text-align:center;">5.161.93.150</td>
+    <td style="border:1px solid white;text-align:center;">Hetzner</td>
+    <td style="border:1px solid white;text-align:center;">US-EAST</td>
   </tr>
   
  <tr>
@@ -93,6 +116,8 @@
     <td style="border:1px solid white;text-align:center;">APIPenTest_1</td>
     <td style="border:1px solid white;text-align:center;">APIsec EthicalCheck Scanner</td>
     <td style="border:1px solid white;text-align:center;">34.195.172.63</td>
+   <td style="border:1px solid white;text-align:center;">AWS</td>
+    <td style="border:1px solid white;text-align:center;">US-EAST</td>
   </tr>
   
 </table>
