@@ -12,8 +12,10 @@ nav:
          - Postman Set Up: setup-postman.md
          - Azure API Gateway: Configuring Azure API Management Gateway.md
     - 3. Projects Section: ProjectSection.md
-    - 4. Project Dashboard: ProjectDashboard.md
-    - 5. Integrations: 
+    - 4. Project Dashboard: ProjectDashboard.
+    - 5. Confgurations: 
+        - Azure AD SSO: AzureSSOConfig.md
+    - 6. Integrations: 
          - Overview: Integrations.md
          - Github Issue Tracker Set up: SetupGithubTracker.md
          - Jira Issue Tracker Set up: SetupJiraTracker.md
@@ -21,19 +23,19 @@ nav:
          - Linear IT Configuration: linear-it-configuration.md
          - Wrike IT Configuration: wrike-it-configuration.md
          - Synopsis Code DX Integration: synopsis-code-dx.md
-    - 6. Reports: Reports.md
-    - 7. Deploy Scanners: DeployScanners.md
-    - 8. Vault: Vault.md
-    - 9. Security Categories: 
+    - 7. Reports: Reports.md
+    - 8. Deploy Scanners: DeployScanners.md
+    - 9. Vault: Vault.md
+    - 10. Security Categories: 
          - APIsec Categories: SecurityCategories.md
          - Categories Use: SecurityCategoriesUse.md
-    - 10. Spec Analysis: SpecAnalysis.md
-    - 11. Global Dashboard: GlobalDashboard.md
-    - 12. View Notifications: Notifications.md
-    - 13. Profile: 
+    - 11. Spec Analysis: SpecAnalysis.md
+    - 12. Global Dashboard: GlobalDashboard.md
+    - 13. View Notifications: Notifications.md
+    - 14. Profile: 
           - Set up the Profile: SetupProfile.md
           - Two-Factor Auth: 2fa.md
-    - 14. Sign up Free Account: FreeAccount.md
+    - 15. Sign up Free Account: FreeAccount.md
    
     - Knowledge Base:
       - Generating OpenAPI Specification (OAS): Generating OAS.md
