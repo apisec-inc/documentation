@@ -12,27 +12,36 @@
     - If you have access to multiple tenants, in the top menu, use the Directory + subscription filter to select the tenant in which you want to register an application (OR) Search for and select Azure Active Directory.   
     - Under Manage, select App registrations > New registration.
     
-    
+    ![AzureImage1](https://github.com/apisec-inc/documentation/assets/115025465/bf231800-dea6-4adf-87e2-16d8f0f642be)
+
     - In the Register an application page that appears, enter your application's registration information.  
         - In the Name section, enter a meaningful application name that will be displayed to users of the app.
         - Under Supported account types, select an option.(Multitenant / Single Tenant)
         - In the Redirect URI section, select Web in the combo-box and enter the redirect URI of your web application. This is the URI where your application wants to handle the authentication response after the user signs in. For now, enter the following redirect URI : https://cloud.apisec.ai/auth/redirect.
+        - 
+![AzureImage2](https://github.com/apisec-inc/documentation/assets/115025465/d130d53f-3d1a-4217-a5e2-c6c5aed33443)
 
         - Select Register to create the application.
         - In the app's registration screen, find and note the Application (client) ID and Directory (tenant) ID.
+![AzureImage3](https://github.com/apisec-inc/documentation/assets/115025465/50ec404d-1dd8-4c6f-b254-406d5de4c5bd)
 
         - In the app's registration screen, click on the Certificates & secrets blade in the left to open the page to generate secrets. In the Client secrets section, click on New client secret :
             - Type a key description.
             - Select one of the available key durations.
-            - The generated key value will be displayed when you click the Add button. Copy the generated value for use in the steps later. This key value will not be displayed again, and is not retrievable by any other means, so make sure to note it from the Azure portal before navigating to any other screen or blade.
+            - The generated key value will be displayed when you click the Add button. Copy the generated value for use in the steps later. This key value will not be displayed again, and is not retrievable by any other means, so make sure to note it from the Azure portal before navigating to any other screen.
+![AzureImage4](https://github.com/apisec-inc/documentation/assets/115025465/32fdd96a-383a-44f3-ad38-23571a473da1)
 
     - Insert Application (client) ID , Directory (tenant) ID and key value in the APIsec portal and copy the generated Azure Home URL for further configuration of Azure AD application. 
 
 
 2.   **Actions to Perform at APIsec:**  
     
-        - Login to APIsec with the organization Admin account at https://cloud.apisec.ai 
+        - Login to APIsec with the organization Admin account at https://cloud.apisec.ai
+          ![AzureImage5](https://github.com/apisec-inc/documentation/assets/115025465/2b10a07c-ec89-41be-9b1f-3d9575d48091)
+
         - Click on the Integrations Tile.
+  ![AzureImage6](https://github.com/apisec-inc/documentation/assets/115025465/f939572d-40d2-498e-a2b5-65c5de3a0a80)
+          
         - Click on SSO Tile and Select SSO Type as AZURE from the Dropdown.
         - On the SSO Settings tab, enter Secret Code(key value), Client-ID and Tenant Id  from the Application Created on Azure AD.
         - Copy the Azure Home URL and redirect to https://portal.azure.com (Cont. step:1.8)
