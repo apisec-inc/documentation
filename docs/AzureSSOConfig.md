@@ -43,7 +43,7 @@
   ![AzureImage6](https://github.com/apisec-inc/documentation/assets/115025465/f939572d-40d2-498e-a2b5-65c5de3a0a80)
           
         - Click on SSO Tile and Select SSO Type as AZURE from the Dropdown.
-        - ![AzureImage7](https://github.com/apisec-inc/documentation/assets/115025465/57150f5c-f790-4125-bdcb-8aaee11cc278)
+    ![AzureImage7](https://github.com/apisec-inc/documentation/assets/115025465/57150f5c-f790-4125-bdcb-8aaee11cc278)
 
         - On the SSO Settings tab, enter Secret Code(key value), Client-ID and Tenant Id  from the Application Created on Azure AD.
         - Copy the Azure Home URL and redirect to https://portal.azure.com (Cont. step:1.8)
