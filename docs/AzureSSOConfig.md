@@ -77,9 +77,9 @@
 
         - Owners can be added at the Owners section below App roles, if required.
 
-          ![AzureImage14](https://github.com/apisec-inc/documentation/assets/115025465/6ab939b3-d272-46ab-b99a-aee84aee6adf)
+     ![AzureImage14](https://github.com/apisec-inc/documentation/assets/115025465/6ab939b3-d272-46ab-b99a-aee84aee6adf)
 
-          ![AzureImage15](https://github.com/apisec-inc/documentation/assets/115025465/685c0939-f63f-4d24-bf19-4afe14b318a5)
+   ![AzureImage15](https://github.com/apisec-inc/documentation/assets/115025465/685c0939-f63f-4d24-bf19-4afe14b318a5)
 
         - Redirect to Azure Active Directory Home page >  Manage > Enterprise Applications. 
         - Search and Select the created application.
