@@ -25,7 +25,7 @@
         - In the app's registration screen, find and note the Application (client) ID and Directory (tenant) ID.
 ![AzureImage3](https://github.com/apisec-inc/documentation/assets/115025465/50ec404d-1dd8-4c6f-b254-406d5de4c5bd)
 
-        - In the app's registration screen, click on the Certificates & secrets blade in the left to open the page to generate secrets. In the Client secrets section, click on New client secret :
+         - In the app's registration screen, click on the Certificates & secrets blade in the left to open the page to generate secrets. In the Client secrets section, click on New client secret :
             - Type a key description.
             - Select one of the available key durations.
             - The generated key value will be displayed when you click the Add button. Copy the generated value for use in the steps later. This key value will not be displayed again, and is not retrievable by any other means, so make sure to note it from the Azure portal before navigating to any other screen.
