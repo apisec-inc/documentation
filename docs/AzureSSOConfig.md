@@ -54,7 +54,7 @@
 
         - Click on the Authentication blade under Manage.
         - Select Both the Tokens and Save.
-          ![AzureImage9](https://github.com/apisec-inc/documentation/assets/115025465/66f2a256-5e26-4ac8-a441-b98e048be4b6)
+     ![AzureImage9](https://github.com/apisec-inc/documentation/assets/115025465/66f2a256-5e26-4ac8-a441-b98e048be4b6)
 
 
         - Click on API Permissions blade under Manage.
