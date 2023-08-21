@@ -37,7 +37,7 @@
 2.   **Actions to Perform at APIsec:**  
     
         - Login to APIsec with the organization Admin account at https://cloud.apisec.ai
-          ![AzureImage5](https://github.com/apisec-inc/documentation/assets/115025465/2b10a07c-ec89-41be-9b1f-3d9575d48091)
+     ![AzureImage5](https://github.com/apisec-inc/documentation/assets/115025465/2b10a07c-ec89-41be-9b1f-3d9575d48091)
 
         - Click on the Integrations Tile.
   ![AzureImage6](https://github.com/apisec-inc/documentation/assets/115025465/f939572d-40d2-498e-a2b5-65c5de3a0a80)
