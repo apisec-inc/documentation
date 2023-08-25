@@ -45,20 +45,20 @@ For the 2FA, it's a 2 step process to activate it
 
 ### Troubleshooting ###
 
-**Check MFA Settings and Configuration:**
+**Check MFA Settings and Configuration:**  
 Ensure that the MFA settings for the affected users are configured correctly and consistently with those of the users for whom MFA is working. Verify that the time settings on their devices are synchronized.
 
-**MFA App Compatibility:**
+**MFA App Compatibility:**  
 Different MFA apps might have slight variations in how they generate codes. Ensure that the users are using recommended and tested MFA apps. Authenticator apps like Google Authenticator, Authy, or Microsoft Authenticator are commonly used and usually reliable.
 
-**Time Synchronization:**
+**Time Synchronization:**  
 MFA codes are time-based. If the user's device has an incorrect time setting, the generated codes won't match the server's expectations. Ensure that the time zone and time settings are correct on the user's device.
 
-**Account Lockouts:**
+**Account Lockouts:**  
 APISec has account lockout policies that trigger after a certain number of failed MFA attempts. Check if the affected accounts are locked out due to repeated incorrect MFA attempts.
 
-**Device-Specific Issues:**
+**Device-Specific Issues:**  
 If the issue seems to be isolated to specific devices, it might be worth investigating if there are any device-specific settings or software conflicts causing the problem.
 
-**Software Updates:**
+**Software Updates:**  
 Ensure that both the MFA app and the device's operating system are up to date. Sometimes, updating these components can resolve compatibility issues.
