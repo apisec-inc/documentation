@@ -31,6 +31,8 @@ const userInput = document.getElementById("userInput");
 userInput.addEventListener("input", updateSendButtonState);
 userInput.addEventListener("keydown", updateSendButtonState);
 
+
+
 function sendMessage() {
     const userInput = document.getElementById("userInput").value.trim();
 
@@ -57,7 +59,7 @@ function sendMessage() {
         chatMessages.scrollTop = chatMessages.scrollHeight;
 
         // Make API call
-        const apiUrl = "http://apps.apisec.ai:8000/chat";
+        const apiUrl = "https://apps.apisec.ai:8000/chat";
         const requestBody = {
             question: userInput
         };
