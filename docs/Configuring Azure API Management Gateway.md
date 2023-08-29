@@ -20,3 +20,5 @@ On the next screen, you will have a number of fields to fill out:
  *  For Enable Automatic Onboarding, it is recommended starting with this off and then turning it on after validating the registaration of a few API's.*
 
 ![image](https://user-images.githubusercontent.com/115025465/216435834-1e5dc15d-68a5-4855-b36e-113d20361943.png)
+
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

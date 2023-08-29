@@ -60,3 +60,4 @@ To add a new security model:
 3. `click` 'Build and Launch' to make it ready for use during the Scan.
     
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166119708-5d3ada1e-4701-418b-89df-082aba0b8a7c.png"/>
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

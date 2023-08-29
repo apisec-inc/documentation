@@ -345,3 +345,4 @@ The 'Collaborators' view allows you to assign registered users for managing the 
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/168322481-09ff0707-baf8-4909-a913-1db1919fc393.png" />
 
 
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

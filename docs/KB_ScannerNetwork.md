@@ -14,3 +14,4 @@ cloud.APIsec.ai:5671
 The image below is used to depict the following information:
 
 ![Scanner Diagram](https://github.com/apisec-inc/documentation/assets/115025465/89cf707f-2238-4cba-a441-9e22d7a1b6a4)
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

@@ -43,3 +43,4 @@ To add new credentials:
  <br><br>
 For more details on how the PGP Encrption works refer Section "F.28.3. PGP Encryption Functions" at https://www.postgresql.org/docs/current/pgcrypto.html
  
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

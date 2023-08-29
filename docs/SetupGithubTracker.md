@@ -33,3 +33,4 @@ If everything is setup correctly, you'll see Valid Credentials message at the bo
 <img width="1358" alt="github-valid-creds" src="https://user-images.githubusercontent.com/109250250/180657674-72c3be7f-10b3-4302-aa83-bd1a3aca351c.png">
 
 
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

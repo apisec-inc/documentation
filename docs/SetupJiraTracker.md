@@ -40,3 +40,4 @@ Once the account is set up, you'll start to see tickets getting created with any
 
 <img width="1504" alt="jira-issues logged" src="https://user-images.githubusercontent.com/109250250/180658369-5c672a22-9b4f-4a7d-9cad-40731edbb3e2.png">
 
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

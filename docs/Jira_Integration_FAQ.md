@@ -21,3 +21,4 @@ If the issue is resolved on the API, then no ticket will be created again.
 
 APIsec is an evolving platform. New categories are created and playbooks are updated. Either of these cases could result in subsequent scans discovering new vulnerabilities that were not present in the initial/prior scan.
 
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

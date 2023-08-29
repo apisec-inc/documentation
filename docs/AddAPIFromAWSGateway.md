@@ -15,3 +15,5 @@ Once you have the prerequisites done and your key information, you can use the s
 `#Syntax: bash api-gateway-registration.sh --host "" --username "" --password "" --accesskey "&lt;ACCESS_KEY>" --secretkey "&lt;SECRET_KEY>" --name "" --accountType "&lt;ACCOUNT_TYPE>" --region ""`
 
 `#Example usage: bash api-gateway-registration.sh --host "https://cloud.apisec.ai" --username "admin@apisec.ai" --password "xxxxxx" --accesskey "xxxxxxx" --secretkey "xxxxxxxxx" --name "Testing" --accountType "AWS_API_GATEWAY" --region "us-east-1"`
+
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

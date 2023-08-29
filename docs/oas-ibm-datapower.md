@@ -44,3 +44,4 @@ SwaggerHub connects with IBM API Connect to design and collaborate on the API de
 
 [SwaggerHub with IBM API Connect](https://support.smartbear.com/swaggerhub/docs/integrations/ibm-api-connect.html)
 
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

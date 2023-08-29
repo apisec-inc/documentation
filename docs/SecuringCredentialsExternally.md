@@ -24,3 +24,4 @@ Organizations enabling Single Sign-On with APIsec should request them to create 
 ### **Summary**
 
 APIsec platform provides REST APIS to perform almost all operations available from the Web Application. In general, APIsec APIs could help register a new API or reload a specification in an existing API project. Similarly, developers can run a new scan and review the vulnerabilities from the current scan. This way, developers can use the APIsec APIs to operationalize the core features of APIsec without using the APIsec Web Application.
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

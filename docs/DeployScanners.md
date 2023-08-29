@@ -84,3 +84,5 @@ A total of 9 Global Scanners are currently available.
 - The other scanners are deployed on the Cloud in different regions. 
   
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166118529-c0439dbf-586c-4099-abed-644e5bb8cf9c.png"/>
+
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

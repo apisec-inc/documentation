@@ -54,3 +54,5 @@ Confirm that API returns a successful completion message.
 Login to the APIsec portal, access the corresponding project, and confirm the addition of the new endpoints.
 
 Execute the Unsecured Endpoints security category and confirm successful completion of the tests.
+
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

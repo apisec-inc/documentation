@@ -13,3 +13,4 @@ You can also switch between 'My Projects' or 'All Projects' with the toggle besi
 - 'All Projects' are restricted to admins only
    
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166119727-9ed6f766-02ae-44af-a115-bf88611e9df0.png"/>
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

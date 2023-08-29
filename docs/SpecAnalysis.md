@@ -13,3 +13,4 @@ Spec analysis is run when a API spec is uploaded or updated. It's looking for re
   The spec file is analyzed for anything that can be determined by looking at the spec by itself, before scanning. This is from the perspective that the spec is correctly defined. Any recommendations on a spec that not defined correctly should prompt correcting the spec.
   
   Example: Sensitive data sent over GET method. Parameters sent in the URL aren't secure from interception. 
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

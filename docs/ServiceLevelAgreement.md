@@ -67,3 +67,4 @@ Licensee may experience outages in the APIsec Platform due to Scheduled Maintena
   </tr>
 </table>
 
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

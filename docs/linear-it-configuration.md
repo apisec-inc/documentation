@@ -30,3 +30,4 @@ Select the team it will copy the UUID and add it to the APIsec platform.
 <img width="1097" alt="Screen Shot 2022-10-18 at 13 47 06" src="https://user-images.githubusercontent.com/109250250/196519139-a1a3ac23-5474-4b4a-9d53-8989a5d8d2fc.png">
 
 Hit the Test Credentials button, if it says Valid credentials, the configuration is successful and APIsec is ready to log Vulnerabilities in the Linear platform.
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

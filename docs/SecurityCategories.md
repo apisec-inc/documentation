@@ -52,3 +52,4 @@ A Security Category is a set of security tests that will be used to intelligentl
 * **This tier requires configuring more complex scenarios** pre-defined in APISec. It may include things like defining roles or acceptable payloads.
 * **What is Tested:** Tests with multiple steps to look for access and logic issues that can’t be determined with a single api endpoint call or basic configuration.
 * **Examples:** RBAC
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

@@ -22,3 +22,4 @@ After creating the App scroll down and create a Permanent access token. Copy the
 Step4: After adding the token, select the Issue Tracker credentials added in step 3 and it will list the projects and folders from the Wrike account select any project or folder and save to log the vulnerabilities from APISec.
 
 <img width="918" alt="Screen Shot 2022-10-18 at 14 10 47" src="https://user-images.githubusercontent.com/109250250/196522840-5c552a95-ea43-465a-a636-be911374e101.png">
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

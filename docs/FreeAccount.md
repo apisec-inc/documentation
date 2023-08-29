@@ -14,3 +14,5 @@ Enter the credentials and `click` 'Signup'. If everything is correct then a free
 The free account does not have 'Security Categories' feature in the services menu, which restricts you from using 'Integrations' and 'Reports' for the project. Moreover, it is only limited to register 2 APIs. 
 
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/171651338-5820f9d3-1a1c-4418-88f0-bbdd50974d23.png" />
+
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

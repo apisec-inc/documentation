@@ -38,3 +38,5 @@ A message prompt will be displayed on the **Homepage** like in the screenshot be
 
 <img alt="Register Api process complete" src="https://user-images.githubusercontent.com/75529175/171797636-625e54d8-6dc2-4bc3-9071-cbe4285eb80d.png
 "/>
+
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

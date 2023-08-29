@@ -24,3 +24,4 @@ The important thing to note here is the 'Enable Automated Onboarding' checkbox, 
 <br>
 <br>
 4. Provide the required credentials for registering the selected API Gateway and `click` **Create**.
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

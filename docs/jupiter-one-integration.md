@@ -25,3 +25,4 @@ To get an account Id, click here hyperlink to navigate to the account management
 <img width="865" alt="Screen Shot 2022-10-18 at 14 04 41" src="https://user-images.githubusercontent.com/109250250/196521539-144a5b14-ea49-439e-95b8-4ba2a55911ae.png">
 
 Copy the Account Id and paste it into the APIsec platform. And hit the Test Credentials button, if it says Valid credentials, the configuration is successful and APIsec is ready to log Vulnerabilities in JupiterOne.
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

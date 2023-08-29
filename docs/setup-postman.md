@@ -18,3 +18,4 @@ During this proces, the APIsec will be writing the customized validations for th
 <img width="1219" alt="Screen Shot 2022-08-15 at 22 26 08" src="https://user-images.githubusercontent.com/109250250/184793227-995df346-6d68-42a0-a3da-de43553c324a.png">
 
 Click on project and start with your first scan.
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

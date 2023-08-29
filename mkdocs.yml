@@ -62,7 +62,11 @@ nav:
 analytics:
     gtag: G-MCT52689D6
     
-    
+extra_css:
+  - docs/Chatbot/styles.css
+
+extra_javascript:
+  - docs/Chatbot/scripts.js  
 theme:
     name: material
    

@@ -62,3 +62,4 @@ If the issue seems to be isolated to specific devices, it might be worth investi
 
 **Software Updates:**  
 Ensure that both the MFA app and the device's operating system are up to date. Sometimes, updating these components can resolve compatibility issues.
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>

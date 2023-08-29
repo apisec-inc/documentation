@@ -26,3 +26,4 @@ Duplicate user Accounts are restricted as it leads to user login errors. Existin
 
 ### **Note**
 Ensure the primary account you would like to continue using is Active and if required, request the administrator to reset the password.
+<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>
