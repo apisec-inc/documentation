@@ -57,7 +57,7 @@ function sendMessage() {
         chatMessages.scrollTop = chatMessages.scrollHeight;
 
         // Make API call
-        const apiUrl = "https://apps.apisec.ai:8000/chat";
+        const apiUrl = "https://apps.apisec.ai/chat";
         const requestBody = {
             question: userInput
         };
