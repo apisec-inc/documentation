@@ -114,15 +114,51 @@ function closeChatbot() {
     // Show the logo
     const logo = document.getElementById("logo");
     logo.classList.remove("logo-hidden");
+
+    // Hide the help text
+    helpMessage.style.opacity = "0";
+
+    // Update help message visibility flag
+    isHelpMessageVisible = false;
 }
-
-
-
-
 function minimizeChatbot() {
     const chatbotContainer = document.getElementById("chatbot");
     chatbotContainer.classList.add("hidden");
     // Show the logo
     const logo = document.getElementById("logo");
     logo.classList.remove("logo-hidden");
+
+    // Hide the help text
+    helpMessage.style.opacity = "0";
+
+    // Update help message visibility flag
+    isHelpMessageVisible = false;
 }
+
+
+const helpMessage = document.getElementById("helpMessage");
+
+const logo = document.getElementById("logo");
+
+let isHelpMessageVisible = true; // Help message is initially visible
+
+logo.addEventListener("mouseenter", () => {
+    helpMessage.style.opacity = "1";
+});
+
+logo.addEventListener("mouseleave", () => {
+    helpMessage.style.opacity = "0";
+});
+logo.addEventListener("mouseover", () => {
+    if (isHelpMessageVisible) {
+        helpMessage.style.opacity = "1";
+    }
+});
+
+logo.addEventListener("click", () => {
+    helpMessage.style.display = "none";
+});
+
+
+
+

@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #2e303e;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+   
 }
 
 .logo {
@@ -228,5 +228,34 @@ button {
 .bot-response {
     justify-content: flex-start; /* Align bot messages to the left */
 }
+
+#helpMessage {
+    opacity: 1;
+}
+
+/* Add this CSS for the help message */
+.help-message {
+    position: fixed;
+    bottom: 30px; /* Adjust the distance from the bottom */
+    left: 70%;
+    transform: translateX(-50%);
+    background-color: #009485;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-size: 14px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    width: 90px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    animation: cloudPop 0.5s 2s forwards, typeText 2s 3.5s steps(20) forwards;
+    pointer-events: none;
+}
+
+
+
+
 
 

@@ -17,4 +17,5 @@ Let’s <a href="https://docs.apisec.ai/GettingStarted/">get started</a>!  Btw, 
 
 <img width="1505" alt="apisec-homepage" src="https://user-images.githubusercontent.com/109250250/180360118-c09108f4-e2a6-49ba-858b-e9cc2b9b9586.png">
 
-<iframe src="Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>
+<iframe src="Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px; background-color: transparent; border: none;"></iframe>
+
