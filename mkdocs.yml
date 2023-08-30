@@ -67,10 +67,6 @@ extra_css:
 
 extra_javascript:
   - docs/Chatbot/scripts.js  
-extra:
-  meta:
-    - name: "Content-Security-Policy"
-      content: "upgrade-insecure-requests"
 theme:
     name: material
    

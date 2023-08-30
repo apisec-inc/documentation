@@ -31,8 +31,6 @@ const userInput = document.getElementById("userInput");
 userInput.addEventListener("input", updateSendButtonState);
 userInput.addEventListener("keydown", updateSendButtonState);
 
-
-
 function sendMessage() {
     const userInput = document.getElementById("userInput").value.trim();
 
