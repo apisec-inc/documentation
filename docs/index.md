@@ -17,4 +17,16 @@ Let’s <a href="https://docs.apisec.ai/GettingStarted/">get started</a>!  Btw, 
 
 <img width="1505" alt="apisec-homepage" src="https://user-images.githubusercontent.com/109250250/180360118-c09108f4-e2a6-49ba-858b-e9cc2b9b9586.png">
 
-<iframe src="Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>
+
+<div class="container" id="iframeContainer" style="position: fixed; bottom: 20px; right: 20px; overflow: hidden;">
+    <iframe id="iFrame1" src="Chatbot/index.html" style="border: none; width: 100%; height: 100%;"></iframe>
+</div>
+
+<script>
+    // Function to set dimensions of iframe container based on logo dimensions
+    function setIframeContainerDimensions(width, height) {
+        const iframeContainer = document.getElementById("iframeContainer");
+        iframeContainer.style.width = `${width + 100}px`;
+        iframeContainer.style.height = `${height +50}px`;
+    }
+</script>

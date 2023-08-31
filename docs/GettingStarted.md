@@ -54,4 +54,15 @@ Let's get started with an overview of what you can accomplish in APIsec and you 
     - Make scan summary reports a part of your regular security practices.
 ![Screen Shot 2022-07-22 at 3 06 37 PM](https://user-images.githubusercontent.com/138704/180506923-1af4ed28-9cd4-4b71-8d48-25ad7171e1a1.png)
 
-<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>
+<div class="container" id="iframeContainer" style="position: fixed; bottom: 20px; right: 20px; overflow: hidden;">
+    <iframe id="iFrame1" src="../Chatbot/index.html" style="border: none; width: 100%; height: 100%;"></iframe>
+</div>
+
+<script>
+    // Function to set dimensions of iframe container based on logo dimensions
+    function setIframeContainerDimensions(width, height) {
+        const iframeContainer = document.getElementById("iframeContainer");
+        iframeContainer.style.width = `${width + 100}px`;
+        iframeContainer.style.height = `${height +50}px`;
+    }
+</script>

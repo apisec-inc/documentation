@@ -33,4 +33,15 @@ If everything is setup correctly, you'll see Valid Credentials message at the bo
 <img width="1358" alt="github-valid-creds" src="https://user-images.githubusercontent.com/109250250/180657674-72c3be7f-10b3-4302-aa83-bd1a3aca351c.png">
 
 
-<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>
+<div class="container" id="iframeContainer" style="position: fixed; bottom: 20px; right: 20px; overflow: hidden;">
+    <iframe id="iFrame1" src="../Chatbot/index.html" style="border: none; width: 100%; height: 100%;"></iframe>
+</div>
+
+<script>
+    // Function to set dimensions of iframe container based on logo dimensions
+    function setIframeContainerDimensions(width, height) {
+        const iframeContainer = document.getElementById("iframeContainer");
+        iframeContainer.style.width = `${width + 100}px`;
+        iframeContainer.style.height = `${height +50}px`;
+    }
+</script>

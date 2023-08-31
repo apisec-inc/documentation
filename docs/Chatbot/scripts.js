@@ -1,4 +1,13 @@
-function toggleChatWindow() {
+function toggleChatWindow() {    
+    // Get chatbot container dimensions
+    const chatbotContainer = document.getElementById("chatbotContainer");
+    const chatbotWidth = chatbotContainer.offsetWidth -100;
+    const chatbotHeight = chatbotContainer.offsetHeight-50;
+
+    // Send chatbot container dimensions to parent page
+    window.parent.setIframeContainerDimensions(chatbotWidth, chatbotHeight);
+
+    
     const chatWindow = document.getElementById("chatbot");
     chatWindow.classList.toggle("hidden");
     
@@ -120,6 +129,12 @@ function closeChatbot() {
 
     // Update help message visibility flag
     isHelpMessageVisible = false;
+
+    const chatbotWidth = chatbotContainer.offsetWidth +100;
+    const chatbotHeight = chatbotContainer.offsetHeight+50;
+    
+    // Send chatbot container dimensions to parent page
+    window.parent.setIframeContainerDimensions(chatbotWidth, chatbotHeight);
 }
 function minimizeChatbot() {
     const chatbotContainer = document.getElementById("chatbot");
@@ -133,6 +148,11 @@ function minimizeChatbot() {
 
     // Update help message visibility flag
     isHelpMessageVisible = false;
+    const chatbotWidth = chatbotContainer.offsetWidth +100;
+    const chatbotHeight = chatbotContainer.offsetHeight+50;
+    
+    // Send chatbot container dimensions to parent page
+    window.parent.setIframeContainerDimensions(chatbotWidth, chatbotHeight);
 }
 
 
@@ -159,6 +179,17 @@ logo.addEventListener("click", () => {
     helpMessage.style.display = "none";
 });
 
+// Wait for the iframe's content to load before accessing the logo
+window.addEventListener('DOMContentLoaded', () => {
+    // Get the logo element
+    const logo = document.getElementById("logo");
 
+    if (logo) {
+        // Get logo dimensions
+        const logoWidth = logo.offsetWidth;
+        const logoHeight = logo.offsetHeight;
 
-
+        // Send the logo dimensions to the parent page
+        window.parent.setIframeContainerDimensions(logoWidth, logoHeight);
+    }
+});

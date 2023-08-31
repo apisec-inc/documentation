@@ -19,7 +19,17 @@ body {
     background-color: #2e303e;
    
 }
-
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Adjust the margin as needed */
+    cursor: pointer;
+    height: 170px;
+    width: 170px;
+}
+.logo-containe-hidden {
+    display: none;
+}
 .logo {
     cursor: pointer;
     position: fixed;
@@ -237,7 +247,7 @@ button {
 .help-message {
     position: fixed;
     bottom: 70px; /* Adjust the distance from the bottom */
-    left: 65%;
+    left: 40%;
     transform: translateX(-50%);
     background-color: #009485;
     color: white;
