@@ -5,15 +5,15 @@ body {
     justify-content: flex-end;
     align-items: flex-end;
     height: 100vh;
-    background-color: #2e303e; /* md-hue: 232 background */
+    background-color: #2e303e; 
 }
 
 .chatbot-container {
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 320px; /* Adjust the width as needed */
-    height: 400px; /* Adjust the height as needed */
+    width: 320px; 
+    height: 400px; 
     display: flex;
     flex-direction: column;
     background-color: #2e303e;
@@ -236,8 +236,8 @@ button {
 /* Add this CSS for the help message */
 .help-message {
     position: fixed;
-    bottom: 30px; /* Adjust the distance from the bottom */
-    left: 70%;
+    bottom: 70px; /* Adjust the distance from the bottom */
+    left: 65%;
     transform: translateX(-50%);
     background-color: #009485;
     color: white;
@@ -253,9 +253,3 @@ button {
     animation: cloudPop 0.5s 2s forwards, typeText 2s 3.5s steps(20) forwards;
     pointer-events: none;
 }
-
-
-
-
-
-
