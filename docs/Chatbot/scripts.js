@@ -19,6 +19,22 @@ function updateSendButtonState(event) {
     const userInput = document.getElementById("userInput");
     const sendButton = document.querySelector(".send-button");
 
+    if (event) {
+        // Check if Enter key is pressed without Shift or Ctrl
+        if (event.key === "Enter" && !event.shiftKey && !event.ctrlKey) {
+            event.preventDefault(); // Prevents the default Enter behavior (line break)
+            sendMessage(); // Call the sendMessage function
+        }
+
+        // Check if Ctrl (or Shift) key is pressed along with Enter
+        if ((event.ctrlKey || event.shiftKey) && event.key === "Enter") {
+            // Insert a line break in the textarea
+            userInput.value += "\n";
+            userInput.scrollTop = userInput.scrollHeight; // Keep the cursor at the bottom
+        }
+    }
+
+    // Update the send button state based on the content of the textarea
     if (userInput.value.trim() !== "") {
         sendButton.classList.add("active");
         userInput.classList.add("expanded");
@@ -26,19 +42,15 @@ function updateSendButtonState(event) {
         sendButton.classList.remove("active");
         userInput.classList.remove("expanded");
     }
-
-    if (event) {
-        // Check if Ctrl (or Shift) key is pressed along with Enter
-        if ((event.ctrlKey || event.shiftKey) && event.key === "Enter") {
-            userInput.classList.add("expanded");
-        }
-    }
 }
+
+
 
 // Attach the updated event listener to the textarea
 const userInput = document.getElementById("userInput");
-userInput.addEventListener("input", updateSendButtonState);
 userInput.addEventListener("keydown", updateSendButtonState);
+
+
 
 function sendMessage() {
     const userInput = document.getElementById("userInput").value.trim();
