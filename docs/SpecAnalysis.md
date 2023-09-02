@@ -13,4 +13,15 @@ Spec analysis is run when a API spec is uploaded or updated. It's looking for re
   The spec file is analyzed for anything that can be determined by looking at the spec by itself, before scanning. This is from the perspective that the spec is correctly defined. Any recommendations on a spec that not defined correctly should prompt correcting the spec.
   
   Example: Sensitive data sent over GET method. Parameters sent in the URL aren't secure from interception. 
-<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>
+<div class="container" id="iframeContainer" style="position: fixed; bottom: 20px; right: 20px; overflow: hidden;">
+    <iframe id="iFrame1" src="../Chatbot/index.html" style="border: none; width: 100%; height: 100%;"></iframe>
+</div>
+
+<script>
+    // Function to set dimensions of iframe container based on logo dimensions
+    function setIframeContainerDimensions(width, height) {
+        const iframeContainer = document.getElementById("iframeContainer");
+        iframeContainer.style.width = `${width + 100}px`;
+        iframeContainer.style.height = `${height +50}px`;
+    }
+</script>

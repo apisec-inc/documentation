@@ -22,4 +22,15 @@ After creating the App scroll down and create a Permanent access token. Copy the
 Step4: After adding the token, select the Issue Tracker credentials added in step 3 and it will list the projects and folders from the Wrike account select any project or folder and save to log the vulnerabilities from APISec.
 
 <img width="918" alt="Screen Shot 2022-10-18 at 14 10 47" src="https://user-images.githubusercontent.com/109250250/196522840-5c552a95-ea43-465a-a636-be911374e101.png">
-<iframe src="../Chatbot/index.html" width="320" height="400" frameborder="0" style="position: fixed; bottom: 20px; right: 20px;"></iframe>
+<div class="container" id="iframeContainer" style="position: fixed; bottom: 20px; right: 20px; overflow: hidden;">
+    <iframe id="iFrame1" src="../Chatbot/index.html" style="border: none; width: 100%; height: 100%;"></iframe>
+</div>
+
+<script>
+    // Function to set dimensions of iframe container based on logo dimensions
+    function setIframeContainerDimensions(width, height) {
+        const iframeContainer = document.getElementById("iframeContainer");
+        iframeContainer.style.width = `${width + 100}px`;
+        iframeContainer.style.height = `${height +50}px`;
+    }
+</script>
