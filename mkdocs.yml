@@ -12,7 +12,7 @@ nav:
          - Postman Set Up: setup-postman.md
          - Azure API Gateway: Configuring Azure API Management Gateway.md
     - 3. Projects Section: ProjectSection.md
-    - 4. Project Dashboard: ProjectDashboard.
+    - 4. Project Dashboard: ProjectDashboard.md
     - 5. Confgurations: 
         - Azure AD SSO: AzureSSOConfig.md
     - 6. Integrations: 
