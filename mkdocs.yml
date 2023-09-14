@@ -13,7 +13,7 @@ nav:
          - Azure API Gateway: Configuring Azure API Management Gateway.md
     - 3. Projects Section: ProjectSection.md
     - 4. Project Dashboard: ProjectDashboard.md
-    - 5. Confgurations: 
+    - 5. Configurations: 
         - Azure AD SSO: AzureSSOConfig.md
     - 6. Integrations: 
          - Overview: Integrations.md
@@ -51,6 +51,7 @@ nav:
       - Scanner Architecture: KB_ScannerNetwork.md
       - APIsec IP Acceptlist: IP-Acceptlist.md
       - K8s Scanner Deployment: k8s-scanner-deployment.md
+      - Docker Swarm Scanner Deployment: docker-scanner-deployment.md
     - Maintenance Window: maintenance-window.md
     - Service Level Agreement: ServiceLevelAgreement.md
 #plugins:
