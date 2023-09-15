@@ -1,7 +1,7 @@
 `Reading time < 1 min`
 # APIsec Scanner as Kubernetes Deployment
 
-Please use the below Yaml file format for deploying the APIsec Scanner as a Kubernetes Deployment.
+Please use the below Yaml file format for deploying the APIsec Scanner as a Kubernetes Deployment. Make sure to update the placeholders **`<ScannerName>`, `<FX_IAM_VALUE>`**, and **`<FX_KEY_VALUE>`** with your specific values.
 
 ``` yaml
 apiVersion: apps/v1
