@@ -1,8 +1,8 @@
 `Reading time < 1 min`
-# APIsec Scanner as Docker Swarm Deployment
+# Deploying APIsec Scanner as a Docker Swarm Service
 
-Please use the below Yaml file format for deploying the APIsec Scanner as a Docker Swarm Deployment.  
-and don't forget to update your **ScannerName, FX_IAM_VALUE & FX_KEY_VALUE**.
+Please use the below Yaml file format for deploying the APIsec Scanner as a Docker Swarm Service.  
+Make sure to update the placeholders **`<ScannerName>`, `<FX_IAM_VALUE>`**, and **`<FX_KEY_VALUE>`** with your specific values.
 ``` yaml
 version: '3.5'
 services:
