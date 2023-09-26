@@ -9,6 +9,13 @@ services:
     image: "apisec/scanner:latest"
     deploy:
       replicas: 1
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+        window: 120s
+      placement:
+        constraints: [node.role == manager]
     environment:
       - FX_HOST=cloud.apisec.ai
       - FX_IAM=<FX_IAM_VALUE>
