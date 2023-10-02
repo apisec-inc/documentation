@@ -15,6 +15,7 @@ A Security Category is a set of security tests that will be used to intelligentl
 
 ## Security Category Tiers
 
+![image](https://github.com/apisec-inc/documentation/assets/115025465/e623626c-45ea-4de6-8480-063e7f2f6302)
 
 #### Tier 0
 
