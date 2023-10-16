@@ -64,8 +64,8 @@ Click on the 'SSO tile' and select the integration type as Azure AD.
 
 
 
-A guide on ['How to Configure Azure SSO for APIsec?'](https://docs.google.com/document/d/12cP-1uvGLwiPnmfXHmm8BAckFI8JwYwoRvbGiU0Vq5o/edit) is also available in the instructions which can be accessed by clicking on the question in blue.
-The link redirects you to a Google doc.
+A guide on ['How to Configure Azure SSO for APIsec?'](https://docs.apisec.ai/AzureSSOConfig/) is also available in the instructions which can be accessed by clicking on the question in blue.
+The link redirects you to APIsec docs.
 
 
 
