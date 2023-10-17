@@ -14,9 +14,9 @@ nav:
     - 3. Projects Section: ProjectSection.md
     - 4. Project Dashboard: ProjectDashboard.md
     - 5. Configurations: 
-        - Okta SSO: AzureSSOConfig.md
+        - Okta SSO: OktaSSOConfig.md
         - Azure AD SSO: AzureSSOConfig.md
-        - JumpCloud SSO: AzureSSOConfig.md
+        - JumpCloud SSO: JumpCloudSSOConfig.md
     - 6. Integrations: 
          - Overview: Integrations.md
          - Github Issue Tracker Set up: SetupGithubTracker.md
