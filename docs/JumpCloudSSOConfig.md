@@ -16,47 +16,57 @@
 
     - Select "Custom Application" & click Next.
     - Under "Manage Single Sign-On (SSO)," Select "Configure SSO with OIDC" and click Next.
+      
+    ![JumpcloudImage2](https://github.com/apisec-inc/documentation/assets/87167426/ae24495a-bd34-4b54-b036-361d252d2369)
+
     - Add a "Display Label" for the application and click Next.
+      
+    ![JumpcloudImage3](https://github.com/apisec-inc/documentation/assets/87167426/4463695c-45a8-4301-bd2c-ccc7bd84629c)
+
     - Verify the application summary and click on "Configure Application".
-    
-    ![JumpcloudImage2]()
-    
+          
     - Under "SSO" select "Refresh token" and under "Client Authentication Type" select "Client Secret Basic".
     - For "Redirect URIs" and "Login URL" provide as "https://cloud.apisec.ai/auth/{{clientId}}/redirect".
        Note: You can obtain the clientId after clicking on the "Activate" button.
     - Select "Email & profile" under "Standard Scopes".
+
+    ![JumpcloudImage4](https://github.com/apisec-inc/documentation/assets/87167426/5d3f8970-3e50-4890-ae65-a4ed289257a9)
+
     - Under "User Groups" assign the application to any group from the list.
        Note: 1. If no "User Groups" exist, you can create them in the "USER MANAGEMENT" section, ensuring that they align with the APIsec user roles.
              2.  User groups serve as a link between users and applications, enabling access.
     - Click on "Save" and store the "Client ID" and "Client Secret" locally. These will be prompted in a window after clicking on the "Save" button.
+
+    ![JumpcloudImage5](https://github.com/apisec-inc/documentation/assets/87167426/a64b87e2-e115-407d-835e-c9fbe421c0d3)
+
     - Place the stored "clientId" in "Redirect URIs" and "Login URL" under "SSO" by clicking on the created application and save it.
     - Under "User Management" you can add users and user groups.
        Note: Users can access the applications with the same user group assigned to the user.
-
-    ![JumpcloudImage3]()
-
-    ![JumpcloudImage4]()
+      
+    ![JumpcloudImage6](https://github.com/apisec-inc/documentation/assets/87167426/c5bd0239-875c-4c49-b122-6a364f776b1e)
 
 
-2.   **Actions to Perform at APIsec:**  
+1.   **Actions to Perform at APIsec:**  
     
       - Login to APIsec with the organization Admin account at https://cloud.apisec.ai
      
-      ![JumpcloudImage5](https://github.com/apisec-inc/documentation/assets/115025465/2b10a07c-ec89-41be-9b1f-3d9575d48091)
+      ![JumpcloudImage7](https://github.com/apisec-inc/documentation/assets/87167426/122a817c-fb90-4567-adfe-c29801ded80d)
 
       - Click on the Configurations Tile.
 
-      ![JumpcloudImage6](https://github.com/apisec-inc/documentation/assets/115025465/f939572d-40d2-498e-a2b5-65c5de3a0a80)
+      ![JumpcloudImage8](https://github.com/apisec-inc/documentation/assets/87167426/cc7b935a-9edc-4919-b0a1-b658d1433475)
           
       - Click on SSO Tile Under Integrations and Select SSO Type as JUMPCLOUD from the Dropdown.
       
-      ![JumpcloudImage7](https://github.com/apisec-inc/documentation/assets/115025465/57150f5c-f790-4125-bdcb-8aaee11cc278)
+      ![JumpcloudImage9](https://github.com/apisec-inc/documentation/assets/87167426/58e8e031-6313-4c6e-b1b0-b4caddaae2e4)
 
       - On the SSO Settings tab, enter the "Client-ID" and "Secret" from the application created on JumpCloud and save by activating the form.
       
       - Go to the User Portal Login page at https://console.jumpcloud.com/login
       - Enter the user credentials and log in.
       - Click on the created application, and you should be redirected to the APIsec portal.
+      ![JumpcloudImage10](https://github.com/apisec-inc/documentation/assets/87167426/7fb3f2b8-bd06-45b6-9005-12a40c90ea35)
+
   
 
 
