@@ -12,7 +12,7 @@
     - Launch an existing organization or create a new one and launch it.   
     - Go to SSO Applications and add a new application.
     
-    ![JumpcloudImage1]()
+    ![JumpcloudImage1](https://github.com/apisec-inc/documentation/assets/87167426/46690455-84da-4137-b839-3fb2be74f0e6)
 
     - Select "Custom Application" & click Next.
     - Under "Manage Single Sign-On (SSO)," Select "Configure SSO with OIDC" and click Next.
