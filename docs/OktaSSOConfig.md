@@ -3,14 +3,14 @@
 This setup might fail without parameter values that are customized for your organization. Please use the Okta Administrator Dashboard to add an application and view the values that are specific for your organization. 
 
 **If you have not yet added the APISec app to your Okta organization please follow the below instructions :**
-  
-  - Sign in to your Okta organization with your administrator account.
-  - In the Admin Console, go to Applications > Applications.
-  - Click Browse App Catalog.
-  - Enter APIsec in the Search... text box
-  - On the catalog page for the app integration, click Add.
-  - Enter a label for your copy of this app integration. Click Done to add this to your org.
-  - On the Assignments tab, click Assign to assign the app integration to any user or group in your org. Click Done when the assignments are complete.  
+
+- Sign in to your Okta organization with your administrator account.
+- In the Admin Console, go to Applications > Applications.
+- Click Browse App Catalog.
+- Enter APIsec in the Search... text box
+- On the catalog page for the app integration, click Add.
+- Enter a label for your copy of this app integration. Click Done to add this to your org.
+- On the Assignments tab, click Assign to assign the app integration to any user or group in your org. Click Done when the assignments are complete.  
 
 ## Supported Features :
 
