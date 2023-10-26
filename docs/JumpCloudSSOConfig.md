@@ -29,12 +29,14 @@
     - For "Redirect URIs" and "Login URL" provide as "https://cloud.apisec.ai/auth/{{clientId}}/redirect".
        Note: You can obtain the clientId after clicking on the "Activate" button.
     - Select "Email & profile" under "Standard Scopes".
+    - Select "include group attribute" and "ROLE" as memberOf in the field.
 
     ![JumpcloudImage4](https://github.com/apisec-inc/documentation/assets/87167426/5d3f8970-3e50-4890-ae65-a4ed289257a9)
 
     - Under "User Groups" assign the application to any group from the list.
        Note: 1. If no "User Groups" exist, you can create them in the "USER MANAGEMENT" section, ensuring that they align with the APIsec user roles.
-             2.  User groups serve as a link between users and applications, enabling access.
+             2. User groups serve as a link between users and applications, enabling access.
+             3. Each user is restricted to a single user group.
     - Click on "Save" and store the "Client ID" and "Client Secret" locally. These will be prompted in a window after clicking on the "Save" button.
 
     ![JumpcloudImage5](https://github.com/apisec-inc/documentation/assets/87167426/a64b87e2-e115-407d-835e-c9fbe421c0d3)
