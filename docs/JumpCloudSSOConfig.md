@@ -29,9 +29,12 @@
     - For "Redirect URIs" and "Login URL" provide as "https://cloud.apisec.ai/auth/{{clientId}}/redirect".
        Note: You can obtain the clientId after clicking on the "Activate" button.
     - Select "Email & profile" under "Standard Scopes".
-    - Select "include group attribute" and add "ROLE" as memberOf in the field.
 
     ![JumpcloudImage4](https://github.com/apisec-inc/documentation/assets/87167426/5d3f8970-3e50-4890-ae65-a4ed289257a9)
+
+    - Select "include group attribute" and add "ROLE" as memberOf in the field.
+  
+    ![JumpcloudImage11](https://github.com/apisec-inc/documentation/assets/87167426/6ae8992c-afb7-4b7e-81f0-4499520d14fa)
 
     - Under "User Groups" assign the application to any group from the list.
 
