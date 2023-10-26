@@ -34,9 +34,11 @@
     ![JumpcloudImage4](https://github.com/apisec-inc/documentation/assets/87167426/5d3f8970-3e50-4890-ae65-a4ed289257a9)
 
     - Under "User Groups" assign the application to any group from the list.
-       Note: 1. If no "User Groups" exist, you can create them in the "USER MANAGEMENT" section, ensuring that they align with the APIsec user roles.
-             2. User groups serve as a link between users and applications, enabling access.
-             3. Each user is restricted to a single user group.
+
+      Note :  1. If no "User Groups" exist, you can create them in the "USER MANAGEMENT" section, ensuring that they align with the APIsec user roles.<br>
+              2. User groups serve as a link between users and applications, enabling access.<br>
+              3. Each user should be restricted to a single user group.
+
     - Click on "Save" and store the "Client ID" and "Client Secret" locally. These will be prompted in a window after clicking on the "Save" button.
 
     ![JumpcloudImage5](https://github.com/apisec-inc/documentation/assets/87167426/a64b87e2-e115-407d-835e-c9fbe421c0d3)
