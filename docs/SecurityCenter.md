@@ -2,7 +2,9 @@
 
 `Reading time 4 min`
 
-APIsec provides all customers with a Security Center Dashboard that summarizes information accross all API applications into one view.
+APIsec provides all customers with a Security Center Dashboard that summarizes information accross all API applications into one view.  
+You can access the security center from the dashboard on the far right menu item.
+![SecurityCenter](https://github.com/apisec-inc/documentation/assets/115025465/cb291949-3f67-4139-9d6e-1824d8e2a1e2)
 
 ## **High Level Statistics**
 At the top, the dashboard shows the following high level statistics:
