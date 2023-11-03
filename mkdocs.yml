@@ -23,6 +23,8 @@ nav:
              - Linear IT Configuration: linear-it-configuration.md
              - Wrike IT Configuration: wrike-it-configuration.md
              - Synopsis Code DX Integration: synopsis-code-dx.md
+        - Groups: APIGroups.md
+        - Teams: Teams.md
         - SSO:
             - Okta SSO: OktaSSOConfig.md
             - Azure AD SSO: AzureSSOConfig.md
