@@ -14,9 +14,18 @@ nav:
     - 3. Projects Section: ProjectSection.md
     - 4. Project Dashboard: ProjectDashboard.md
     - 5. Configurations: 
-        - Okta SSO: OktaSSOConfig.md
-        - Azure AD SSO: AzureSSOConfig.md
-        - JumpCloud SSO: JumpCloudSSOConfig.md
+        - Integrations: 
+             - Overview: Integrations.md
+             - Github Issue Tracker Set up: SetupGithubTracker.md
+             - Jira Issue Tracker Set up: SetupJiraTracker.md
+             - JupiterOne IT Integration: jupiter-one-integration.md
+             - Linear IT Configuration: linear-it-configuration.md
+             - Wrike IT Configuration: wrike-it-configuration.md
+             - Synopsis Code DX Integration: synopsis-code-dx.md
+        - SSO:
+            - Okta SSO: OktaSSOConfig.md
+            - Azure AD SSO: AzureSSOConfig.md
+            - JumpCloud SSO: JumpCloudSSOConfig.md
     - 6. Integrations: 
          - Overview: Integrations.md
          - Github Issue Tracker Set up: SetupGithubTracker.md
