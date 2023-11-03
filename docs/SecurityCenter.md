@@ -7,16 +7,20 @@ APIsec provides all customers with a Security Center Dashboard that summarizes i
 ## **High Level Statistics**
 At the top, the dashboard shows the following high level statistics:
 
-### Count of APIs Registered
-### Count of Endpoints
-### Count of Unique Endpoints
-### Count of Playbooks Generated
-### Count of Playbooks Scanned
-### Count of Open Vulnerabilities
-
-Here is an example:
-
 <img width="1222" alt="High Level Statistics" src="https://github.com/apisec-inc/documentation/assets/77065777/777b7ac4-83fc-4f5e-b211-8519a2bf9d3e">
+
+#### Count of APIs Registered
+Aggregate sum of all registered applications.
+#### Count of Endpoints
+Aggregate sum of all endpoints.
+#### Count of Unique Endpoints
+Aggregate sum of all unique endpoints based on combination of methods and endpoints.
+#### Count of Playbooks Generated
+Aggregate sum of all playbooks generated across all registred APIs.
+#### Count of Playbooks Scanned
+Cumulative count of executed playbooks across all registered APIs.
+#### Count of Open Vulnerabilities
+Current count of open vulnerabilties across all registered APIs.
 
 ### Open Vulnerabilities Trend
 This dashboard enables customers to see a trend of open vulnerabilities over time, compared to the number of endpoints.
