@@ -20,7 +20,7 @@ This can be setup by choosing the Profile and the Issue Tracker.  This example s
 
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/168322396-cb3d863e-f920-4113-b1d9-2f0bab92c71c.png" />
 
-You can choose the Issue Tracker system that best suits your requirements.  The credentials vary with the chosen system.  The process for adding the new credentials of the Issue Tracker system is the same as explained in <a href="https://apisec-inc.github.io/documentation/Vault/">chapter 8</a>.
+You can choose the Issue Tracker system that best suits your requirements.  The credentials vary with the chosen system.  The process for adding the new credentials of the Issue Tracker system is the same as explained in <a href="https://apisec-inc.github.io/documentation/Vault/">the vault documentation.</a>.
 
 ### **5.3. Notifications**
 Notifications allow you to integrate Slack Channels with the Project for receiving notifications and Scan Reports. 
