@@ -42,6 +42,7 @@ A combination of several steps, where each step follows a specific path to ultim
 <img width="294" alt="CustomAuth" src="https://github.com/apisec-inc/documentation/assets/77065777/013f2f6b-a6f9-40b0-9806-cb20652c442d">
 
    Example Header:
+   
       Authorization: Bearer {{@Cmd | /tmp/Custom_Auth.sh UserA [[@Vault.UserA/Password]] }}
 
    Note: The "Custom_Auth.sh" example script takes two input parameters, the username "UserA", and the vaulted password associated with the UserA user. The bearer token that is returned by the script is then replaced in the header.
