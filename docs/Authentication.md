@@ -1,6 +1,6 @@
 # General Authentication Related Information
 
-`Reading time 14 min`
+`Reading time 12 min`
 
 ## API Authentication Options
 API authentication is the process of verifying that a user or application is authorized to access an API. There are many different API authentication options available, each with its own strengths and weaknesses. The APIsec platform provides a flexible mechanism to enable customers to authenticate to a large variety of APIs, regardless of the chosen implementation.
@@ -36,6 +36,16 @@ OAuth 2.0 is a popular option and the configuration settings look like this:
 
 <img width="370" alt="OATH2" src="https://github.com/apisec-inc/documentation/assets/77065777/c5d33690-f43b-4791-9124-fea2f9e49995">
 
+#### Multi Step Authentication
+A combination of several steps, where each step follows a specific path to ultimately retrieve authorization to access the API. Often the most flexible authentication option, the APIsec platform empowers customers to create and execute these steps in a script that returns the necessary keys. The image below shows how this is configured in APIsec:
+
+<img width="294" alt="CustomAuth" src="https://github.com/apisec-inc/documentation/assets/77065777/013f2f6b-a6f9-40b0-9806-cb20652c442d">
+
+   Example Header:
+      Authorization: Bearer {{@Cmd | /tmp/Custom_Auth.sh UserA [[@Vault.UserA/Password]] }}
+
+   Note: The "Custom_Auth.sh" example script takes two input parameters, the username "UserA", and the vaulted password associated with the UserA user. The bearer token that is returned by the script is then replaced in the header.
+
 #### Authentication in the Request Body (Less Common)
 Steps to configure authentication in the request body
 
@@ -50,18 +60,19 @@ Please refer to this documentation for more information on generating dynamic to
 
 3. Now, we can refer to these headers substituted in the request body and update the payload section. Navigate to the configurations, payloads, and Default tab and update the field in the request body that requires a token or an authentication key with the following syntax:
 
-{
-   "authenticationKey": "{{@RequestHeaders.authenticationKey}}"
-}
+      {
+         "authenticationKey": "{{@RequestHeaders.authenticationKey}}"
+      }
 
-Note: The authenticationKey is the header name we defined in Step 1.
+   Note: The authenticationKey is the header name we defined in Step 1.
 
 4. Lock and save the payload and regenerate playbooks.
 
 5. For ABAC, configure UserA and UserB credentials and update the payload within the same category, and regenerate playbooks.
 
 6. In the case of static tokens or keys, we can create variables with the following notation:
-UserB.authenticationKey, and UserC.authenticationKey. Use the following syntax in the payload: {{@Var.authenticationKey}}. APIsec automatically substitutes the appropriate authenticationKey when executing a playbook using UserB or UserC credentials.
+
+   UserB.authenticationKey, and UserC.authenticationKey. Use the following syntax in the payload: {{@Var.authenticationKey}}. APIsec automatically substitutes the appropriate authenticationKey when executing a playbook using UserB or UserC credentials.
 
 
 ## Authentication Troubleshooting
