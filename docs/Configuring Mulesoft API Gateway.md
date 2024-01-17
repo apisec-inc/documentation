@@ -1,25 +1,29 @@
-## Configuring Azure API Management Gateway
+## Configure Mulesoft API Gateway via Connected App Credentials 
+
+Prerequisites:
+1. Create a Connected App in the Mulesoft API Gateway. Please refer to the following link:
+https://docs.mulesoft.com/api-manager/latest/manage-client-apps-connected-apps-concept
+2. Select the following scopes in the Connected App:
+API Governance > Governance Viewer
+API Manager > View APIs Configuration
+Data Gateway > Data Gateway Viewer
+3. Retrieve Client ID and Secret to integrate Mulesoft API Gateway with APIsec
+
+Steps to integrate Mulesoft API Gateway with APIsec:
+1. Click API Gateways Tile on the APIsec Home page.
+2. Click Register Gateway
+3. Select Anypoint Platform from the Gateway dropdown
+4. Enter the ID and Secret obtained from the Mulesoft Gateway’s Connected App and click Test.
+5. Click Create to save the credentials
+
+Note: The create button is enabled after the test is successful. If the Test button throws an error, resolve the issue and restart the process.
+
+You may activate the Enable Automated Onboarding feature to register any new or unregistered APIs every week automatically. This job runs every Sunday at 9 PM GMT.
+
+In the case of the existing Mulesoft API Gateway configuration with a Username and password, the credentials can be replaced with the ID and secret in the settings tab. Please refer to the Prerequisites section above to create a Connected App and obtain a Client ID and Secret.
 
 
-From the main APIsec dashboard, click API Gateways.
 
-![image](https://user-images.githubusercontent.com/115025465/216443349-89d2bfc6-c530-405d-a7f9-9b20c5773715.png)
-
-Once you have done that Click "+ Register Gateway" and then select Azure API Management.
-
-![image](https://user-images.githubusercontent.com/115025465/216377912-9e4a317c-52b4-4698-9b4d-f85b9b2b09ca.png)
-
-
-On the next screen, you will have a number of fields to fill out:
-   Name (what makes sense to you), Client ID, Client Secret Key and Tenant ID.
-   
-   Then click "Create"
-   
-   ![image](https://user-images.githubusercontent.com/115025465/216378444-08dc10b3-3e64-45f1-9f8f-62a148e9134e.png)
-
- *  For Enable Automatic Onboarding, it is recommended starting with this off and then turning it on after validating the registaration of a few API's.*
-
-![image](https://user-images.githubusercontent.com/115025465/216435834-1e5dc15d-68a5-4855-b36e-113d20361943.png)
 
 <div class="container" id="iframeContainer" style="position: fixed; bottom: 20px; right: 20px; overflow: hidden;">
     <iframe id="iFrame1" src="../Chatbot/index.html" style="border: none; width: 100%; height: 100%;"></iframe>
