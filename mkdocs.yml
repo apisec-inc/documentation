@@ -11,6 +11,7 @@ nav:
          - API Gateway Overview: RegisterGateway.md
          - Postman Set Up: setup-postman.md
          - Azure API Gateway: Configuring Azure API Management Gateway.md
+         - Mulesoft API Gateway: Configuring Mulesoft API Gateway.md
     - 3. Projects Section: ProjectSection.md
     - 4. Project Dashboard: ProjectDashboard.md
     - 5. Configurations: 
