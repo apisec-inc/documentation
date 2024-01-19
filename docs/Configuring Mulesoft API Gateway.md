@@ -21,10 +21,12 @@ Data Gateway > Data Gateway Viewer
 4. Enter the ID and Secret obtained from the Mulesoft Gateway’s Connected App and click Test.
 ![image](https://github.com/apisec-inc/documentation/assets/39483585/236bfa7d-b78a-4b62-bcc7-f86c6dd8118d)<br>
 5. Click Create to save the credentials
+<be>
 <br>
 **Note:** The create button is enabled after the test is successful. If the Test button throws an error, resolve the issue and restart the process.
 <br>
 You may activate the Enable Automated Onboarding feature to register any new or unregistered APIs every week automatically. This job runs every Sunday at 9 PM GMT.
+<be>
 <br>
 In the case of the existing Mulesoft API Gateway configuration with a Username and password, the credentials can be replaced with the ID and secret in the settings tab. Please refer to the Prerequisites section above to create a Connected App and obtain a Client ID and Secret.
 
