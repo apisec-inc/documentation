@@ -2,7 +2,7 @@
 
 **Prerequisites:**
 <br>
-1. Create a Connected App in the Mulesoft API Gateway. Please refer to the following [link](https://docs.mulesoft.com/api-manager/latest/manage-client-apps-connected-apps-concept):
+1. Create a Connected App in the Mulesoft API Gateway. Please refer to the following [link](https://docs.mulesoft.com/api-manager/latest/manage-client-apps-connected-apps-concept)
 <br>
 2. Select the following scopes in the Connected App:
  <br>
