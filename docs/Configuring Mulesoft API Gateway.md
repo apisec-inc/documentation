@@ -3,30 +3,23 @@
 **Prerequisites:**
 <br>
 1. Create a Connected App in the Mulesoft API Gateway. Please refer to the following [link](https://docs.mulesoft.com/api-manager/latest/manage-client-apps-connected-apps-concept)
-<br>
 2. Select the following scopes in the Connected App:
- <br>
 API Governance > Governance Viewer
-<br>
 API Manager > View APIs Configuration
-<br>
 Data Gateway > Data Gateway Viewer
-<br>
 3. Retrieve Client ID and Secret to integrate Mulesoft API Gateway with APIsec
 <br>
-
+<br>
 **Steps to integrate Mulesoft API Gateway with APIsec:**
 <br>
 1. Click API Gateways Tile on the APIsec Home page.
-<br>
-![Screenshot 2024-01-19 110606](https://github.com/apisec-inc/documentation/assets/39483585/90c64991-0270-42b4-b8aa-b299f8168fad)
-
+![Screenshot 2024-01-19 110606](https://github.com/apisec-inc/documentation/assets/39483585/90c64991-0270-42b4-b8aa-b299f8168fad)<br>
 2. Click Register Gateway
-<br>
+![Screenshot 2024-01-19 111207](https://github.com/apisec-inc/documentation/assets/39483585/f0d298e5-f68a-4b6b-9232-e935735a81cf)<br>
 3. Select Anypoint Platform from the Gateway dropdown
-<br>
+![Screenshot 2024-01-19 110417](https://github.com/apisec-inc/documentation/assets/39483585/dddde524-9c0d-4b40-a4ea-e447f84fcfb7)<br>
 4. Enter the ID and Secret obtained from the Mulesoft Gateway’s Connected App and click Test.
-<br>
+![image](https://github.com/apisec-inc/documentation/assets/39483585/236bfa7d-b78a-4b62-bcc7-f86c6dd8118d)<br>
 5. Click Create to save the credentials
 <br>
 **Note:** The create button is enabled after the test is successful. If the Test button throws an error, resolve the issue and restart the process.
