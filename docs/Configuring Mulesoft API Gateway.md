@@ -19,6 +19,8 @@ Data Gateway > Data Gateway Viewer
 <br>
 1. Click API Gateways Tile on the APIsec Home page.
 <br>
+![Screenshot 2024-01-19 110606](https://github.com/apisec-inc/documentation/assets/39483585/90c64991-0270-42b4-b8aa-b299f8168fad)
+
 2. Click Register Gateway
 <br>
 3. Select Anypoint Platform from the Gateway dropdown
