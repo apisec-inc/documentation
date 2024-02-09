@@ -1,6 +1,6 @@
 ## **Steps to Configure Credentials for GitHub Playbooks Backup**
 **GitHub Credentials in APIsec can be saved via Personal Access Token or SSH** <br>
-<br>
+<br>`Reading time 3 min`<br>
 **To configure GitHub Credentials in APIsec via Personal Access Token**<br>
 Step 1: Generate the PAT in Github.<br>
 To generate the PAT refer to the following GitHub documentation. Select the below scopes while generating the PAT.<br>
