@@ -1,8 +1,7 @@
 ## **Steps to Configure Credentials for GitHub Playbooks Backup**
-<br>
 **GitHub Credentials in APIsec can be saved via Personal Access Token or SSH** <br>
-To configure GitHub Credentials in APIsec via Personal Access Token<br>
 <br>
+**To configure GitHub Credentials in APIsec via Personal Access Token**<br>
 Step 1: Generate the PAT in Github.<br>
 To generate the PAT refer to the following GitHub documentation. Select the below scopes while generating the PAT.<br>
 1. Full control of private repositories<br>
@@ -10,7 +9,6 @@ To generate the PAT refer to the following GitHub documentation. Select the belo
 3. Read org and team membership, read org projects<br>
 4. Create gists.<br>
 Once the scopes are selected, the PAT is generated.<br>
-<br>
 Step 2:  In the APIsec project, Go to Configurations > Integrations<br>
 Click on Git Backup > +New Credentials. A New Credentials Pop-Up window appears.<br>
 ![image](https://github.com/apisec-inc/documentation/assets/39483585/702c6fc7-6a18-436c-b303-eeeeae42b7f9)<br>
@@ -18,8 +16,7 @@ Click on Git Backup > +New Credentials. A New Credentials Pop-Up window appears.
 Add a name for the credential along with a Personal Access Token. <br>
 Click on Add. The credentials will be saved in the APIsec Vault.  <br>
 <br>
-**Backup Playbooks in GitHub** 
-<br>
+**Backup Playbooks in GitHub** <br>
 Step 1: Go to GitHub and create a new Repository with a README file. Copy the 'Git Repository URL'  as shown in the below image.<br>
 ![image](https://github.com/apisec-inc/documentation/assets/39483585/8a13b4ee-42b3-4f3a-999b-f0be228b7768)<br>
 Step 2: Go to Configurations > Integrations > Playbook Backup in the project of APIsec.<br>
@@ -27,7 +24,7 @@ Paste the GitHub repository URL extracted from Step 1 under the GitHub repositor
 ![image](https://github.com/apisec-inc/documentation/assets/39483585/084fbeef-369f-4c06-b5d6-61f0dcf95216)<br>
 Once these configurations are completed, the playbooks will be auto-synced into your GitHub repository.<br>
 ![image](https://github.com/apisec-inc/documentation/assets/39483585/3dab1fd8-5099-4cd6-89b4-796d32c443f6)<br>
-
+<br>
 **To configure credentials for GitHub Playbooks Backup via SSH** <br>
 Step 1: Open a Git Bash terminal on your local machine.<br>
 Step 2. Enter the following command: ssh-keygen -t ecdsa -m PEM to generate the Public and Private keys.<br>
@@ -37,7 +34,7 @@ Step 4. Go to Configurations > Integrations > Playbook Backup in the project of 
 Click on Playbook Backup > +New Credentials. A New Credentials Pop-Up window appears.<br>
 ![image](https://github.com/apisec-inc/documentation/assets/39483585/1852cadf-eaf2-4d95-86e5-18c8122d895f) <br>
 Add a name to this credential. Retrieve the Private key generated in Step 2 from your local drive, paste it into the Private Key field, and click on Add. The credentials will be saved in the APIsec Vault. <br>
-
+<br>
 **Backup Playbooks in GitHub** <br>
 Step 1: Go to GitHub and create a new Repository with a README file. Copy the 'Git Repository URL'  as shown in the below image.<br>
 ![Screenshot 2024-02-09 191341](https://github.com/apisec-inc/documentation/assets/39483585/19b5f01f-433b-42d2-9c7f-9ce5402451e4) <br>
