@@ -24,6 +24,7 @@ nav:
              - Linear IT Configuration: linear-it-configuration.md
              - Wrike IT Configuration: wrike-it-configuration.md
              - Synopsis Code DX Integration: synopsis-code-dx.md
+             - Playbook Backup: Configure GitHub for Playbooks Backup.md
         - Groups: APIGroups.md
         - Teams: Teams.md
         - SSO:
