@@ -40,7 +40,6 @@ Step 2: Go to Configurations > Integrations > Playbook Backup in the project of 
 Paste the GitHub repository URL extracted from Step 1 under the GitHub repository URL field. Now click on the 'GitHub access credentials' dropdown and select your registered credential. Click Save and enable the Active toggle button.<br>
 ![image](https://github.com/apisec-inc/documentation/assets/39483585/98de010c-4cae-4c36-9016-35c283954b8e) <br>
 Once these configurations are completed, the playbooks will be auto-synced into your GitHub repository. <br>
-<br>
 <h2 align="center"> <b> Steps to Restore Playbooks from the GitHub Repository </b> </h2>
 Step 1: Once the GitHub Credentials are configured and the playbook backup has been done as described in the 1.1 and 2.1 sections, the playbooks can be restored in APIsec. For this, Go to Configurations > Playbooks <br>
 Step 2: Click on Bulk Create/Delete Playbooks. Select All from the categories drop-down list. Check Delete Custom Playbooks and click Submit.<br>
