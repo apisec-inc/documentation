@@ -93,6 +93,7 @@
 
         - Under Manage Select ‘Users and groups’ .
         - Click on "Add Users/Groups" to assign them to the application, then select the desired role you wish to provide. If you do not add a role, then the user will not be able to login to APIsec.
+        - **IMPORTANT NOTE:** At this time, we only support adding USERS to the application and not adding GROUPS to the application.
 
 ![AzureImage18](https://github.com/apisec-inc/documentation/assets/115025465/eb280844-7239-4991-842c-26f81f2f1822)
 
