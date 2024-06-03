@@ -17,8 +17,8 @@
     - In the Register an application page that appears, enter your application's registration information.  
         - In the Name section, enter a meaningful application name that will be displayed to users of the app.
         - Under Supported account types, select an option.(Multitenant / Single Tenant)
-        - In the Redirect URI section, select Web in the combo-box and enter the redirect URI of your web application. This is the URI where your application wants to handle the authentication response after the user signs in. For now, enter the following redirect URI : https://cloud.apisec.ai/auth/redirect.
-        - 
+        - **In the Redirect URI section, select Web in the combo-box and enter the redirect URI of your web application. This is the URI where your application wants to handle the authentication response after the user signs in. For now, enter the following redirect URI : https://cloud.apisec.ai/auth/redirect.**
+          
 ![AzureImage2](https://github.com/apisec-inc/documentation/assets/115025465/d130d53f-3d1a-4217-a5e2-c6c5aed33443)
 
         - Select Register to create the application.
