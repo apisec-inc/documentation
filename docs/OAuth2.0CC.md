@@ -1,13 +1,13 @@
 # **Steps to Configure AZURE using OAuth2.0 - PKCE with Confidential Client**
 
 1. **Register an Application in the Azure AD Portal** 
-  - Log into the Azure Portal.
-  - Navigate to Azure Active Directory, App registrations, New registration.
-  - Enter the following details to create an application:
-  - Name: **ApplicationName**
-  - Account types: Please select single/multi-tenant account types.
-  - Redirect URI: Select the platform as web from the dropdown.
-  - Click Register.
+    - Log into the Azure Portal.
+    - Navigate to Azure Active Directory, App registrations, New registration.
+    - Enter the following details to create an application:
+    - Name: **ApplicationName**
+    - Account types: Please select single/multi-tenant account types.
+    - Redirect URI: Select the platform as web from the dropdown.
+    - Click Register.
     
     ![Azure sso Registr](https://github.com/user-attachments/assets/ab356e4b-2339-445e-8b06-1dcc7f99cf9b)
 
