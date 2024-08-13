@@ -77,23 +77,24 @@
 
       **Note: Users associated with a role will be used to assign the same role in APIsec.**
 
-- 6.2 **Creating & assigning groups with the application**
-    - Go to the home overview page.
-    - Under manage click Groups.
-    ![OverviewUsersandgroups](https://github.com/user-attachments/assets/62b63b0e-77f7-4ecd-88d3-c78cc38c4552)
+    - 6.2 **Creating & assigning groups with the application**
+        - Go to the home overview page.
+        - Under manage click Groups.
+          
+        ![OverviewUsersandgroups](https://github.com/user-attachments/assets/62b63b0e-77f7-4ecd-88d3-c78cc38c4552)
 
-      - Click New group & fill the details.
-        - Select Group type as “Security”.
-        - Enter Group name.
-        - Enter Membership type as “Assigned”.
+        - Click New group & fill the details.
+            - Select Group type as “Security”.
+            - Enter Group name.
+            - Enter Membership type as “Assigned”.
 
-      ![newgroupform](https://github.com/user-attachments/assets/44db6796-d645-41ee-912b-5b4d2b5a13f5)
+              ![newgroupform](https://github.com/user-attachments/assets/44db6796-d645-41ee-912b-5b4d2b5a13f5)
 
-        - In members under users list select the users & click select.
+            - In members under users list select the users & click select.
 
-      ![userslistundermembers](https://github.com/user-attachments/assets/2eadd037-cd37-4cd5-9875-01fc84330aab)
+              ![userslistundermembers](https://github.com/user-attachments/assets/2eadd037-cd37-4cd5-9875-01fc84330aab)
 
-        - Click create to successfully add members to that specific group.         
+            - Click create to successfully add members to that specific group.         
 
 7. **Assign permissions for the group's resource**
    
