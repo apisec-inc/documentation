@@ -98,6 +98,9 @@ Step 6: **Assign user/ groups with the Enterprise application**
                    - Click create to successfully add members to that specific group.         
 
 Step 7: **Assign permissions for the group's resource**
+
+**Note**: AD Groups support require the following configurations
+    
     - 7.1 **To assign Delegated permissions**
          - Go to Application registrations page & select the registered app.
      
