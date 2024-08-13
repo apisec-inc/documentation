@@ -4,7 +4,7 @@
     - Log into the Azure Portal.
     - Navigate to Azure Active Directory, App registrations, New registration.
     - Enter the following details to create an application:
-    - Name: **ApplicationName**
+    - Name: ApplicationName
     - Account types: Please select single/multi-tenant account types.
     - Redirect URI: Select the platform as web from the dropdown.
     - Click Register.
@@ -18,15 +18,14 @@
 
         ![CopyRedirectURI](https://github.com/user-attachments/assets/f761fb82-b0db-4220-900f-986bcf741fed)
 
-
       - Click Add a platform and select Web under the Web applications.
 
         ![Configure platform](https://github.com/user-attachments/assets/cddb02d0-90f2-4705-b981-efc29fe8907b)
 
-      - Enter the redirect URI of the application: https://{environment}.apisec.ai/auth2.0/{clientId}/redirect
-    Here’s an example: 
-    https://cloud.apisec.ai/auth2.0/000008ee-c71d-4a6a-a53c-33f7eb1000000/redirect
-       - Click Configure and Save the platform configurations.
+      - Enter the redirect URI of the application: https://{environment}.apisec.ai/auth2.0/{clientId}/redirect.
+        - Here’s an example: https://cloud.apisec.ai/auth2.0/000008ee-c71d-4a6a-a53c-33f7eb1000000/redirect
+
+   - Click Configure and Save the platform configurations.
 
 3. **Enter the Homepage URL**
       - Click Branding and properties under Manage.
@@ -97,7 +96,9 @@
         - Click create to successfully add members to that specific group.         
 
 7. **Assign permissions for the group's resource**
+   
    **Note: AD Groups support require the following configurations**
+   
     - 7.1 **To assign Delegated permissions**
       - Go to Application registrations page & select the registered app.
       
@@ -120,7 +121,7 @@
         
           **Note: Under Microsoft Graph click Application permissions**
 
-8. **Assign Groups with the Enterprise application**
+9. **Assign Groups with the Enterprise application**
       - Navigate to the Enterprise Application from the home page.
       - Search and select the application registered in Step: 1.
       - Click “Assign users and groups” link on the Overview page.
