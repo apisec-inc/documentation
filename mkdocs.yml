@@ -29,7 +29,10 @@ nav:
         - Teams: Teams.md
         - SSO:
             - Okta SSO: OktaSSOConfig.md
-            - Azure AD SSO: AzureSSOConfig.md
+            - Azure AD SSO: 
+                - Open ID Connect: AzureSSOConfig.md
+                - OAuth2.0 - PKCE with Confidential Client: OAuth2.0CC.md
+                - OAuth2.0 - PKCE with Public Client for SPA: OAuth2.0PC.md
             - JumpCloud SSO: JumpCloudSSOConfig.md
     - 6. Reports: Reports.md
     - 7. Deploy Scanners: DeployScanners.md
