@@ -51,7 +51,7 @@
       - Click Apply.
     
 6. **Assign user/ groups with the Enterprise application**
-   - 6.1 **Navigate to the Enterprise Application from the home page**.
+       - **Navigate to the Enterprise Application from the home page**.
 
       ![Default directory enterprise app](https://github.com/user-attachments/assets/dfcadfc0-ae03-4323-a8b0-bcb22451026d)
 
@@ -77,7 +77,7 @@
 
    **Note: Users associated with a role will be used to assign the same role in APIsec.**
 
-   - 6.2 **Creating & assigning groups with the application**
+    - **Creating & assigning groups with the application**
      - Go to the home overview page.
      - Under manage click Groups.
      
@@ -117,50 +117,37 @@
 
    - 7.2 **To Assign Application permissions**
      - Follow the same steps as mentioned in 7.1
+           ![cc7 2](https://github.com/user-attachments/assets/58a89511-08d7-4819-a847-8e2d90174fed)
+
 
      **Note**: Under Microsoft Graph click Application permissions.
 
 8. **Assign Groups with the Enterprise application**
-   - Navigate to the Enterprise Application from the home page.
-   - Search and select the application registered in Step: 1.
-   - Click “Assign users and groups” link on the Overview page.
-   - Click Add user group.
-   - Select Group & click on Assign.
-
-     ![selectgropuandassign8 1new](https://github.com/user-attachments/assets/2764970d-9c3b-483a-bb99-311983328a40)
-
-   - Select Roles & click on Assign.
-
-     ![selectroleandassign8 3](https://github.com/user-attachments/assets/bee422a4-09fd-48b6-8a54-8d33e07f67c3)
-
-8. **Assign Groups with the Enterprise application**
-      - Navigate to the Enterprise Application from the home page.
-      - Search and select the application registered in Step: 1.
-      - Click “Assign users and groups” link on the Overview page.
-      - Click Add user group.
-      - Select Group & click on Assign.
-
-        ![selectgropuandassign8 1new](https://github.com/user-attachments/assets/2764970d-9c3b-483a-bb99-311983328a40)
-
+    - Navigate to the Enterprise Application from the home page.
+    - Search and select the application registered in Step: 1.
+    - Click “Assign users and groups” link on the Overview page.
+    - Click Add user group.
+    - Select Group & click on Assign.
+   ![selectgropuandassign8 1new](https://github.com/user-attachments/assets/2764970d-9c3b-483a-bb99-311983328a40)
+    
     - Select Roles & click on Assign.
 
-        ![selectroleandassign8 3](https://github.com/user-attachments/assets/bee422a4-09fd-48b6-8a54-8d33e07f67c3)
-  
-9. **Publish Application**
-      - Click properties under manage section.
-      - Click the toggle to enable “Visible to users”.
-      - Click Apply changes.
+   ![selectroleandassign8 3](https://github.com/user-attachments/assets/bee422a4-09fd-48b6-8a54-8d33e07f67c3)
 
-          ![properties9 1new](https://github.com/user-attachments/assets/403855f8-3793-4846-a5d8-bd4da964b4cf)
+9. **Publish Application**
+   - Click properties under manage section.
+   - Click the toggle to enable “Visible to users”.
+   - Click Apply changes.
+    ![properties9 1new](https://github.com/user-attachments/assets/403855f8-3793-4846-a5d8-bd4da964b4cf).
 
 10. **Configure SSO in APIsec**
-      - Login to APIsec application.
-      - Click on configuration from APIsec dashboard.
-      - Click on SSO and select sso type as Azure from dropdown.
-      - Enter the secret code copied from step 4.
-      - Enter the client Id and tenant Id copied from step 2.
-      - Click the toggle to active.
-      - Click Save.
+    - Login to APIsec application.
+    - Click on configuration from APIsec dashboard.
+    - Click on SSO and select sso type as Azure from dropdown.
+    - Enter the secret code copied from step 4.
+    - Enter the client Id and tenant Id copied from step 2.
+    - Click the toggle to active.
+    - Click Save.
 
 11. **Confirm login with SSO using OAuth2.0 - PKCE with Confidential Client**
       - Launch the URL https://myapps.microsoft.com/  and select the registered application which redirects the user to APIsec application dashboard.
