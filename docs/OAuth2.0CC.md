@@ -50,7 +50,7 @@
       - Check the box “Do you want to enable this role?”.
       - Click Apply.
     
-6. **Assign user/ groups with the Enterprise application**
+Step 6: **Assign user/ groups with the Enterprise application**
 
    - 6.1 **Navigate to the Enterprise Application from the home page**.
 
@@ -82,32 +82,32 @@
          - Go to the home overview page.
          - Under manage click Groups.
      
-       ![OverviewUsersandgroups](https://github.com/user-attachments/assets/62b63b0e-77f7-4ecd-88d3-c78cc38c4552)
+![OverviewUsersandgroups](https://github.com/user-attachments/assets/62b63b0e-77f7-4ecd-88d3-c78cc38c4552)
 
          - Click New group & fill the details.
                - Select Group type as “Security”.
                - Enter Group name.
                - Enter Membership type as “Assigned”.
 
-         ![newgroupform](https://github.com/user-attachments/assets/44db6796-d645-41ee-912b-5b4d2b5a13f5)
+![newgroupform](https://github.com/user-attachments/assets/44db6796-d645-41ee-912b-5b4d2b5a13f5)
 
                    - In members under users list select the users & click select.
 
-         ![userslistundermembers](https://github.com/user-attachments/assets/2eadd037-cd37-4cd5-9875-01fc84330aab)
+![userslistundermembers](https://github.com/user-attachments/assets/2eadd037-cd37-4cd5-9875-01fc84330aab)
 
                    - Click create to successfully add members to that specific group.         
 
-7. **Assign permissions for the group's resource**
+Step 7: **Assign permissions for the group's resource**
     - 7.1 **To assign Delegated permissions**
          - Go to Application registrations page & select the registered app.
      
-       ![appregistrations7 1new](https://github.com/user-attachments/assets/bca55601-7366-4132-9331-d53e282e1846)
+![appregistrations7 1new](https://github.com/user-attachments/assets/bca55601-7366-4132-9331-d53e282e1846)
 
          - Under manage click API Permissions.
          - Click Add a permission.
          - Under Microsoft APIs click Microsoft Graph.
 
-       ![APIpermission 7 1 2](https://github.com/user-attachments/assets/b7e3e9b7-7ae9-49c6-bbd4-0fcae8482b8b)
+![APIpermission 7 1 2](https://github.com/user-attachments/assets/b7e3e9b7-7ae9-49c6-bbd4-0fcae8482b8b)
 
          - Click Delegated permissions & search for Group under Select permissions search field.
          - Expand group & check the boxes.
@@ -122,7 +122,7 @@
 
      **Note**: Under Microsoft Graph click Application permissions.
 
-8. **Assign Groups with the Enterprise application**
+Step 8: **Assign Groups with the Enterprise application**
         - Navigate to the Enterprise Application from the home page.
         - Search and select the application registered in Step: 1.
         - Click “Assign users and groups” link on the Overview page.
@@ -134,13 +134,13 @@
 
    ![selectroleandassign8 3](https://github.com/user-attachments/assets/bee422a4-09fd-48b6-8a54-8d33e07f67c3)
 
-9. **Publish Application**
+Step 9: **Publish Application**
        - Click properties under manage section.
        - Click the toggle to enable “Visible to users”.
        - Click Apply changes.
     ![properties9 1new](https://github.com/user-attachments/assets/403855f8-3793-4846-a5d8-bd4da964b4cf).
 
-10. **Configure SSO in APIsec**
+Step 10: **Configure SSO in APIsec**
         - Login to APIsec application.
         - Click on configuration from APIsec dashboard.
         - Click on SSO and select sso type as Azure from dropdown.
@@ -149,8 +149,8 @@
         - Click the toggle to active.
         - Click Save.
 
-11. **Confirm login with SSO using OAuth2.0 - PKCE with Confidential Client**
+Step 11: **Confirm login with SSO using OAuth2.0 - PKCE with Confidential Client**
           - Launch the URL https://myapps.microsoft.com/  and select the registered application which redirects the user to APIsec application dashboard.
           - Alternatively, the users may use the redirect link for the SP-initiated flow.
 
-    ![APIsecdashboard11](https://github.com/user-attachments/assets/d99b7ac1-7e1a-4cc4-a243-ea70b05d4541)
+![APIsecdashboard11](https://github.com/user-attachments/assets/d99b7ac1-7e1a-4cc4-a243-ea70b05d4541)
