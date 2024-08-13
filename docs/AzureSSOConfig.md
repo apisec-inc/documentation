@@ -107,6 +107,10 @@
 
   ![AzureImage21](https://github.com/apisec-inc/documentation/assets/115025465/fe9b64a7-ae3e-49f8-aace-3b7fd30c5a0c)
 
+!!! note "Note"
+
+ 	 	 - AD Groups not supported
+
 **Tutorial**
 
 For a comprehensive visual guide on configuring Azure AD with APIsec, we have prepared a helpful Video tutorial. In this [video](https://drive.google.com/file/d/18VKwmlfshCMMsNJovpIgZ9AdnMDth5Lh/view?usp=drive_link), you'll learn step-by-step instructions on setting up the integration between Azure AD and APIsec
