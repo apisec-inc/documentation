@@ -121,7 +121,7 @@
         
           **Note: Under Microsoft Graph click Application permissions**
 
-9. **Assign Groups with the Enterprise application**
+8. **Assign Groups with the Enterprise application**
       - Navigate to the Enterprise Application from the home page.
       - Search and select the application registered in Step: 1.
       - Click “Assign users and groups” link on the Overview page.
@@ -134,14 +134,14 @@
 
         ![selectroleandassign8 3](https://github.com/user-attachments/assets/bee422a4-09fd-48b6-8a54-8d33e07f67c3)
   
-10. **Publish Application**
+9. **Publish Application**
       - Click properties under manage section.
       - Click the toggle to enable “Visible to users”.
       - Click Apply changes.
 
           ![properties9 1new](https://github.com/user-attachments/assets/403855f8-3793-4846-a5d8-bd4da964b4cf)
 
-11. **Configure SSO in APIsec**
+10. **Configure SSO in APIsec**
       - Login to APIsec application.
       - Click on configuration from APIsec dashboard.
       - Click on SSO and select sso type as Azure from dropdown.
@@ -150,7 +150,7 @@
       - Click the toggle to active.
       - Click Save.
 
-12. **Confirm login with SSO using OAuth2.0 - PKCE with Confidential Client**
+11. **Confirm login with SSO using OAuth2.0 - PKCE with Confidential Client**
       - Launch the URL https://myapps.microsoft.com/  and select the registered application which redirects the user to APIsec application dashboard.
       - Alternatively, the users may use the redirect link for the SP-initiated flow.
 
