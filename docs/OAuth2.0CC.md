@@ -113,7 +113,7 @@ Step 7: **Assign permissions for the group's resource**
          - Expand group & check the boxes.
          - Click on Add permissions.
    
-       ![RequestAPIpermissions7 1 3](https://github.com/user-attachments/assets/ebe3736c-b11d-4a4a-b181-afc72b9307ec)
+![RequestAPIpermissions7 1 3](https://github.com/user-attachments/assets/ebe3736c-b11d-4a4a-b181-afc72b9307ec)
 
    - 7.2 **To Assign Application permissions**
          - Follow the same steps as mentioned in 7.1
