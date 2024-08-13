@@ -25,7 +25,7 @@
       - Enter the redirect URI of the application: https://{environment}.apisec.ai/auth2.0/{clientId}/redirect.
         - Here’s an example: https://cloud.apisec.ai/auth2.0/000008ee-c71d-4a6a-a53c-33f7eb1000000/redirect
 
-   - Click Configure and Save the platform configurations.
+    - Click Configure and Save the platform configurations.
 
 3. **Enter the Homepage URL**
       - Click Branding and properties under Manage.
