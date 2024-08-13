@@ -107,9 +107,8 @@
 
   ![AzureImage21](https://github.com/apisec-inc/documentation/assets/115025465/fe9b64a7-ae3e-49f8-aace-3b7fd30c5a0c)
 
-!!! note "Note"
 
- 	 	 - AD Groups not supported
+**Note: AD Groups not supported**
 
 **Tutorial**
 
