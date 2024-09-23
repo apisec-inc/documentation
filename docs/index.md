@@ -3,7 +3,7 @@
 
 The Only 100% Automated `API` Testing Platform.  APIsec automatically creates and runs thousands of test cases tailored to your unique API architecture - integrated directly into your workflow.
  
-Instantly secure APIs in Apigee, Azure, AWS, Kong & more with `API Gateway`.
+Instantly secure APIs in Apigee, Azure, AWS & more with `API Gateway`.
 
 `Scanners`!  APIsec Scanner is a light-weight Docker container which receives tasks from the APIsec control-plane over SSL.  These scanners run playbooks/security tests.
 
