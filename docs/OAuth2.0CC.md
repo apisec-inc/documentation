@@ -118,7 +118,25 @@ Step 7: **Assign permissions for the group's resource**
    
 ![RequestAPIpermissions7 1 3](https://github.com/user-attachments/assets/ebe3736c-b11d-4a4a-b181-afc72b9307ec)
 
-   - 7.2 **To Assign Application permissions**
+    - 7.2 **To assign GroupMember.Read.All permissions instead of Group.Read.All**
+         - Go to Application registrations page & select the registered app.
+     
+![appregistrations7 1new](https://github.com/user-attachments/assets/bca55601-7366-4132-9331-d53e282e1846)
+
+         - Under manage click API Permissions.
+         - Click Add a permission.
+         - Under Microsoft APIs click Microsoft Graph.
+
+![APIpermission 7 1 2](https://github.com/user-attachments/assets/b7e3e9b7-7ae9-49c6-bbd4-0fcae8482b8b)
+
+         - Click Delegated permissions & search for GroupMember under Select permissions search field.
+         - Expand GroupMember & check the GroupMember.Read.All box.
+         - Click on Add permissions.
+
+![image](https://github.com/user-attachments/assets/917d6172-84d7-467e-a4be-95c0e5d7356f)
+
+
+   - 7.3 **To Assign Application permissions**
          - Follow the same steps as mentioned in 7.1
            ![cc7 2](https://github.com/user-attachments/assets/58a89511-08d7-4819-a847-8e2d90174fed)
 
