@@ -25,6 +25,8 @@ nav:
              - Wrike IT Configuration: wrike-it-configuration.md
              - Synopsis Code DX Integration: synopsis-code-dx.md
              - Playbook Backup and Restore: Configure GitHub for Playbooks Backup.md
+             - AWS Fargate Scanner Deployment: fargate-scanner.md
+             - AWS Fargate Scanner with EFS: efs-fargate-scanner.md
         - Groups: APIGroups.md
         - Teams: Teams.md
         - SSO:
