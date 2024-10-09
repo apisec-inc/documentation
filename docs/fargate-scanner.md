@@ -8,7 +8,7 @@
 
 !!! example "Deployment of APIsec Scanner in AWS Fargate"
 
-	- Login into AWS Account.
+	- Login to AWS Account.
 	- Select Amazon Elastic Container Service (ECS).![ECS](https://user-images.githubusercontent.com/87167426/162345174-d3112e20-7ca4-4855-a154-69551c0c853d.png)
 
 	- Select Clusters.
@@ -18,7 +18,7 @@
 	- Select "Networking Only" Option
 	- Give Unique Cluster Name.![Config  Cluster](https://user-images.githubusercontent.com/87167426/162345261-2ab05963-816c-4195-a1d0-3b3b0d3c598c.png)
 
-	- Skip VPC and CloudWatch option,Click on create 
+	- Skip the VPC and CloudWatch option, Click on Create 
 	- Select View Cluster.
 	- ![Cluster Created](https://user-images.githubusercontent.com/87167426/162345354-aaa3f2ed-82e5-4f6e-bcac-58edf558f862.png)
 
@@ -31,17 +31,17 @@
 	- Followed by Next, Give Unique Name & Select the rest options as provided.![Task Congif1](https://user-images.githubusercontent.com/87167426/162345514-72e4f957-5e2f-4fe2-bede-cb02391f6906.png)
 
 	- Add Container
-	- Select atleast below mentioned CPU and Memory to run scans on playbooks smoothly.![Task Config2](https://user-images.githubusercontent.com/87167426/162345669-9ab488c1-00ab-408b-8c66-fa16bb9883cb.png)
+	- Select at least below below-mentioned CPU and Memory to run scans on playbooks smoothly.![Task Config2](https://user-images.githubusercontent.com/87167426/162345669-9ab488c1-00ab-408b-8c66-fa16bb9883cb.png)
 
 	- Give Unique Container name, Image name(fxlabs/bot:latest).![Container](https://user-images.githubusercontent.com/87167426/162345825-a440e591-92e3-4995-bcbb-6686bf232224.png)
 
-	- Skip all options & proceed on “Environment variables” section to add scanner parameters from scanner created page of APIsec Product.![Env Variables](https://user-images.githubusercontent.com/87167426/162345897-ea592132-6c5d-4cad-b01b-2acea3237794.png)
-	- Optional :- Log configuration. 
+	- Skip all options & proceed to the “Environment variables” section to add scanner parameters from scanner created page of APIsec Product.![Env Variables](https://user-images.githubusercontent.com/87167426/162345897-ea592132-6c5d-4cad-b01b-2acea3237794.png)
+	- Optional:- Log configuration. 
 	- Add Container.
 	- Click on Create.
 	- ![APIsec Launched](https://user-images.githubusercontent.com/87167426/162345987-545c4af8-488d-41d5-a009-4ca29146ad11.png)
 
-	- Redirect to home page, then Click on Newly Created Cluster.
+	- Redirect to the home page, then Click on Newly Created Cluster.
 	![Cluster Created1](https://user-images.githubusercontent.com/87167426/162346031-af4c2521-7e20-41ef-999c-e7b859e2c250.png)
 
 	- CREATE A NEW RUN TASK
@@ -51,12 +51,12 @@
 	- Select FARGATE as Launch type and select all required options as provided.![Task config](https://user-images.githubusercontent.com/87167426/162346366-043f4f75-53e2-4ef1-88d0-c9ac64b80dc7.png)
 	![Task config1](https://user-images.githubusercontent.com/87167426/162346486-30d64474-967c-4f51-81d1-acef7a699eaf.png)
 	
-	Note : If above Auto-assign public IP is selected as disable, the container will be in stop state.
+	Note: If the above Auto-assign public IP is selected as disabled, the container will be in a stop state.
 
-	- On Container Override Expand to see Cluster with Env created and then click on RUN TASK, wait for 2minutes.![Task created](https://user-images.githubusercontent.com/87167426/162346663-d6903b70-df73-4099-a3cb-10afcc8e8ace.png)
+	- On Container Override Expand to see Cluster with Env created and then click on RUN TASK, wait for 2 minutes.![Task created](https://user-images.githubusercontent.com/87167426/162346663-d6903b70-df73-4099-a3cb-10afcc8e8ace.png)
 	- Click on Task to see information and its resources.
 	![Task 1](https://user-images.githubusercontent.com/87167426/162346764-c10f3c74-901b-442c-aa6a-16dc0e175568.png)
-	- Click on "Check Status" of the Created Scanner in Scanner page of APIsec product.
+	- Click on "Check Status" of the Created Scanner on the Scanner page of the APIsec product.
 	![Status](https://user-images.githubusercontent.com/87167426/162346854-820d821c-3695-44df-8b02-8f864311c015.png)
 
 	- Now you can run scans on the PLAYBOOKS in projects.
@@ -68,6 +68,18 @@
 
 !!! info "Note"
 	
-	- If Auto-assign public IP is selected as disable, the container will be in stop state.
-	- To Delete cluster, first you need to stop the TASK.
-	- If you are behind firewall/vpn, then you will have to whitelist cloud.apisec.ai IP (104.196.107.163) and port 5671 on the outbound request for the scanner to connect with the APIsec server.
+	- If Auto-assign public IP is selected as disabled, the container will be in a stop state.
+	- To Delete the cluster, first, you need to stop the TASK.
+	- If you are behind firewall/VPN, then you will have to whitelist cloud.apisec.ai IP (104.196.107.163) and port 5671 on the outbound request for the scanner to connect with the APIsec server.
+<div class="container" id="iframeContainer" style="position: fixed; bottom: 20px; right: 20px; overflow: hidden;">
+    <iframe id="iFrame1" src="../Chatbot/index.html" style="border: none; width: 100%; height: 100%;"></iframe>
+</div>
+
+<script>
+    // Function to set dimensions of iframe container based on logo dimensions
+    function setIframeContainerDimensions(width, height) {
+        const iframeContainer = document.getElementById("iframeContainer");
+        iframeContainer.style.width = `${width + 100}px`;
+        iframeContainer.style.height = `${height +50}px`;
+    }
+</script>
