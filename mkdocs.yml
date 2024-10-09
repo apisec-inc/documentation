@@ -66,6 +66,8 @@ nav:
       - APIsec IP Acceptlist: IP-Acceptlist.md
       - K8s Scanner Deployment: k8s-scanner-deployment.md
       - Docker Swarm Scanner Deployment: docker-scanner-deployment.md
+      - AWS Fargate Scanner Deployment: fargate-scanner.md
+      - AWS Fargate Scanner with EFS Volume Deployment: efs-fargate-scanner.md
       - Role permissions: UserPermissions.md
     - Maintenance Window: maintenance-window.md
     - Service Level Agreement: ServiceLevelAgreement.md
