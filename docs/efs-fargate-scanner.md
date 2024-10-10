@@ -35,7 +35,6 @@ Before starting, ensure you have:
 - **ECS Cluster** set up with Fargate.
 - **EFS** created in the same region as your ECS cluster.
 - Proper **IAM Role** permissions.
-
 ---
 
 ## Step 1: Create an EFS File System
@@ -126,7 +125,7 @@ Please add other relevant rules as per your requirement for other services commu
 
    ![image](https://github.com/user-attachments/assets/904129c0-019f-46ce-9e97-23ddc5a92b44)
    - Click on **Create** button
-   - 
+   -
 ## Step 3: Place the Script inside the EFS
    - 1. **Access EFS via an EC2 Instance**:
    - Launch an EC2 instance in the same VPC as your Fargate tasks, with an appropriate security group allowing NFS access.
@@ -155,7 +154,7 @@ Please add other relevant rules as per your requirement for other services commu
    ```bash
    sudo umount /mnt/efs
    ```
- ## Step 4: Deploy ECS Fargate Service
+## Step 4: Deploy ECS Fargate Service
  
 1. **Create a New Service or Update an Existing One**:
    - Go to the **ECS console**.
