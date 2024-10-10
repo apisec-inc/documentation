@@ -12,8 +12,8 @@ This guide will walk you through the process of mounting an AWS Elastic File Sys
 - [Prerequisites](#prerequisites)
 - [Step 1: Create an EFS File System](#step-1-create-an-efs-file-system)
 - [Step 2: Configure ECS Task Definition to Mount EFS](#step-2-configure-ecs-task-definition-to-mount-efs)
-- [Step 3: Update ECS Service](#step-3-update-ecs-service)
-- [Step 4: Test the Setup](#step-4-test-the-setup)
+- [Step 3: Place Script inside the EFS](#step-3-place-the-script-inside-the-efs)
+- [Step 4: Deploy ECS Fargate Service](#step-4-deploy-ecs-fargate-service)
 - [Troubleshooting](#troubleshooting)
 - [Conclusion](#conclusion)
 
@@ -127,15 +127,50 @@ Please add other relevant rules as per your requirement for other services commu
    ![image](https://github.com/user-attachments/assets/904129c0-019f-46ce-9e97-23ddc5a92b44)
    - Click on **Create** button
    - 
-## Step 3: Update ECS Service
+## Step 3: Place the Script inside the EFS
+   - 1. **Access EFS via an EC2 Instance**:
+   - Launch an EC2 instance in the same VPC as your Fargate tasks, with an appropriate security group allowing NFS access.
+   - SSH into the EC2 instance.
 
+2. **Mount the EFS File System on the EC2 Instance**:
+   - Install the NFS client on the EC2 instance:
+     ```bash
+     sudo yum install -y nfs-utils  # For Amazon Linux
+     sudo apt-get install -y nfs-common  # For Ubuntu/Debian
+     ```
+   - Mount the EFS file system:
+     ```bash
+     sudo mkdir /mnt/efs
+     sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-<EFS-File-System-ID>.efs.<region>.amazonaws.com:/ /mnt/efs
+     ```
+
+3. **Copy Your Script to the EFS File System**:
+   - Upload your script to the mounted EFS directory:
+     ```bash
+     sudo cp /path/to/your-script.sh /mnt/efs/
+     ```
+
+4. **Unmount the EFS**:
+   Once the file is copied, unmount the file system:
+   ```bash
+   sudo umount /mnt/efs
+   ```
+ ## Step 4: Deploy ECS Fargate Service
+ 
+1. **Create a New Service or Update an Existing One**:
+   - Go to the **ECS console**.
+   - Select **Clusters** and choose your cluster.
+   - You can create a new **Service** or update an existing one to use the task definition with the EFS mount created in
+![image](https://github.com/user-attachments/assets/3fa9c306-92d6-438e-b89f-4c15d4abb237)
+   - Click **Create** to launch the Fargate service with your task definition.
+
+---
 ## Troubleshooting
 
 If you encounter issues, consider the following:
-- **IAM Permissions**: Ensure the task execution role has the correct EFS access.
-- **Security Groups**: Ensure the security group attached to the EFS allows **NFS** traffic (port **2049**).
-- **EFS State**: Ensure the EFS is in a healthy state and available.
-  
+- **Check EFS Security Groups**: Ensure that the security groups associated with the Fargate tasks and EFS allow traffic on port 2049 (NFS).
+- **Task Role Permissions**: Ensure your Fargate task role has appropriate permissions to use EFS (if using IAM authorization).
+- **Container Logs**: Use ECS logs to troubleshoot any issues with the EFS mount in the Fargate task.
 ---
 
 ## Conclusion
