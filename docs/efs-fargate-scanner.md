@@ -30,11 +30,11 @@ Amazon EFS provides scalable file storage that can be mounted to containers runn
 
 ## Prerequisites
 
-Before starting, ensure you have:
-- An **AWS Account**.
-- **ECS Cluster** set up with Fargate.
-- **EFS** created in the same region as your ECS cluster.
-- Proper **IAM Role** permissions.
+Before starting, ensure you have:  
+- An **AWS Account**.  
+- **ECS Cluster** set up with Fargate.  
+- **EFS** created in the same region as your ECS cluster.  
+- Proper **IAM Role** permissions.  
 ---
 
 ## Step 1: Create an EFS File System
