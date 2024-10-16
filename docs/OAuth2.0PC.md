@@ -9,7 +9,8 @@
    - **Redirect URI**: Select the platform as **SPA** from the dropdown.
 4. Click **Register**.
    
-   ![Azure sso Registr](https://github.com/user-attachments/assets/b78dda57-7240-4310-b25e-604e5e5eece7)
+   ![image](https://github.com/user-attachments/assets/ef3fc8a7-7dcd-44d5-bfe0-54dbb3910cba)
+
 
 
 ## Step 2: Configure Application for PKCE with SPA
@@ -92,41 +93,26 @@
 
    ![spanewgroupuserslist6 10](https://github.com/user-attachments/assets/128e209a-9d82-49c9-9537-7739e5a3c805)
 
-## Step 7: Assign Permissions for the Group's Resource
-**Note**: AD Groups support require the following configurations.
+Step 7: **Assign permissions for the group's resource**
 
-### Step 7.1: Assign Delegated Permissions
-1. Go to **Application registrations** page & select the registered app.
-2. Under **Manage**, click **API Permissions**.
-3. Click **Add a permission**.
-4. Under **Microsoft APIs**, click **Microsoft Graph**.
-5. Click **Delegated permissions** & search for **Group** under the **Select permissions** search field.
-6. Expand **Group** & check the boxes.
-7. Click **Add permissions**.
+        **To assign GroupMember.Read.All permissions**
+         - Go to Application registrations page & select the registered app.
+     
+![appregistrations7 1new](https://github.com/user-attachments/assets/bca55601-7366-4132-9331-d53e282e1846)
 
-   ![spa7 1appregis](https://github.com/user-attachments/assets/7cf05a66-2e20-41f3-aa59-ed74bf2e7202)
+         - Under manage click API Permissions.
+         - Click Add a permission.
+         - Under Microsoft APIs click Microsoft Graph.
 
-   ![spaapipermissions7 2](https://github.com/user-attachments/assets/76926a86-161b-4f7c-b3eb-349d4a41cfbb)
+![APIpermission 7 1 2](https://github.com/user-attachments/assets/b7e3e9b7-7ae9-49c6-bbd4-0fcae8482b8b)
 
-   ![sparequestapipermissions7 3](https://github.com/user-attachments/assets/a8e7b214-be8a-4f93-81de-c4179c43b571)
+         - Click Delegated permissions & search for GroupMember under Select permissions search field.
+         - Expand GroupMember & check the GroupMember.Read.All box.
+         - Click on Add permissions.
 
-### Step 7.2: Assign Application Permissions
-1. Follow the same steps as mentioned in **Step 7.1**.
-2. Note: Under **Microsoft Graph**, click **Application permissions**.
+![image](https://github.com/user-attachments/assets/917d6172-84d7-467e-a4be-95c0e5d7356f)
 
-   ![spareuestapiapppermissions7 4](https://github.com/user-attachments/assets/413b21b8-08ea-4358-b16c-85be7ac81acb)
-
-
-### Step 7.3: Assign Groups with the Enterprise Application
-1. Navigate to the **Enterprise Application** from the home page.
-2. Search and select the application registered in **Step 1**.
-3. Click **Assign users and groups** link on the Overview page.
-4. Click **Add user group**.
-5. Select Group & click **Assign**.
-
-   ![addassignment8 1](https://github.com/user-attachments/assets/74843fff-b30b-4d86-a6c9-0d9b5a44f165)
-
-   ![spaselectrole8 2](https://github.com/user-attachments/assets/2f90c4be-c34b-4a30-82f4-83d2f372e03c)
+![image](https://github.com/user-attachments/assets/1efa9fc1-1def-48a7-9d77-52eec404b63d)
 
    
 ## Step 8: Publish Application
@@ -149,7 +135,7 @@
    ![spa10](https://github.com/user-attachments/assets/7610705c-f409-46cf-99cc-8d8a8ff22bde)
 
 
-## Step 10: Confirm Login with SSO using OAuth2.0 - PKCE with Confidential Client
+## Step 10: Confirm Login with SSO using OAuth2.0 - SPA
 1. Launch the URL `https://myapps.microsoft.com/` and select the registered application which redirects the user to the APIsec application dashboard.
 2. Alternatively, the users may use the redirect link for the SP-initiated flow.
 
