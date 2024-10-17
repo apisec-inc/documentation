@@ -74,7 +74,8 @@ Step 6: **Assign user/ groups with the Enterprise application**
 
        - Select Roles & click on Assign.
 
-      ![selectrole and assign](https://github.com/user-attachments/assets/2c43efad-1641-463a-ac21-41e5f7ff8852)
+      ![image](https://github.com/user-attachments/assets/c45a8aab-ee0e-4311-8f5e-cf7542bfae39)
+
 
    **Note: Users associated with a role will be used to assign the same role in APIsec.**
 
