@@ -4,9 +4,9 @@
 <br>
 1. Create a Connected App in the Mulesoft API Gateway. Please refer to the following [link](https://docs.mulesoft.com/api-manager/latest/manage-client-apps-connected-apps-concept)<br>
 2. Select the following scopes in the Connected App:
-API Governance > Governance Viewer
-API Manager > View APIs Configuration
-Data Gateway > Data Gateway Viewer<br>
+- API Governance > Governance Viewer
+- API Manager > View APIs Configuration
+- Data Gateway > Data Gateway Viewer<br>
 3. Retrieve Client ID and Secret to integrate Mulesoft API Gateway with APIsec
 <br>
 <br>
