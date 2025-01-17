@@ -49,7 +49,7 @@ nav:
     - 14. Profile: 
           - Set up the Profile: SetupProfile.md
           - Two-Factor Auth: 2fa.md
-    - 15. Sign up Free Account: FreeAccount.md
+    - 15. Sign up for Free Account: FreeAccount.md
    
     - Knowledge Base:
       - Generating OpenAPI Specification (OAS): Generating OAS.md
@@ -66,6 +66,7 @@ nav:
       - APIsec IP Acceptlist: IP-Acceptlist.md
       - K8s Scanner Deployment: k8s-scanner-deployment.md
       - Docker Swarm Scanner Deployment: docker-scanner-deployment.md
+      - Add Self-Signed certificates to APIsec-scanner: add-ca-certificate.md
       - AWS Fargate Scanner Deployment: fargate-scanner.md
       - AWS Fargate Scanner with EFS Volume Deployment: efs-fargate-scanner.md
       - Role permissions: UserPermissions.md
