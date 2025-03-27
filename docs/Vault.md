@@ -35,6 +35,31 @@ To add new credentials:
  <br>
  <br>
 
+# How to Use Vault for Secure Password Management
+ <br>
+ Once a key-value pair is created in Vault, follow these steps to integrate it into your authentication settings:
+ <br>
+ 1. Navigate to the project for which the authentication key has been saved in the vault. 
+ <br>
+ 2. Go to Configurations > Environments > Envs and Creds 
+ <br>
+ 3. Click on an authentication and select the appropriate Authentication Type. 
+ <br>
+ 4. Replace the key value with the following Vault syntax:
+ <br>
+ Usage:
+  <br>
+ [[@Vault.ORG-NAME/KEY-NAME]] 
+  <br>
+  Ensure that ORG-NAME is replaced with your organization’s name and KEY-NAME with the specific key name stored in Vault.
+  <br>
+  In the screenshot below, you can see an example of how to use the Vault syntax in your authentication settings.
+  <br>
+ <img width="899" alt="new-issue-tracker-creds" src="https://github.com/user-attachments/assets/6a33aefb-6fd1-4dcd-8423-d65d945cb916">
+ 
+ <br>
+ By following these steps, you can securely reference stored credentials without exposing sensitive information in your project configurations.
+ 
 # How does APIsec keep items in your vault secure?
  <br>
   APIsec stores the vault data in a postgreSQL database encrypted using PGP with a symmetric key.
