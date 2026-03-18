@@ -1,7 +1,8 @@
 site_name: Documentation
 site_url: https://apisec-inc.github.io/documentation/
 nav:
-    - APIsec Overview: index.md
+    - Home: index.md 
+    - APIsec Overview: overview.md
     - Getting Started: GettingStarted.md
     - 1. Register an API: 
          - Register API: RegisterAPI.md
@@ -88,7 +89,7 @@ extra_javascript:
   - docs/Chatbot/scripts.js  
 theme:
     name: material
-   
+    custom_dir: overrides
     favicon: favicon.png
     logo: logo.png
     palette:

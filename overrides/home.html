@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>APIsec Documentation</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+background:#f6f8fb;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+}
+
+.container{
+background:white;
+padding:40px;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+text-align:center;
+width:480px;
+}
+
+h1{
+margin-bottom:10px;
+color:#1a1a1a;
+}
+
+p{
+color:#555;
+margin-bottom:25px;
+}
+
+.button{
+display:block;
+padding:14px;
+margin:12px 0;
+border-radius:6px;
+text-decoration:none;
+font-weight:600;
+}
+
+.primary{
+background:#2563eb;
+color:white;
+}
+
+.secondary{
+background:#e5e7eb;
+color:#333;
+}
+
+.timer{
+margin-top:15px;
+font-size:14px;
+color:#666;
+}
+
+.progress-container{
+width:100%;
+height:6px;
+background:#e5e7eb;
+border-radius:10px;
+margin-top:15px;
+overflow:hidden;
+}
+
+.progress{
+height:100%;
+background:#2563eb;
+width:100%;
+animation:progress 10s linear forwards;
+}
+
+@keyframes progress{
+from {width:100%;}
+to {width:0%;}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>APIsec Documentation</h1>
+
+<p>
+Looking for <strong>Next-Gen platform documentation</strong>?
+</p>
+
+<a class="button primary" href="https://docs.apisecapps.com">
+Go to Next-Gen Documentation
+</a>
+
+<a class="button secondary" href="https://docs.apisec.ai/Overview/">
+Continue to Current-Gen Documentation
+</a>
+
+<div class="timer">
+Redirecting to Next-Gen documentation in 
+<strong><span id="count">10</span></strong> seconds
+</div>
+
+<div class="progress-container">
+<div class="progress"></div>
+</div>
+
+<p style="font-size:13px;color:#888;margin-top:20px;">
+Current-Gen platform will be decommissioned soon.
+</p>
+
+</div>
+
+<script>
+
+let seconds = 10;
+
+let countdown = setInterval(function(){
+
+seconds--;
+
+document.getElementById("count").innerText = seconds;
+
+if(seconds <= 0){
+
+clearInterval(countdown);
+
+window.location.replace("https://docs.apisecapps.com");
+
+}
+
+},1000);
+
+</script>
+
+</body>
+
+</html>
