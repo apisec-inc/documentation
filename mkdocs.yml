@@ -1,7 +1,7 @@
 site_name: Documentation
 site_url: https://apisec-inc.github.io/documentation/
 nav:
-    - APIsec Overview: overview.md
+    - APIsec Overview: index.md
     - Getting Started: GettingStarted.md
     - 1. Register an API: 
          - Register API: RegisterAPI.md
