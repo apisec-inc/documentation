@@ -19,7 +19,7 @@ Let’s <a href="https://docs.apisec.ai/GettingStarted/">get started</a>!  Btw, 
 
 
 <div class="container" id="iframeContainer" style="position: fixed; bottom: 20px; right: 20px; overflow: hidden;">
-    <iframe id="iFrame1" src="Chatbot/index.html" style="border: none; width: 100%; height: 100%;"></iframe>
+    <iframe id="iFrame1" src="../Chatbot/index.html" style="border: none; width: 100%; height: 100%;"></iframe>
 </div>
 
 <script>
