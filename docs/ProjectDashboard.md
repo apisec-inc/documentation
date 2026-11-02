@@ -77,6 +77,12 @@ The ***Advanced*** section requires following information:
 - **Endpoints**: Select the API endpoints to include in the Scan. 
 - **Playbooks**: Add custom Playbooks for the Scan. (more details in chapter 4.2.4.)
 
+An attack scenario that spans multiple endpoints, such as a BOLA scenario, runs only when **every** endpoint it uses is included in the scan selection. If any of its endpoints is missing, the scenario is not run and no requests are sent to the target. The selected endpoints show the scenario as **Skipped** with the reason:
+
+*"This BOLA scenario was not run because not all of its endpoints are included in the scan. Include all of the scenario's endpoints in the scan to run it."*
+
+To run the scenario, include all of its endpoints in the scan selection, or run the scan without an endpoint selection.
+
 Also, you can select the check box 'Email report after scan completion' to receive the Scan report on your registered email.
 
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/166120377-f0497554-816a-49c8-a3fb-38398ae410d0.png"/>
@@ -128,6 +134,25 @@ It allows a you to perform certain actions like downloading the reports, closing
 <li><strong>Review</strong>: Allows the you to mark the vulnerability 'reviewed' for others to see.</li>
 
 </ul>
+
+##### Vulnerability Resolution Statuses
+
+The vulnerability list has a **Resolution Status** column. Use its filter to show findings by their current status:
+
+- **Active**: The finding was raised and has not been resolved, accepted, or dismissed.
+- **No Longer Detected** (green badge): The test ran again and passed, so the platform resolved the finding. The latest scan did not detect the issue.
+- **NO LONGER APPLICABLE** (grey badge): The platform auto-closed the finding because the test no longer applies to the endpoint. Nobody remediated anything, and **NO LONGER APPLICABLE is its own filter category**, separate from No Longer Detected. The finding shows the auto-close comment: *"Auto-closed by APIsec. The endpoint no longer qualifies for this test's category, so the finding is no longer applicable as of the scan on \u2026"*
+- **Risk Accepted** and **False Positive**: statuses you set on the finding yourself.
+
+A finding moves to **NO LONGER APPLICABLE** when the endpoint changes in a way that makes the test meaningless. For example:
+
+- The endpoint no longer requires authentication. Findings from Unenforced Credentials, RBAC Role Access, and the JWT token tests resolve.
+- The RBAC configuration marks every configured role for the endpoint as inconclusive. RBAC Role Access findings resolve.
+- A configured credential no longer matches what its test checks, for example Partial Credential Enforcement.
+
+Temporary conditions never auto-close a finding. Missing credentials, a failed login, or a server error during a scan keep the finding **Active**.
+
+If the endpoint changes back, for example it requires authentication again, the next scan raises the finding again if the problem still exists, the same way a resolved finding comes back. Linked issue tracker tickets close when a finding moves to **NO LONGER APPLICABLE**, and the status appears in the web and PDF reports.
 
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/115025465/216442113-0fec7e42-1795-4c2c-abec-09fb7ee0ccd2.png"/>
 
@@ -219,6 +244,8 @@ To add a new profile; `click` on '+ New Profile'. Provide the required values as
 <img alt="APIsec Screenshot" src="https://user-images.githubusercontent.com/75529175/168322248-4e624444-6835-4168-ba82-c24804459283.png" />
 
 There are already existing profiles which are automatically created when an API is registered and the environment is configured. You can edit these profiles and schedule daily scans on them. 
+
+A scheduled scan that does not select specific endpoints runs every enabled test, including multi-endpoint BOLA attack scenarios. Earlier versions did not run BOLA scenarios on such schedules, so BOLA findings that were not reported before can appear from the first scheduled scan after an upgrade.
 
 APIsec provides "Trainning Profiles". The only difference in these profiles is that they do not track vulnerabilities. These profiles are for beginners who want to learn through exploring. 
 

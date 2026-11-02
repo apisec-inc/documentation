@@ -23,6 +23,7 @@ nav:
              - JupiterOne IT Integration: jupiter-one-integration.md
              - Linear IT Configuration: linear-it-configuration.md
              - Wrike IT Configuration: wrike-it-configuration.md
+             - Zendesk Issue Tracker Set up: SetupZendeskTracker.md
              - Synopsis Code DX Integration: synopsis-code-dx.md
              - Playbook Backup and Restore: Configure GitHub for Playbooks Backup.md
              - AWS Fargate Scanner Deployment: fargate-scanner.md

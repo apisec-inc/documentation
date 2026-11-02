@@ -14,7 +14,7 @@ The process of adding the new credentials is explained in <a href="https://apise
 <img width="918" alt="report-storage-account-type-selection" src="https://user-images.githubusercontent.com/109250250/180295807-4c20f2ff-d4fa-4abb-8b48-018203fd2669.png">
 
 ### **5.2. Issue Tracker**
-The Issue Tracker automates the process of vulnerability life-cycle management by providing the option to integrate issue tracking a wide range of platforms like Trello, GitHub, Jira, etc.
+The Issue Tracker automates the process of vulnerability life-cycle management by providing the option to integrate issue tracking a wide range of platforms like Trello, GitHub, Jira, Zendesk, etc.
 
 This can be setup by choosing the Profile and the Issue Tracker.  This example shows 'APIsec Issues'.  All of the vulnerabilities will be logged in the APIsec Project Dashboard. 
 
